@@ -1,0 +1,61 @@
+@import url("reset.css");
+*{
+	box-sizing: border-box;
+	font-family: sans-serif,'PingFang SC','Microsoft JhengHei';
+	letter-spacing: 1px;
+}
+html,body{
+	‐webkit‐text‐size‐adjust:none;
+	background-color: #eee;
+}
+img{
+	display: block;
+}
+/* ------------------------------------ */
+
+header{
+	width: 100%;
+	height: 180px;
+	background-color: #fff;
+}
+header > div.header-top{
+	padding: 30px;
+
+}
+header > div.header-top > a{
+	float:  right;
+	width: 40%;
+
+}
+header > div.header-top > a > img{
+	height: auto;
+	width: 100%;
+}
+header > div.header-top > div{
+	width:  60%;
+	float: left;
+}
+header > div.header-top > div > ul{
+	width: 100%;
+	padding: 0px;	
+}
+header > div.header-top > div > ul > li{
+	display: inline-block;
+	width: 20%;
+	text-align: center;	
+}
+header > div.header-top > div > ul > li > a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #404040;
+}
+header > div.header-bottom{
+	
+}
+
+article{
+	width: 100%;
+}
+footer{
+	width: 100%;
+}
