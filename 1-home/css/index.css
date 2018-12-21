@@ -12,50 +12,48 @@ img{
 	display: block;
 }
 /* ------------------------------------ */
-
-header{
+#app{
 	width: 100%;
-	height: 180px;
+	height: auto;
+	overflow: hidden;
+}
+#app > header{
+	width: 100%;
+	height: auto;
 	background-color: #fff;
 }
-header > div.header-top{
+#app > header > .header-top{
 	padding: 30px;
-
+	width: 100%;
+	height: auto;
 }
-header > div.header-top > a{
+#app > header > .header-top > a{
 	float:  right;
-	width: 40%;
+	width: 30%;
 
 }
-header > div.header-top > a > img{
+#app > header > .header-top > a > img{
 	height: auto;
 	width: 100%;
 }
-header > div.header-top > div{
-	width:  60%;
+#app > header > .header-top > nav{
 	float: left;
 }
-header > div.header-top > div > ul{
-	width: 100%;
-	padding: 0px;	
-}
-header > div.header-top > div > ul > li{
-	display: inline-block;
-	width: 20%;
-	text-align: center;	
-}
-header > div.header-top > div > ul > li > a {
+#app > header > .header-top > nav > a {
 	text-decoration: none;
 	font-size: 16px;
+	float: left;
 	color: #404040;
+	padding: 0px 30px;
+	line-height: 65px;
 }
-header > div.header-bottom{
-	
+#app > header > .header-bottom{
+	background-color: #00348c;
 }
 
-article{
+#app > article{
 	width: 100%;
 }
-footer{
+#app > footer{
 	width: 100%;
 }
