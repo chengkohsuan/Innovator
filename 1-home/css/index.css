@@ -5,7 +5,7 @@
 	letter-spacing: 1px;
 }
 html,body{
-	‐webkit‐text‐size‐adjust:none;
+	‐webkit‐text‐size‐adjust: none;
 	background-color: #eee;
 }
 img{
@@ -46,6 +46,11 @@ img{
 	color: #404040;
 	padding: 0px 30px;
 	line-height: 65px;
+	transition: 0.5s;
+}
+#app > header > .header-top > #main-nav > a:hover{
+	transform: translateX(-2px) translateY(-2px);
+	text-shadow: 3px 3px 2px #eee;
 }
 #app > header > .header-bottom{
 	background-color: #eee;
