@@ -25,7 +25,7 @@ img{
 #app > header > .header-top{
 	padding: 30px;
 	width: 100%;
-	height: auto;
+	height: 125px;
 }
 #app > header > .header-top > a{
 	float:  right;
@@ -36,10 +36,10 @@ img{
 	height: auto;
 	width: 100%;
 }
-#app > header > .header-top > nav{
+#app > header > .header-top > #main-nav{
 	float: left;
 }
-#app > header > .header-top > nav > a {
+#app > header > .header-top > #main-nav > a {
 	text-decoration: none;
 	font-size: 16px;
 	float: left;
@@ -48,12 +48,73 @@ img{
 	line-height: 65px;
 }
 #app > header > .header-bottom{
-	background-color: #00348c;
+	background-color: #eee;
+	height: 60px;
+	width: 100%;
 }
+#app > header > .header-bottom > #pd-nav{
+	width: 100%;
+	height: 100%;
+	background-color: #00348c;
+	color: #fff;
+	text-align: center;
+}
+#app > header > .header-bottom > #pd-nav > a{
+	color: #fff;
+	text-decoration: none;
+	padding: 0px 30px;
+	line-height: 60px;
 
+}
+/* ---------------------------------------------- */
 #app > article{
 	width: 100%;
 }
+/* ------------------------------------------------- */
 #app > footer{
 	width: 100%;
+	height: 150px;
+	background-color: #00348c;
+	overflow: hidden;
 }
+#app > footer > #footer-logo{
+	width: 20%;
+	height: 50%;
+	margin: 0 auto;
+	background-image: url(logo-white.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 80%;
+		background-size: 80%;	
+	background-position: 50% 50%;
+}
+#app > footer > #footer-logo > a{
+	width: 20%;
+	height: 50%;
+	
+}
+#app > footer > #footer-info{
+	height: 50%;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	border-bottom: 1px solid #c5c5c5; 
+}
+#app > footer > #footer-info > p{
+	font-size: 14px;
+	margin: 0 auto;
+	line-height: 75px;
+}
+#app > footer > #footer-info > p > b{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
