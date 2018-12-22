@@ -46,7 +46,7 @@ img{
 	color: #404040;
 	padding: 0px 30px;
 	line-height: 65px;
-	transition: 0.5s;
+	transition: 0.4s;
 }
 #app > header > .header-top > #main-nav > a:hover{
 	transform: translateX(-2px) translateY(-2px);
@@ -74,6 +74,76 @@ img{
 /* ---------------------------------------------- */
 #app > article{
 	width: 100%;
+	background-color: #fff;
+}
+#app > article > #content-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 50px 0;
+}
+#app > article > #content-bottom > div{
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#app > article > #content-bottom > div > ul{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+#app > article > #content-bottom > div > ul > li{
+	display: block;
+	width: 30%;
+	height: auto;
+	float: left;
+	padding: 0;
+	overflow: hidden;
+	background-color: #fff;
+	margin-right: 20px;
+	box-shadow: 0px 0px 13px #eee; 
+}
+#app > article > #content-bottom > div > ul > .last{
+	margin-right: 0;
+}
+#app > article > #content-bottom > div > ul > li > #pic-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > #content-bottom > div > ul > li > #pic-box > img{
+	width: 100%;
+	height: auto;
+	transition: 0.4s
+}
+#app > article > #content-bottom > div > ul > li > #pic-box > img:hover{
+	transform: scale(1.1);
+}
+#app > article > #content-bottom > div > ul > li > #text-box{
+	padding: 20px;
+}
+#app > article > #content-bottom > div > ul > li > #text-box > h3{
+	font-size: 24px;
+	color: #00348c;
+	font-weight: 800;
+	margin: 15px 0;
+}
+#app > article > #content-bottom > div > ul > li > #text-box > p{
+	font-size: 16px;
+	color: #404040;
+	font-weight: 400;
+	line-height: 28px;
+}
+#app > article > #content-bottom > div > ul > li > #text-box > button{
+	font-size: 14px;
+	border: none;
+	font-weight: 600;
+	color: #00348c;
+	background-color: transparent;
+	margin: 10px 0;
 }
 /* ------------------------------------------------- */
 #app > footer{
