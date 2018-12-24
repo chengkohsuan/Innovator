@@ -93,6 +93,35 @@ img{
 	line-height: 60px;
 }
 /* ------------------------------------------------- */
+#app > article{
+	padding: 20px 80px;
+	margin: 0 auto;
+}
+#app > article > h2{
+	color: #0b1d75;
+	font-size: 24px;
+	line-height: 48px;
+}
+#app > article > img{
+
+}
+#app > article > p{
+	color: #404040;
+	font-size: 16px;
+	line-height: 32px;
+}
+#app > article > button{
+	
+	font-size: 16px;
+	border: none;
+	font-weight: 400;
+	color: #002ea3;
+	background-color: transparent;
+	transition: 0.4s
+}
+#app > article > button:hover{
+	color: #ff8300;
+}
 /* ------------------------------------------------- */
 #app > footer{
 	width: 100%;
