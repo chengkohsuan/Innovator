@@ -6,7 +6,7 @@
 }
 html,body{
 	‐webkit‐text‐size‐adjust: none;
-	background-color: #eee;
+	background-color: #fff;
 }
 img{
 	display: block;
@@ -93,6 +93,60 @@ img{
 	line-height: 60px;
 }
 /* ------------------------------------------------- */
+#app > article{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 40px 80px;
+}
+#app > article > .map{
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	padding-right: 20px;
+}
+#app > article > .map > iframe{
+	width: 100%;
+	overflow: hidden;
+}
+#app > article > .info{
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	float: right;
+	padding-left: 20px;
+}
+#app > article > .info > h3{
+	color: #c4c4c4;
+	font-size: 40px;
+	margin-bottom: 50px;	
+}
+#app > article > .info > h3 > i{
+	margin-right: 10px;
+}
+#app > article > .info > ul{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > .info > ul > li{
+	font-size: 16px;
+	line-height:  30px;
+	margin-bottom: 30px;
+}
+#app > article > .info > ul > li > i{
+	margin-right: 6px;
+	color: #ff8300;
+}
+#app > article > .info > ul > li > h4{
+	color: #ff8300;
+	display: inline-block;
+}
+#app > article > .info > ul > li > p{
+	color: #404040;
+	
+}
 /* ------------------------------------------------- */
 #app > footer{
 	width: 100%;
