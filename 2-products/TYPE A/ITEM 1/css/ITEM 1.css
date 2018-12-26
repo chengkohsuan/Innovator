@@ -61,6 +61,7 @@ img{
 	border-bottom: solid 3px #ff8300;
 }
 #app > header > .header-bottom{
+	background-color: #eee;
 	height: 60px;
 	width: 100%;
 }
@@ -98,98 +99,150 @@ img{
 	overflow: hidden;
 	background-color: #fafafa;
 }
-#app > article > #content-top{
-	width: 100%;
-	height: 400px;
+#app > article > .sidebar{
+	width: 20%;
+	height: auto;
 	overflow: hidden;
+	padding: 40px 20px 40px 80px;
+	float: left;
 }
-#app > article > #content-top > .banner{
-
-}
-#app > article > #content-middle{
+#app > article > .sidebar > .menu-title{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	padding: 40px 80px;
 }
-#app > article > #content-middle > h2{
-	color: #0b1d75;
+#app > article > .sidebar > .menu-title > a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	font-weight: 600;
+	color: #002ea3;
+	line-height: 60px;
+	border-bottom: solid 1px #eee;
+	transition: 0.4s;
+}
+#app > article > .sidebar > .menu-title > a:hover{
+	color: #ff8300;
+}
+#app > article > .sidebar > .menu{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > .sidebar > .menu > ul{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > .sidebar > .menu > ul > li{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	line-height: 60px;
+	border-bottom: solid 1px #eee;
+}
+#app > article > .sidebar > .menu > ul > li > a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	color: #404040;
+	transition: 0.4s;
+	padding-left: 20px;
+}
+#app > article > aside.sidebar > .menu > ul > li > a:hover{
+	color: #c4c4c4;
+}
+#app > article > div{
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > div > #content-top{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 40px 80px 40px 20px;
+}
+#app > article > div > #content-top > h2{
 	font-size: 24px;
+	color: #0b1d75;
 	line-height: 48px;
 }
-#app > article > #content-middle > p{
-	color: #404040;
+#app > article > div > #content-top > img{
+	width: 40%;
+	height: auto;
+	float: right;
+	margin: 20px 0 20px 20px;
+}
+#app > article > div > #content-top > p{
 	font-size: 16px;
+	color: #404040;
 	line-height: 32px;
 }
-#app > article > #content-bottom{
+#app > article > div > #content-bottom{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	padding: 40px 80px;
+	padding: 40px 80px 40px 20px;
 }
-#app > article > #content-bottom > div{
+#app > article > div > #content-bottom > ul{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	margin: 0 auto;
-}
-#app > article > #content-bottom > div > ul{
-	width: 100%;
-	height: auto;
 	display: flex;
 	justify-content: space-between;
 	padding: 20px;
 }
-#app > article > #content-bottom > div > ul > li{
+#app > article > div > #content-bottom > ul > li{
 	display: block;
 	width: 30%;
 	height: auto;
-	float: left;
 	padding: 0;
 	overflow: hidden;
-	background-color: #fff;
+	box-shadow: 0px 0px 8px #eee; 
+	float: left;
 	margin-right: 20px;
-	box-shadow: 0px 0px 8px #eee;
 	border-radius: 4px;
 }
-#app > article > #content-bottom > div > ul > .last{
+#app > article > div > #content-bottom > div > ul > .last{
 	margin-right: 0;
 }
-#app > article > #content-bottom > div > ul > li > a{
+#app > article > div > #content-bottom > ul > li > a{
 	width: auto;
 	height: auto;
 	overflow: hidden;
 }
-#app > article > #content-bottom > div > ul > li > a > .pic-box{
+#app > article > div > #content-bottom > ul > li > a > .pic-box{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
 }
-#app > article > #content-bottom > div > ul > li > a > .pic-box > img{
+#app > article > div > #content-bottom > ul > li > a > .pic-box > img{
 	width: 100%;
 	height: auto;
 	transition: 0.4s
 }
-#app > article > #content-bottom > div > ul > li > a > .pic-box > img:hover{
+#app > article > div > #content-bottom > ul > li > a > .pic-box > img{
 	transform: scale(1.1);
 }
-#app > article > #content-bottom > div > ul > li > a > .text-box{
+#app > article > div > #content-bottom > ul > li > a > .text-box{
 	padding: 20px;
 }
-#app > article > #content-bottom > div > ul > li > a > .text-box > h3{
+#app > article > div > #content-bottom > ul > li > a > .text-box > h3{
 	font-size: 24px;
 	color: #002ea3;
 	font-weight: 800;
 	margin: 15px 0;
 }
-#app > article > #content-bottom > div > ul > li > a > .text-box > p{
+#app > article > div > #content-bottom > ul > li > a > .text-box > p{
 	font-size: 16px;
 	color: #404040;
 	font-weight: 400;
 	line-height: 28px;
 }
-#app > article > #content-bottom > div > ul > li > a > .text-box > button{
+#app > article > div > #content-bottom > ul > li > a > .text-box > button{
 	font-size: 14px;
 	border: none;
 	font-weight: 600;
@@ -198,10 +251,10 @@ img{
 	margin: 10px 0;
 	transition: 0.4s;
 }
-#app > article > #content-bottom > div > ul > li > a > .text-box > button:hover{
+#app > article > div > #content-bottom > ul > li > a > .text-box > button:hover{
 	color: #ff8300;
 }
-/* ------------------------------------------------- */
+/* ---------------------------------------------- */
 #app > footer{
 	width: 100%;
 	height: 150px;
@@ -234,14 +287,3 @@ img{
 	margin: 0 auto;
 	line-height: 75px;
 }
-
-
-
-
-
-
-
-
-
-
-

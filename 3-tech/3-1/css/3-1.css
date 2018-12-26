@@ -6,7 +6,7 @@
 }
 html,body{
 	‐webkit‐text‐size‐adjust: none;
-	background-color: #fff;
+	background-color: #eee;
 }
 img{
 	display: block;
@@ -20,12 +20,13 @@ img{
 #app > header{
 	width: 100%;
 	height: auto;
-	background-color: #fff;
+	
 }
 #app > header > .header-top{
 	padding: 30px;
 	width: 100%;
 	height: 125px;
+	background-color: #fff;
 }
 #app > header > .header-top > a{
 	float:  right;
@@ -95,7 +96,7 @@ img{
 /* ---------------------------------------------- */
 #app > article{
 	width: 100%;
-	background-color: #fff;
+	background-color: #fafafa;
 }
 #app > article > aside.sidebar{
 	width: 20%;
@@ -111,10 +112,17 @@ img{
 	background-color: #fff;
 }
 #app > article > aside.sidebar > .menu-title > a{
+	display: block;
 	color: #002ea3;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 80px;
+	line-height: 60px;
+	border-bottom: solid 1px #eee;
+	transition: 0.4s;
+}
+#app > article > aside.sidebar > .menu-title > a:hover{
+	color: #ff8300;
 }
 #app > article > aside.sidebar > .menu{
 	width: 100%;
@@ -134,9 +142,13 @@ img{
 	border-bottom: solid 1px #eee;
 }
 #app > article > aside.sidebar > .menu > ul > li > a{
+	display: block;
+	width: 100%;
+	height: 100%;
 	font-size: 18px;
 	color: #404040;
 	transition: 0.4s;
+	padding-left: 20px;
 }
 #app > article > aside.sidebar > .menu > ul > li > a:hover{
 	color: #c4c4c4;

@@ -6,7 +6,7 @@
 }
 html,body{
 	‐webkit‐text‐size‐adjust: none;
-	background-color: #fff;
+	background-color: #eee;
 }
 img{
 	display: block;
@@ -20,12 +20,13 @@ img{
 #app > header{
 	width: 100%;
 	height: auto;
-	background-color: #fff;
+	
 }
 #app > header > .header-top{
 	padding: 30px;
 	width: 100%;
 	height: 125px;
+	background-color: #fff;
 }
 #app > header > .header-top > a{
 	float:  right;
@@ -98,6 +99,7 @@ img{
 	height: auto;
 	overflow: hidden;
 	margin: 40px 80px;
+	background-color: #fafafa;
 }
 #app > article > .map{
 	width: 50%;
