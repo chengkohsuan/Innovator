@@ -96,7 +96,7 @@ img{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	background-color: #fafafa;
+	background-color: #fff;
 }
 #app > article > #content-top{
 	width: 100%;
@@ -113,14 +113,19 @@ img{
 	padding: 40px 80px;
 }
 #app > article > #content-middle > h2{
-	color: #0b1d75;
+	color: #002ea3;
 	font-size: 24px;
-	line-height: 48px;
+	
+}
+#app > article > #content-middle > h3{
+	color: #004ab1;
+	font-size: 20px;	
 }
 #app > article > #content-middle > p{
 	color: #404040;
 	font-size: 16px;
 	line-height: 32px;
+	margin-top: 40px;
 }
 #app > article > #content-bottom{
 	width: 100%;
@@ -150,7 +155,7 @@ img{
 	overflow: hidden;
 	background-color: #fff;
 	margin-right: 20px;
-	box-shadow: 0px 0px 8px #eee;
+	box-shadow: 0px 5px 15px #d0d0d0;
 	border-radius: 4px;
 }
 #app > article > #content-bottom > div > ul > .last{

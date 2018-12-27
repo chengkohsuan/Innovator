@@ -95,26 +95,36 @@ img{
 /* ---------------------------------------------- */
 #app > article{
 	width: 100%;
-	background-color: #fafafa;
+	height: auto;
+	overflow: hidden;
+	background-color: #fff;
 }
 #app > article > aside.sidebar{
 	width: 20%;
 	height: auto;
 	overflow: hidden;
 	float: left;
-	padding: 40px 20px 40px 80px;
+	padding: 40px 0px 40px 80px;
 }
 #app > article > aside.sidebar > .menu-title{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	background-color: #fff;
+	margin-bottom: 30px;
+	border-bottom: solid 3px #002ea3;
+	transition: 0.4s;
+}
+#app > article > aside.sidebar > .menu-title:hover{
+	border-bottom: solid 3px #ff8300;
 }
 #app > article > aside.sidebar > .menu-title > a{
-	color: #002ea3;
+	display: block;
+	width: 100%;
+	height: 100%;
 	font-size: 20px;
 	font-weight: 600;
-	line-height: 80px;
+	color: #002ea3;
+	line-height: 60px;
 	transition: 0.4s;
 }
 #app > article > aside.sidebar > .menu-title > a:hover{
@@ -135,52 +145,51 @@ img{
 	height: auto;
 	overflow: hidden;
 	line-height: 60px;
-	border-bottom: solid 1px #eee;
+	border-bottom: solid 1px #d0d0d0;
 }
 #app > article > aside.sidebar > .menu > ul > li > a{
+	display: block;
+	width: 100%;
+	height: 100%;
 	font-size: 18px;
 	color: #404040;
 	transition: 0.4s;
+	padding-left: 20px;
 }
 #app > article > aside.sidebar > .menu > ul > li > a:hover{
 	color: #c4c4c4;
 }
-#app > article > #content{
+#app > article > #content-top{
 	width: 80%;
 	height: auto;
 	overflow: hidden;
 	float: right;
-	padding: 40px 80px 40px 20px;
+	padding: 40px 80px 0px 40px;
 }
-#app > article > #content > .intro-box{
-	width: 100%;
-	height: auto;
-	overflow: hidden;
-	margin: 0 auto;
-}
-#app > article > #content > .intro-box > h2{
-	color: #0b1d75;
+#app > article > #content-top > h2{
+	color: #002ea3;
 	font-size: 24px;	
 }
-#app > article > #content > .intro-box >p{
+#app > article > #content-top >p{
 	color: #404040;
 	font-size: 16px;
 	line-height: 32px;
 }
-#app > article > #content > .industry-box{
-	width: 95%;
+#app > article > #content-bottom{
+	width: 80%;
 	height: auto;
 	overflow: hidden;
-	margin: 0 auto;
+	float: right;
+	padding: 0px 80px 40px 40px;
 }
-#app > article > #content > .industry-box > ul{
+#app > article > #content-bottom > ul{
 	width: 100%;
 	height: auto;
 	display: flex;
 	justify-content: space-between;
 	padding: 20px;
 }
-#app > article > #content > .industry-box > ul > li{
+#app > article > #content-bottom > ul > li{
 	display: block;
 	width: 30%;
 	height: auto;
@@ -189,43 +198,44 @@ img{
 	overflow: hidden;
 	background-color: #fff;
 	margin-right: 20px;
-	box-shadow: 0px 0px 8px #eee; 
+	box-shadow: 0px 5px 15px #d0d0d0;
+	border-radius: 4px; 
 }
-#app > article > #content > .industry-box > ul > .last{
+#app > article > #content-bottom > ul > .last{
 	margin-right: 0;
 }
-#app > article > #content > .industry-box > ul > li > a{
+#app > article > #content-bottom > ul > li > a{
 
 }
-#app > article > #content > .industry-box > ul > li > a > .pic-box{
+#app > article > #content-bottom > ul > li > a > .pic-box{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
 }
-#app > article > #content > .industry-box > ul > li > a > .pic-box > img{
+#app > article > #content-bottom > ul > li > a > .pic-box > img{
 	width: 100%;
 	height: auto;
 	transition: 0.4s
 }
-#app > article > #content > .industry-box > ul > li > a > .pic-box > img:hover{
+#app > article > #content-bottom > ul > li > a > .pic-box > img:hover{
 	transform: scale(1.1);
 }
-#app > article > #content > .industry-box > ul > li > a > .text-box{
+#app > article > #content-bottom > ul > li > a > .text-box{
 	padding: 20px;
 }
-#app > article > #content > .industry-box > ul > li > a > .text-box > h3{
+#app > article > #content-bottom > ul > li > a > .text-box > h3{
 	font-size: 24px;
 	color: #002ea3;
 	font-weight: 800;
 	margin: 15px 0;
 }
-#app > article > #content > .industry-box > ul > li > a > .text-box > p{
+#app > article > #content-bottom > ul > li > a > .text-box > p{
 	font-size: 16px;
 	color: #404040;
 	font-weight: 400;
 	line-height: 28px;
 }
-#app > article > #content > .industry-box > ul > li > a > .text-box > button{
+#app > article > #content-bottom > ul > li > a > .text-box > button{
 	font-size: 14px;
 	border: none;
 	font-weight: 600;
@@ -234,7 +244,7 @@ img{
 	margin: 10px 0;
 	transition: 0.4s;
 }
-#app > article > #content > .industry-box > ul > li > a > .text-box > button:hover{
+#app > article > #content-bottom > ul > li > a > .text-box > button:hover{
 	color: #ff8300;
 }
 /* ------------------------------------------------- */

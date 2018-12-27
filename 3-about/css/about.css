@@ -96,15 +96,17 @@ img{
 #app > article{
 	padding: 40px 80px;
 	margin: 0 auto;
-	background-color: #fafafa;
+	background-color: #fff;
 }
 #app > article > h2{
-	color: #0b1d75;
+	color: #002ea3;
 	font-size: 24px;
-	line-height: 48px;
 }
 #app > article > img{
-
+	border-radius: 4px;
+	float: right;
+	width: 40%;
+	height: auto;
 }
 #app > article > p{
 	color: #404040;

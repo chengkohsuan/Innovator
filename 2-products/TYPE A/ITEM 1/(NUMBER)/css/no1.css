@@ -97,19 +97,25 @@ img{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	background-color: #fafafa;
+	background-color: #fff;
 }
 #app > article > .sidebar{
 	width: 20%;
 	height: auto;
 	overflow: hidden;
-	padding: 40px 20px 40px 80px;
+	padding: 40px 0px 40px 80px;
 	float: left;
 }
 #app > article > .sidebar > .menu-title{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
+	border-bottom: solid 3px #002ea3;
+	transition: 0.4s;
+	margin-bottom: 30px;
+}
+#app > article > .sidebar > .menu-title:hover{
+	border-bottom: solid 3px #ff8300;
 }
 #app > article > .sidebar > .menu-title > a{
 	display: block;
@@ -119,7 +125,6 @@ img{
 	font-weight: 600;
 	color: #002ea3;
 	line-height: 60px;
-	border-bottom: solid 1px #eee;
 	transition: 0.4s;
 }
 #app > article > aside.sidebar > .menu-title > a:hover{
@@ -140,7 +145,7 @@ img{
 	height: auto;
 	overflow: hidden;
 	line-height: 60px;
-	border-bottom: solid 1px #eee;
+	border-bottom: solid 1px #d0d0d0;
 }
 #app > article > .sidebar > .menu > ul > li > a{
 	display: block;
@@ -158,18 +163,18 @@ img{
 	width: 80%;
 	height: auto;
 	overflow: hidden;
-	padding: 40px 80px 40px 20px;
+	padding: 40px 80px 40px 40px;
 }
 #app > article > #content > h2{
 	font-size: 24px;
-	color: #0b1d75;
-	line-height: 48px;
+	color: #002ea3;
 }
 #app > article > #content > img{
 	width: 40%;
 	height: auto;
 	float: right;
 	margin: 20px 0 20px 20px;
+	border-radius: 4px;
 }
 #app > article > #content > p{
 	font-size: 16px;

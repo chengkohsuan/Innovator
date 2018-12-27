@@ -95,21 +95,29 @@ img{
 }
 /* ---------------------------------------------- */
 #app > article{
+	background-color: #fff;
+	display: block;
 	width: 100%;
-	background-color: #fafafa;
+	height: auto;
+	overflow: hidden;
 }
 #app > article > aside.sidebar{
 	width: 20%;
 	height: auto;
 	overflow: hidden;
 	float: left;
-	padding: 40px 20px 40px 80px;
+	padding: 40px 0px 40px 80px;
 }
 #app > article > aside.sidebar > .menu-title{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	background-color: #fff;
+	margin-bottom: 30px;
+	border-bottom: solid 3px #002ea3;
+	transition: 0.4s;
+}
+#app > article > aside.sidebar > .menu-title:hover{
+	border-bottom: solid 3px #ff8300;
 }
 #app > article > aside.sidebar > .menu-title > a{
 	display: block;
@@ -118,7 +126,6 @@ img{
 	font-weight: 600;
 	line-height: 80px;
 	line-height: 60px;
-	border-bottom: solid 1px #eee;
 	transition: 0.4s;
 }
 #app > article > aside.sidebar > .menu-title > a:hover{
@@ -139,7 +146,7 @@ img{
 	height: auto;
 	overflow: hidden;
 	line-height: 60px;
-	border-bottom: solid 1px #eee;
+	border-bottom: solid 1px #d0d0d0;
 }
 #app > article > aside.sidebar > .menu > ul > li > a{
 	display: block;
@@ -158,19 +165,20 @@ img{
 	height: auto;
 	overflow: hidden;
 	float: right;
-	padding: 40px 80px 40px 20px;
+	padding: 40px 80px 40px 40px;
 }
 #app > article > .content > h2{
-	color: #0b1d75;
+	color: #002ea3;
 	font-size: 24px;
-	line-height: 48px;	
+		
 }
 #app > article > .content > img{
 	width: 50%;
 	height: auto;
 	overflow: hidden;
 	float: right;
-	margin: 20px 0 20px 40px;
+	margin: 20px 0 20px 20px;
+	border-radius: 4px;
 }
 #app > article > .content > p{
 	color: #404040;
