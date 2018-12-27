@@ -30,7 +30,6 @@ img{
 #app > header > .header-top > a{
 	float:  right;
 	width: 30%;
-
 }
 #app > header > .header-top > a > img{
 	height: auto;
@@ -239,7 +238,62 @@ img{
 	margin: 0 auto;
 	line-height: 75px;
 }
+/* ------------------------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 1200px){
+	#app{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	}
+	#app > header{
+		width: 100%;
+		height: auto;
+		position: fixed;
+	}
+	#app > header > .header-top{
+		width: 100%;
+		height: 100px;
+		padding: 10px 40px;
+		margin: 0 auto;
+		display: flex;
+	}
+	#app > header > .header-top > a{
+		width: 40%;
+		float: none;
+		display: block;
+		margin: auto;
+	}
+	#app > header > .header-top > a > img{
+		min-height: 65px;
+		max-width: 400px;
+	}
+	#app > header > .header-top > .main-nav{
+		display: none;
+	}
+	/* ---------------------------------------------- */
+	#app > article > #content-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 0px 80px 40px 80px;
+	}
+	#app > article > #content-bottom > div > ul{
+		display: block;
+	}
+	#app > article > #content-bottom > div > ul > li{
+		display: block;
+		width: 80%;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	#app > article > #content-bottom > div > ul > .last{
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 768px) {
 
+}
 
 
 
