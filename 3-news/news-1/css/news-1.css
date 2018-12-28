@@ -109,8 +109,9 @@ img{
 }
 #app > article > div > h4{
 	color: #004ab1;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 600;
+	margin-bottom: 40px;
 }
 #app > article > div > img{
 	border-radius: 4px;
@@ -119,7 +120,16 @@ img{
 	height: auto;
 	margin: 20px 60px;
 }
+#app > article > div > h3{
+	color: #004ab1;
+	margin-top: 40px;		
+}
 #app > article > div > p{
+	color: #404040;
+	font-size: 16px;
+	line-height: 32px;
+}
+#app > article > div > ul > li{
 	color: #404040;
 	font-size: 16px;
 	line-height: 32px;
