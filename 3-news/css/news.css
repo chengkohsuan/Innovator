@@ -94,6 +94,63 @@ img{
 	line-height: 60px;
 }
 /* ---------------------------------------------- */
+#app > article{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: #fff;
+}
+#app > article > #content{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 40px 80px;
+}
+#app > article > #content > table{
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#app > article > #content > table > tbody{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > #content > table > tbody > tr{
+	padding: 10px;
+	border-bottom: solid 1px #d0d0d0;
+}
+#app > article > #content > table > tbody > .title{
+	font-size: 40px;
+	font-weight: 600;
+	color: #002ea3;
+	border-bottom: none;
+}
+#app > article > #content > table > tbody > .title > td{
+	padding-left: 10px;
+}
+#app > article > #content > table > tbody > tr > td{
+	padding: 10px;
+	padding-left: 40px;
+	
+}
+#app > article > #content > table > tbody > tr > .col-left{
+	text-align: center;
+}
+#app > article > #content > table > tbody > tr > td > img{
+	width: 100%;
+	height: auto;
+}
+#app > article > #content > table > tbody > tr > td > a > h3{
+	color: #004ab1;
+	font-size: 20px;
+	line-height: 40px;
+}
+#app > article > #content > table > tbody > tr > td > a > p{
+	color: #404040;
+	font-size: 15px;
+}
 /* ------------------------------------------------- */
 #app > footer{
 	width: 100%;
