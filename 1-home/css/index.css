@@ -72,7 +72,7 @@ img{
 	text-align: center;
 }
 #app > header > .header-bottom > .pd-nav > .layer-1{
-	width: 90%;
+	width: 96%;
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -81,7 +81,7 @@ img{
 }
 #app > header > .header-bottom > .pd-nav > .layer-1 > li{
 	float: left;
-	width: 162px;
+	width: 172px;
 	text-align: center;
 }
 #app > header > .header-bottom > .pd-nav > .layer-1 > li:hover{
@@ -98,7 +98,7 @@ img{
 }
 #app > header > .header-bottom > .pd-nav > .layer-1 > li > .layer-2{
 	position: absolute;
-	width: 162px;
+	width: 172px;
 	overflow: visible;
 	clear: left;
 	margin-top: 60px;
@@ -121,10 +121,10 @@ img{
 }
 #app > header > .header-bottom > .pd-nav > .layer-1 > li > .layer-2 > li > .layer-3{
 	display: block;
-	width: 162px;
+	width: 172px;
 	position: absolute;
 	line-height: 40px;
-	margin-left: 154px;
+	margin-left: 164px;
 	margin-top: -40px;
 	background-color: #13257c;
 	z-index: 10;
@@ -141,6 +141,7 @@ img{
 	text-decoration: none;
 	color: #fff;
 }
+
 /* ------------以下為階層隱藏與顯示--------------- */
 .pd-nav > .layer-1 > li > .layer-2{
 	visibility: hidden;
