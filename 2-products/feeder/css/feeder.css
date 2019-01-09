@@ -100,7 +100,7 @@ img{
 	background-color: #fff;
 }
 #app > article > #content-top{
-	width: 80%;
+	width: 77%;
 	height: auto;
 	overflow: hidden;
 	margin: 0 auto;
@@ -108,12 +108,9 @@ img{
 }
 #app > article > #content-top > h2{
 	color: #002ea3;
-	font-size: 24px;	
-}
-#app > article > #content-top >p{
-	color: #404040;
-	font-size: 16px;
-	line-height: 32px;
+	font-size: 24px;
+	line-height: 60px;
+	border-bottom: solid 1px #cfcfcf;	
 }
 #app > article > #content-bottom{
 	width: 80%;
