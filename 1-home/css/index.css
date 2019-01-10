@@ -64,14 +64,14 @@ img{
 	height: 60px;
 	width: 100%;
 }
-#app > header > .header-bottom > .pd-nav{
+#app > header > .header-bottom > #pd-nav{
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(#002ea3,#0b1d75);
 	color: #fff;
 	text-align: center;
 }
-#app > header > .header-bottom > .pd-nav > .layer-1{
+#app > header > .header-bottom > #pd-nav > .layer-1{
 	width: 96%;
 	height: 100%;
 	display: flex;
@@ -79,15 +79,15 @@ img{
 	margin: 0 auto;
 	overflow:auto;
 }
-#app > header > .header-bottom > .pd-nav > .layer-1 > li{
+#app > header > .header-bottom > #pd-nav > .layer-1 > li{
 	float: left;
 	width: 172px;
 	text-align: center;
 }
-#app > header > .header-bottom > .pd-nav > .layer-1 > li:hover{
+#app > header > .header-bottom > #pd-nav > .layer-1 > li:hover{
 	background-color: #0b1d75;
 }
-#app > header > .header-bottom > .pd-nav > .layer-1 > li > a{
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > a{
 	display: block;
 	width: 100%;
 	float: left;
@@ -96,7 +96,7 @@ img{
 	text-decoration: none;
 	line-height: 60px;
 }
-#app > header > .header-bottom > .pd-nav > .layer-1 > li > .layer-2{
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
 	position: absolute;
 	width: 172px;
 	overflow: visible;
@@ -104,14 +104,14 @@ img{
 	margin-top: 60px;
 	background-color: #09175b;
 }
-#app > header > .header-bottom > .pd-nav > .layer-1 > li > .layer-2 > li{
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li{
 	float: none;
 	padding: 0 8px;
 }
-#app > header > .header-bottom > .pd-nav > .layer-1 > li > .layer-2 > li:hover{
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li:hover{
 	background-color: #13257c;
 }
-#app > header > .header-bottom > .pd-nav > .layer-1 > li > .layer-2 > li > a{
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li > a{
 	display: block;
 	line-height: 40px;
 	text-decoration: none;
@@ -119,7 +119,7 @@ img{
 	font-size: 14px;
 	font-weight: 400;
 }
-#app > header > .header-bottom > .pd-nav > .layer-1 > li > .layer-2 > li > .layer-3{
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li > .layer-3{
 	display: block;
 	width: 172px;
 	position: absolute;
@@ -129,19 +129,31 @@ img{
 	background-color: #13257c;
 	z-index: 10;
 }
-#app > header > .header-bottom > .pd-nav > .layer-1 > li > .layer-2 > li > .layer-3 > li{
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li > .layer-3 > li{
 	font-size: 14px;
 }
-#app > header > .header-bottom > .pd-nav > .layer-1 > li > .layer-2 > li > .layer-3 > li:hover{
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li > .layer-3 > li:hover{
 	background-color: #002ea3;
 }
-#app > header > .header-bottom > .pd-nav > .layer-1 > li > .layer-2 > li > .layer-3 > li > a{
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li > .layer-3 > li > a{
 	display: block;
 	width: 100%;
 	text-decoration: none;
 	color: #fff;
 }
-
+/* ------------以下為階層隱藏與顯示--------------- */
+#pd-nav > .layer-1 > li > .layer-2{
+	visibility: hidden;
+}
+#pd-nav > .layer-1 > li:hover > .layer-2{
+	visibility: visible;
+}
+#pd-nav > .layer-1 > li:hover > .layer-2 > li > .layer-3{
+	visibility: hidden;
+}
+#pd-nav > .layer-1 > li:hover > .layer-2 > li:hover > .layer-3{
+	visibility: visible;
+}
 /* ------------以下為階層隱藏與顯示--------------- */
 .pd-nav > .layer-1 > li > .layer-2{
 	visibility: hidden;
