@@ -161,93 +161,90 @@ img{
 	overflow: hidden;
 	background-color: #fff;
 }
-
-#app > article > #content-top{
-	width: 80%;
+#app > article > .sidebar{
+	width: 25%;
 	height: auto;
 	overflow: hidden;
-	margin: 0 auto;
-	padding: 40px 0;
-}
-#app > article > #content-top > h2{
-	color: #002ea3;
-	font-size: 24px;
-	line-height: 60px;
-	border-bottom: solid 1px #cfcfcf;
-	padding: 0 10px;
-}
-#app > article > #content-bottom{
-	width: 80%;
-	height: auto;
-	overflow: hidden;
-	margin: 0 auto;
-}
-#app > article > #content-bottom > ul{
-	width: 100%;
-	height: auto;
-	display: flex;
-	justify-content: space-between;
-	padding: 20px;
-}
-#app > article > #content-bottom > ul > li{
-	display: block;
-	width: 30%;
-	height: auto;
+	padding: 40px 0px 40px 80px;
 	float: left;
-	padding: 0;
-	overflow: hidden;
-	background-color: #fff;
-	margin-right: 20px;
-	box-shadow: 0px 5px 15px #d0d0d0;
-	border-radius: 4px; 
 }
-#app > article > #content-bottom > ul > .last{
-	margin-right: 0;
-}
-#app > article > #content-bottom > ul > li > a{
-
-}
-#app > article > #content-bottom > ul > li > a > .pic-box{
+#app > article > .sidebar > .menu-title{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
+	border-bottom: solid 3px #002ea3;
+	margin-bottom: 30px;
 }
-#app > article > #content-bottom > ul > li > a > .pic-box > img{
+#app > article > .sidebar > .menu-title > a{
+	display: block;
 	width: 100%;
-	height: auto;
-	transition: 0.4s
-}
-#app > article > #content-bottom > ul > li > a > .pic-box > img:hover{
-	transform: scale(1.1);
-}
-#app > article > #content-bottom > ul > li > a > .text-box{
-	padding: 20px;
-}
-#app > article > #content-bottom > ul > li > a > .text-box > h3{
-	font-size: 24px;
-	color: #002ea3;
-	font-weight: 800;
-	margin: 15px 0;
-}
-#app > article > #content-bottom > ul > li > a > .text-box > p{
-	font-size: 16px;
-	color: #404040;
-	font-weight: 400;
-	line-height: 28px;
-}
-#app > article > #content-bottom > ul > li > a > .text-box > button{
-	font-size: 14px;
-	border: none;
+	height: 100%;
+	font-size: 20px;
 	font-weight: 600;
 	color: #002ea3;
-	background-color: transparent;
-	margin: 10px 0;
+	line-height: 60px;
+	transition: 0.3s;
+}
+#app > article > .sidebar > .menu-title > a:hover{
+	color: #2c7ced;
+}
+#app > article > .sidebar > .menu{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > .sidebar > .menu > ul{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > .sidebar > .menu > ul > li{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	line-height: 60px;
+	border-bottom: solid 1px #d0d0d0;
+}
+#app > article > .sidebar > .menu > ul > li > a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	color: #404040;
 	transition: 0.4s;
+	padding-left: 20px;
 }
-#app > article > #content-bottom > ul > li > a > .text-box > button:hover{
-	color: #ff8300;
+#app > article > aside.sidebar > .menu > ul > li > a:hover{
+	color: #c4c4c4;
 }
-/* ------------------------------------------------- */
+#app > article > div{
+	width: 75%;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > div > #content-top{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 40px 80px 40px 40px;
+}
+#app > article > div > #content-top > h2{
+	font-size: 24px;
+	color: #002ea3;
+}
+#app > article > div > #content-top > img{
+	width: 40%;
+	height: auto;
+	float: right;
+	margin: 20px 0 20px 20px;
+	border-radius: 4px;
+}
+#app > article > div > #content-top > p{
+	font-size: 16px;
+	color: #404040;
+	line-height: 32px;
+}
+/* ---------------------------------------------- */
 #app > footer{
 	width: 100%;
 	height: 150px;
