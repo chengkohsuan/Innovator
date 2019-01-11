@@ -194,81 +194,23 @@ img{
 	height: auto;
 	overflow: hidden;
 	margin: 0 auto;
-	padding-bottom: 40px;
+	padding: 40px 0;
 }
-#app > article > #content-bottom > div{
-
-}
-#app > article > #content-bottom > div > ul{
-	width: 100%;
+#app > article > #content-bottom > img{
+	width: 40%;
 	height: auto;
-	display: flex;
-	justify-content: space-between;
-	padding: 20px;
+	float: right;
+	margin: 20px 0 20px 20px;
+	border-radius: 4px;
 }
-#app > article > #content-bottom > div > .tail{
-	display: block;
-}
-#app > article > #content-bottom > div > ul > li{
-	display: block;
-	width: 30%;
-	height: auto;
-	float: left;
-	padding: 0;
-	overflow: hidden;
-	background-color: #fff;
-	margin-right: 20px;
-	box-shadow: 0px 5px 15px #d0d0d0;
-	border-radius: 4px; 
-}
-#app > article > #content-bottom > div > ul > .last{
-	margin-right: 0;
-}
-#app > article > #content-bottom > div > ul > .single{
-	margin-left: 32px;
-}
-#app > article > #content-bottom > div > ul > li > a{
-
-}
-#app > article > #content-bottom > div > ul > li > a > .pic-box{
-	width: 100%;
-	height: auto;
-	overflow: hidden;
-}
-#app > article > #content-bottom > div > ul > li > a > .pic-box > img{
-	width: 100%;
-	height: auto;
-	transition: 0.4s
-}
-#app > article > #content-bottom > div > ul > li > a > .pic-box > img:hover{
-	transform: scale(1.1);
-}
-#app > article > #content-bottom > div > ul > li > a > .text-box{
-	padding: 20px;
-}
-#app > article > #content-bottom > div > ul > li > a > .text-box > h3{
+#app > article > #content-bottom > h2{
+	color: #002ea3;
 	font-size: 24px;
-	color: #002ea3;
-	font-weight: 800;
-	margin: 15px 0;
 }
-#app > article > #content-bottom > div > ul > li > a > .text-box > p{
-	font-size: 16px;
+#app > article > #content-bottom > p{
 	color: #404040;
-	font-weight: 400;
-	line-height: 28px;
-}
-#app > article > #content-bottom > div > ul > li > a > .text-box > button{
-	font-size: 14px;
-	border: none;
-	font-weight: 600;
-	color: #002ea3;
-	background-color: transparent;
-	margin: 10px 0;
-	transition: 0.4s;
-}
-#app > article > #content-bottom > div > ul > li > a > .text-box > button:hover{
-	color: #ff8300;
+	font-size: 16px;
+	line-height: 32px;
 }
 /* ------------------------------------------------- */
 #app > footer{

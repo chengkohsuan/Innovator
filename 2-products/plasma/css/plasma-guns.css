@@ -227,93 +227,23 @@ img{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	padding: 40px 80px 0px 40px;
+	padding: 40px 80px 40px 40px;
 }
 #app > article > div > #content-top > h2{
 	font-size: 24px;
 	color: #002ea3;
-	line-height: 60px;
-	border-bottom: solid 1px #cfcfcf;	
 }
-#app > article > div > #content-bottom{
-	width: 100%;
+#app > article > div > #content-top > img{
+	width: 40%;
 	height: auto;
-	overflow: hidden;
-	padding: 40px 80px 40px 40px;
-}
-#app > article > div > #content-bottom > ul{
-	width: 100%;
-	height: auto;
-	overflow: hidden;
-	display: flex;
-	justify-content: space-between;
-	padding: 20px;
-}
-#app > article > div > #content-bottom > .tail{
-	display: block;
-}
-#app > article > div > #content-bottom > ul > li{
-	display: block;
-	width: 30%;
-	height: auto;
-	padding: 0;
-	overflow: hidden;
-	background-color: #fff;
-	box-shadow: 0px 5px 15px #d0d0d0; 
-	float: left;
-	margin-right: 20px;
+	float: right;
+	margin: 20px 0 20px 20px;
 	border-radius: 4px;
 }
-#app > article > div > #content-bottom > ul > .last{
-	margin-right: 0;
-}
-#app > article > div > #content-bottom > ul > .single{
-	margin-left: 32px;
-}
-#app > article > div > #content-bottom > ul > li > a{
-	width: auto;
-	height: auto;
-	overflow: hidden;
-}
-#app > article > div > #content-bottom > ul > li > a > .pic-box{
-	width: 100%;
-	height: auto;
-	overflow: hidden;
-}
-#app > article > div > #content-bottom > ul > li > a > .pic-box > img{
-	width: 100%;
-	height: auto;
-	transition: 0.4s
-}
-#app > article > div > #content-bottom > ul > li > a > .pic-box > img:hover{
-	transform: scale(1.1);
-}
-#app > article > div > #content-bottom > ul > li > a > .text-box{
-	padding: 20px;
-}
-#app > article > div > #content-bottom > ul > li > a > .text-box > h3{
-	font-size: 24px;
-	color: #002ea3;
-	font-weight: 800;
-	margin: 15px 0;
-}
-#app > article > div > #content-bottom > ul > li > a > .text-box > p{
+#app > article > div > #content-top > p{
 	font-size: 16px;
 	color: #404040;
-	font-weight: 400;
-	line-height: 28px;
-}
-#app > article > div > #content-bottom > ul > li > a > .text-box > button{
-	font-size: 14px;
-	border: none;
-	font-weight: 600;
-	color: #002ea3;
-	background-color: transparent;
-	margin: 10px 0;
-	transition: 0.4s;
-}
-#app > article > div > #content-bottom > ul > li > a > .text-box > button:hover{
-	color: #ff8300;
+	line-height: 32px;
 }
 /* ---------------------------------------------- */
 #app > footer{

@@ -1,4 +1,0 @@
-$(function()
-{        
-    $("#pd-nav").menu();    
-});
