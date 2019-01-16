@@ -11,7 +11,7 @@ html,body{
 img{
 	display: block;
 }
-/* ---------------------------------------------- */
+/* ------------------------------------ */
 #app{
 	width: 100%;
 	height: auto;
@@ -30,6 +30,7 @@ img{
 #app > header > .header-top > a{
 	float:  right;
 	width: 30%;
+
 }
 #app > header > .header-top > a > img{
 	height: auto;
@@ -131,6 +132,109 @@ img{
 #pd-nav > .layer-1 > li:hover > a > i{
 	transform: rotate(180deg);
 }
+/* ---------------------------------------------- */
+#app > article{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: #fff;
+}
+#app > article > #content-top{
+	width: 77%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 40px 0px;
+}
+#app > article > #content-top > h2{
+	color: #002ea3;
+	font-size: 24px;
+	line-height: 60px;
+	border-bottom: solid 1px #cfcfcf;	
+}
+#app > article > #content-bottom{
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+#app > article > #content-bottom > div{
+
+}
+#app > article > #content-bottom > div > ul{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+#app > article > #content-bottom > div > .tail{
+	display: block;
+}
+#app > article > #content-bottom > div > ul > li{
+	display: block;
+	width: 30%;
+	height: auto;
+	float: left;
+	padding: 0;
+	overflow: hidden;
+	background-color: #fff;
+	margin-right: 20px;
+	box-shadow: 0px 5px 15px #d0d0d0;
+	border-radius: 4px; 
+}
+#app > article > #content-bottom > div > ul > .last{
+	margin-right: 0;
+}
+#app > article > #content-bottom > div > ul > .single{
+
+}
+#app > article > #content-bottom > div > ul > li > a{
+
+}
+#app > article > #content-bottom > div > ul > li > a > .pic-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > #content-bottom > div > ul > li > a > .pic-box > img{
+	width: 100%;
+	height: auto;
+	transition: 0.3s
+}
+#app > article > #content-bottom > div > ul > li > a > .text-box{
+	padding: 20px;
+}
+#app > article > #content-bottom > div > ul > li > a > .text-box > h3{
+	font-size: 24px;
+	color: #002ea3;
+	font-weight: 800;
+	margin: 15px 0;
+}
+#app > article > #content-bottom > div > ul > li > a > .text-box > p{
+	font-size: 16px;
+	color: #404040;
+	font-weight: 400;
+	line-height: 28px;
+}
+#app > article > #content-bottom > div > ul > li > a > .text-box > button{
+	font-size: 15px;
+	border: none;
+	font-weight: 800;
+	color: #002ea3;
+	background-color: transparent;
+	margin: 10px 0;
+	transition: 0.3s;
+}
+/* -------------------------------------------- */
+#app > article > #content-bottom > div > ul > li > a:hover > .pic-box > img{
+	transform: scale(1.1);
+}
+#app > article > #content-bottom > div > ul > li > a:hover > .text-box > button{
+	color: #2c7ced;
+	transform: translateX(15px);
+}
 /* ------------------------------------------------- */
 #app > footer{
 	width: 100%;
@@ -164,5 +268,3 @@ img{
 	margin: 0 auto;
 	line-height: 75px;
 }
-
-

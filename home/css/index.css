@@ -1,0 +1,352 @@
+@import url("reset.css");
+*{
+	box-sizing: border-box;
+	font-family: sans-serif,'PingFang SC','Microsoft JhengHei';
+	letter-spacing: 1px;
+}
+html,body{
+	‐webkit‐text‐size‐adjust: none;
+	background-color: #eee;
+}
+img{
+	display: block;
+}
+/* ------------------------------------ */
+#app{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#app > header{
+	width: 100%;
+	height: auto;
+}
+#app > header > .header-top{
+	padding: 30px;
+	width: 100%;
+	height: 125px;
+	background-color: #fff;
+}
+#app > header > .header-top > a{
+	float:  right;
+	width: 30%;
+}
+#app > header > .header-top > a > img{
+	height: auto;
+	width: 100%;
+}
+#app > header > .header-top > .main-nav{
+	width: 70%;
+	height: 100%;
+}
+#app > header > .header-top > .main-nav > ul{
+	width: 100%;
+	height: 100%;
+}
+#app > header > .header-top > .main-nav > ul > li{
+	list-style: none;
+	float: left;
+	line-height: 65px;
+}
+#app > header > .header-top > .main-nav > ul > li > a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #404040;
+	padding: 3px 30px;
+	transition: 0.4s;
+	border-bottom: solid 3px transparent;
+}
+#app > header > .header-top > .main-nav > ul > li > a:hover{
+	border-bottom: solid 3px #ff8300;
+}
+/* ---------------------------------------------- */
+#app > header > .header-bottom{
+	height: 60px;
+	width: 100%;
+}
+#app > header > .header-bottom > #pd-nav{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#002ea3,#0b1d75);
+	color: #fff;
+	text-align: center;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1{
+	width: 96%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	overflow:auto;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1 > li{
+	float: left;
+	width: 172px;
+	text-align: center;
+	padding: 0 10px;
+	z-index: 999;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1 > li:hover{
+	background-color: #0b1d75;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > a{
+	display: block;
+	width: 100%;
+	float: left;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	line-height: 60px;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
+	transition: transform 0.5s;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
+	position: absolute;
+	width: 172px;
+	overflow: visible;
+	clear: left;
+	margin-top: 60px;
+	background-color: #09175b;
+	padding-left: -10px;
+	transform: translateX(-10px);
+	opacity: 0.9;
+	display: none;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li{
+	float: none;
+	padding: 0 8px;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li:hover{
+	background-color: #13257c;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li > a{
+	display: block;
+	line-height: 60px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+}
+#pd-nav > .layer-1 > li:hover > a > i{
+	transform: rotate(180deg);
+}
+/* ---------------------------------------------- */
+#app > article{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: #fff;
+}
+#app > article > #content-top{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	background-color: #000;
+}
+#app > article > #content-top > .banner{
+	width: 100%;
+}
+#app > article > #content-middle{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 40px 120px;
+}
+#app > article > #content-middle > h2{
+	color: #002ea3;
+	font-size: 24px;
+	
+}
+#app > article > #content-middle > h3{
+	color: #004ab1;
+	font-size: 20px;	
+}
+#app > article > #content-middle > p{
+	color: #404040;
+	font-size: 16px;
+	line-height: 32px;
+	margin-top: 40px;
+}
+#app > article > #content-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 40px 80px;
+}
+#app > article > #content-bottom > div{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#app > article > #content-bottom > div > ul{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+#app > article > #content-bottom > div > ul > li{
+	display: block;
+	width: 30%;
+	height: auto;
+	float: left;
+	padding: 0;
+	overflow: hidden;
+	background-color: #fff;
+	margin-right: 20px;
+	box-shadow: 0px 5px 15px #d0d0d0;
+	border-radius: 4px;
+}
+#app > article > #content-bottom > div > ul > .last{
+	margin-right: 0;
+}
+#app > article > #content-bottom > div > ul > li > a{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > #content-bottom > div > ul > li > a > .pic-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > #content-bottom > div > ul > li > a > .pic-box > img{
+	width: 100%;
+	height: auto;
+	transition: 0.3s
+}
+#app > article > #content-bottom > div > ul > li > a > .text-box{
+	padding: 20px;
+}
+#app > article > #content-bottom > div > ul > li > a > .text-box > h3{
+	font-size: 24px;
+	color: #002ea3;
+	font-weight: 800;
+	margin: 15px 0;
+}
+#app > article > #content-bottom > div > ul > li > a > .text-box > p{
+	font-size: 16px;
+	color: #404040;
+	font-weight: 400;
+	line-height: 28px;
+}
+#app > article > #content-bottom > div > ul > li > a > .text-box > button{
+	font-size: 15px;
+	border: none;
+	font-weight: 800;
+	color: #002ea3;
+	background-color: transparent;
+	margin: 10px 0;
+	transition: 0.3s;
+}
+/* -------------------------------------------- */
+#app > article > #content-bottom > div > ul > li > a:hover > .pic-box > img{
+	transform: scale(1.1);
+}
+#app > article > #content-bottom > div > ul > li > a:hover > .text-box > button{
+	color: #2c7ced;
+	transform: translateX(15px);
+}
+/* ------------------------------------------------- */
+#app > footer{
+	width: 100%;
+	height: 150px;
+	background: linear-gradient(#002ea3,#0b1d75);
+	overflow: hidden;
+}
+#app > footer > #footer-logo{
+	width: 20%;
+	height: 50%;
+	margin: 0 auto;
+	background-image: url(logo-white.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 80%;
+		background-size: 80%;	
+	background-position: 50% 50%;
+}
+#app > footer > #footer-logo > a{
+	width: 20%;
+	height: 50%;
+	
+}
+#app > footer > #footer-info{
+	height: 50%;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+#app > footer > #footer-info > p{
+	font-size: 14px;
+	margin: 0 auto;
+	line-height: 75px;
+}
+/* ------------------------------------------------- */
+/* @media screen and (min-width: 768px) and (max-width: 1200px){
+	#app{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	}
+	#app > header{
+		width: 100%;
+		height: auto;
+		position: fixed;
+	}
+	#app > header > .header-top{
+		width: 100%;
+		height: 100px;
+		padding: 10px 40px;
+		margin: 0 auto;
+		display: flex;
+	}
+	#app > header > .header-top > a{
+		width: 40%;
+		float: none;
+		display: block;
+		margin: auto;
+	}
+	#app > header > .header-top > a > img{
+		min-height: 65px;
+		max-width: 400px;
+	}
+	#app > header > .header-top > .main-nav{
+		display: none;
+	}
+	/* ---------------------------------------------- */
+	/* #app > article > #content-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 0px 80px 40px 80px;
+	}
+	#app > article > #content-bottom > div > ul{
+		display: block;
+	}
+	#app > article > #content-bottom > div > ul > li{
+		display: block;
+		width: 80%;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	#app > article > #content-bottom > div > ul > .last{
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 768px) {
+
+}
+ */
+ */
+
+
+
+
+
+
+
+

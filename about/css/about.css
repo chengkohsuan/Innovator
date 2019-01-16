@@ -11,7 +11,7 @@ html,body{
 img{
 	display: block;
 }
-/* ---------------------------------------------- */
+/* ------------------------------------ */
 #app{
 	width: 100%;
 	height: auto;
@@ -30,6 +30,7 @@ img{
 #app > header > .header-top > a{
 	float:  right;
 	width: 30%;
+
 }
 #app > header > .header-top > a > img{
 	height: auto;
@@ -132,6 +133,27 @@ img{
 	transform: rotate(180deg);
 }
 /* ------------------------------------------------- */
+#app > article{
+	padding: 40px 80px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+#app > article > h2{
+	color: #002ea3;
+	font-size: 24px;
+}
+#app > article > img{
+	border-radius: 4px;
+	float: right;
+	width: 40%;
+	height: auto;
+}
+#app > article > p{
+	color: #404040;
+	font-size: 16px;
+	line-height: 32px;
+}
+/* ------------------------------------------------- */
 #app > footer{
 	width: 100%;
 	height: 150px;
@@ -164,5 +186,3 @@ img{
 	margin: 0 auto;
 	line-height: 75px;
 }
-
-

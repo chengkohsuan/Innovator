@@ -4,4 +4,5 @@ $(function(){
 	},function(){
 		$(this).children('.layer-2').css('display','none');
 	});
+	
 })
