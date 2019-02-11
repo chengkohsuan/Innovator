@@ -204,11 +204,12 @@ img{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	padding: 40px 80px 40px 40px;
+	padding: 30px 60px;
+	margin: 0 auto;
 }
 #app > article > div > #content-top > h2{
-	font-size: 24px;
-	color: #002ea3;
+	font-size: 28px;
+	color: #004eb1;
 }
 #app > article > div > #content-top > p{
 	font-size: 16px;
@@ -218,8 +219,8 @@ img{
 #app > article > div > #content-top > img{
 	width: 40%;
 	height: auto;
-	float: right;
-	margin: 20px 0 20px 20px;
+	float: left;
+	margin: 20px 0 20px 40px;
 	border-radius: 4px;
 }
 /* ---------------------------------------------- */

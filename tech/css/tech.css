@@ -154,6 +154,11 @@ img{
 	border-bottom: solid 1px #cfcfcf;
 	padding: 0 10px;
 }
+#app > article > #content-top > p{
+	color: #404040;
+	font-size: 18px;
+	line-height: 36px;
+}
 #app > article > #content-bottom{
 	width: 80%;
 	height: auto;
