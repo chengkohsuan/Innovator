@@ -227,6 +227,9 @@ img{
 	margin: 20px 0 20px 40px;
 	border-radius: 4px;
 }
+#app > article > div > #content-top > ul > li{
+	line-height: 32px;
+}
 /* ---------------------------------------------- */
 #app > footer{
 	width: 100%;
