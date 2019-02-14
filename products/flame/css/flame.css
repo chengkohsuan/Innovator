@@ -179,13 +179,6 @@ img{
 	width: 100%;
 	margin-bottom: 90px;
 }
-/* #app > article > #content-bottom > img{
-	width: 40%;
-	height: auto;
-	float: right;
-	margin: 20px 0 20px 20px;
-	border-radius: 4px;
-} */
 #app > article > #content-bottom > h2{
 	color: #002ea3;
 	font-size: 24px;

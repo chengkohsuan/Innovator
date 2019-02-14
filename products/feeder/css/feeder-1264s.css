@@ -137,7 +137,7 @@ img{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	background-color: #fff;
+	background-color: #fff;	
 }
 #app > article > .sidebar{
 	width: 25%;
@@ -200,28 +200,55 @@ img{
 	width: 75%;
 	height: auto;
 	overflow: hidden;
+	line-height: 2em;
+	padding: 40px 0;
 }
 #app > article > div > #content-top{
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	padding: 40px 80px;
+	padding: 0 80px;
 }
 #app > article > div > #content-top > h2{
 	font-size: 24px;
 	color: #002ea3;
 }
-#app > article > div > #content-top > img{
-	width: 40%;
-	height: auto;
-	float: right;
-	margin: 20px 0 20px 20px;
-	border-radius: 4px;
-}
 #app > article > div > #content-top > p{
 	font-size: 16px;
 	color: #404040;
-	line-height: 32px;
+}
+#app > article > div > #content-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 80px;
+}
+#app > article > div > #content-bottom > table{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 16px;
+	border-collapse: collapse;
+	text-align: center;
+	margin-top: 40px;
+}
+#app > article > div > #content-bottom > table > thead{
+	border-bottom: 1px solid #004ab1;
+}
+#app > article > div > #content-bottom > table > thead > tr{
+	width: 100%;
+}
+#app > article > div > #content-bottom > table > thead > tr > th{
+	width: 25%;
+	font-size: 18px;
+	font-weight: 500;
+	color: #004ab1;
+	padding: 10px 8px;
+}
+#app > article > div > #content-bottom > table > tbody > tr > td{
+	border-bottom: 1px solid #e5e5e5;
+	color: #404040;
+	padding: 6px 8px; 
 }
 /* ---------------------------------------------- */
 #app > footer{

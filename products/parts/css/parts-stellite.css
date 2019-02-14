@@ -210,10 +210,36 @@ img{
 	font-size: 24px;
 	color: #002ea3;
 }
-#app > article > div > #content-top > p{
+#app > article > div > #content-top > table{
+	width: 100%;
+	margin: 0 auto;
 	font-size: 16px;
+	border-collapse: collapse;
+	text-align: center;
+	margin-top: 40px;
+}
+#app > article > div > #content-top > table > thead{
+	border-bottom: 1px solid #004ea1;
+}
+#app > article > div > #content-top > table > thead > tr{
+	width: 100%;
+}
+#app > article > div > #content-top > table > thead > tr > th{
+	width: 25%;
+	font-size: 18px;
+	font-weight: 500;
+	color: #004ab1;
+	padding: 10px 8px;
+}
+#app > article > div > #content-top > table > tbody > tr > td{
+	border-bottom: 1px solid #e5e5e5;
 	color: #404040;
-	line-height: 32px;
+	padding: 6px 8px; 
+}
+#app > article > div > #content-top > p{
+	text-align: right;
+	color: #7f7f7f;
+	margin-top: 40px;	
 }
 /* ---------------------------------------------- */
 #app > footer{
