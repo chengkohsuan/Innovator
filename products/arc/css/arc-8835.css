@@ -186,7 +186,7 @@ img{
 	display: block;
 	width: 100%;
 	height: 100%;
-	font-size: 18px;
+	font-size: 15px;
 	color: #404040;
 	transition: 0.4s;
 	padding-left: 20px;
@@ -197,78 +197,64 @@ img{
 #app > article > div{
 	width: 75%;
 	height: auto;
-	overflow: hidden;
-	padding: 40px 0;
+	float: right;
+	margin-top: 30px;
 }
-#app > article > div > #content-top{
+#app > article > div > section{
 	width: 100%;
 	height: auto;
-	overflow: hidden;
+	margin-bottom: 40px;
 	padding: 0 80px;
+	line-height: 2em;
 }
-#app > article > div > #content-top > h2{
-	font-size: 24px;
+#app > article > div > section > h2{
+	font-size: 28px;
 	color: #002ea3;
 }
-#app > article > div > #content-top > img{
-	width: 40%;
-	height: auto;
-	float: right;
-	margin: 20px 0 20px 20px;
-	border-radius: 4px;
+#app > article > div > section > h3{
+	font-size: 22px;
+	color: #004ab1;	
 }
-#app > article > div > #content-top > p{
+#app > article > div > section > p{
 	font-size: 16px;
-	color: #404040;
-	line-height: 32px;
+	color: #404040;	
 }
-#app > article > div > #content-top > h3{
-	color: #004ab1;
-	font-size: 18px;
-	line-height: 36px;
+#app > article > div > #photo{
+	height: 600px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: space-around;
 }
-#app > article > div > #content-top > ul{
-	font-size: 16px;
-	color: #404040;
-	line-height: 32px;
+#app > article > div > #photo > img{
+	width: 45%;
+}
+#app > article > div > section > ul{
 	list-style: circle;
-	margin-left: 20px;
+	padding-left: 20px;
 }
-#app > article > div > #content-bottom{
-	width: 100%;
-	height: auto;
-	overflow: hidden;
-	margin: 0 auto;
-	padding: 0 80px;
-}
-#app > article > div > #content-bottom > h3{
-	margin-top: 60px;
-	color: #004ab1;
-}
-#app > article > div > #content-bottom > table{
+#app > article > div > #form > table{
 	width: 60%;
+	border: solid 1px #ccc;
 	font-size: 16px;
-	border-collapse: collapse;
-	text-align: center;
-	margin-top: 20px;
-}
-#app > article > div > #content-bottom > table > thead{
-	border-bottom: 1px solid #004ab1;
-}
-#app > article > div > #content-bottom > table > thead > tr{
-	width: 100%;
-}
-#app > article > div > #content-bottom > table > thead > tr > th{
-	width: 25%;
-	font-size: 18px;
-	font-weight: 500;
-	color: #004ab1;
-	padding: 10px 8px;
-}
-#app > article > div > #content-bottom > table > tbody > tr > td{
-	border-bottom: 1px solid #e5e5e5;
+	line-height: 2em;
 	color: #404040;
-	padding: 6px 8px; 
+	text-align: center;
+}
+#app > article > div > #form > table > thead{
+	width: 100%;
+	background-color: #eee;
+	font-size: 18px;
+}
+#app > article > div > #form > table > thead > tr > th{
+	width: 50%;
+	padding: 10px 20px;
+	border: solid 1px #ccc;
+}
+#app > article > div > #form > table > tbody > tr > td{
+	padding: 10px 20px;
+	border: solid 1px #ccc;
 }
 /* ---------------------------------------------- */
 #app > footer{

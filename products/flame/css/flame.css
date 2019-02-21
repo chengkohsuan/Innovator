@@ -172,50 +172,77 @@ img{
 	height: auto;
 	overflow: hidden;
 	margin: 0 auto;
-	padding: 40px 0;
+	padding-bottom: 40px;
 }
-#app > article > #content-bottom > hr{
-	opacity: 0.5;
-	width: 100%;
-	margin-bottom: 90px;
-}
-#app > article > #content-bottom > h2{
-	color: #002ea3;
-	font-size: 24px;
-}
-#app > article > #content-bottom > p{
-	color: #404040;
-	font-size: 16px;
-	line-height: 32px;
-}
-#app > article > #content-bottom > table{
-	width: 100%;
-	margin: 0 auto;
-	margin-top: 30px;
-}
-#app > article > #content-bottom > table > tbody{
+#app > article > #content-bottom > div{
 
 }
-#app > article > #content-bottom > table > tbody > tr{
-
-}
-#app > article > #content-bottom > table > tbody > tr > td{
-	padding: 20px 60px;
-}
-#app > article > #content-bottom > table > tbody > tr > td > h3{
-	color: #004ab1;
-	font-size: 20px;
-	line-height: 36px;
-}
-#app > article > #content-bottom > table > tbody > tr > td > p{
-	color: #404040;
-	font-size: 16px;
-	line-height: 32px;
-}
-#app > article > #content-bottom > table > tbody > tr > td > img{
-	width: 90%;
+#app > article > #content-bottom > div > ul{
+	width: 100%;
 	height: auto;
-	border-radius: 4px;	
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+#app > article > #content-bottom > div > ul > li{
+	display: block;
+	width: 30%;
+	height: auto;
+	float: left;
+	padding: 0;
+	overflow: hidden;
+	background-color: #fff;
+	margin-right: 20px;
+	box-shadow: 0px 5px 15px #d0d0d0;
+	border-radius: 4px; 
+}
+#app > article > #content-bottom > div > ul > .last{
+	margin-right: 0;
+}
+#app > article > #content-bottom > div > ul > li > a{
+
+}
+#app > article > #content-bottom > div > ul > li > a > .pic-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#app > article > #content-bottom > div > ul > li > a > .pic-box > img{
+	width: 100%;
+	height: auto;
+	transition: 0.3s
+}
+#app > article > #content-bottom > div > ul > li > a > .text-box{
+	padding: 20px;
+}
+#app > article > #content-bottom > div > ul > li > a > .text-box > h3{
+	font-size: 24px;
+	color: #002ea3;
+	font-weight: 800;
+	margin: 15px 0;
+}
+#app > article > #content-bottom > div > ul > li > a > .text-box > p{
+	font-size: 16px;
+	color: #404040;
+	font-weight: 400;
+	line-height: 28px;
+}
+#app > article > #content-bottom > div > ul > li > a > .text-box > button{
+	font-size: 15px;
+	border: none;
+	font-weight: 800;
+	color: #002ea3;
+	background-color: transparent;
+	margin: 10px 0;
+	transition: 0.3s;
+}
+/* -------------------------------------------- */
+#app > article > #content-bottom > div > ul > li > a:hover > .pic-box > img{
+	transform: scale(1.1);
+}
+#app > article > #content-bottom > div > ul > li > a:hover > .text-box > button{
+	color: #2c7ced;
+	transform: translateX(15px);
 }
 /* ------------------------------------------------- */
 #app > footer{
