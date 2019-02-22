@@ -51,7 +51,7 @@ img{
 }
 #app > header > .header-top > .main-nav > ul > li > a{
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 15px;
 	color: #404040;
 	padding: 3px 30px;
 	transition: 0.4s;
@@ -73,7 +73,7 @@ img{
 	text-align: center;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1{
-	width: 96%;
+	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -82,7 +82,7 @@ img{
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li{
 	float: left;
-	width: 172px;
+	width: 178px;
 	text-align: center;
 	padding: 0 10px;
 	z-index: 999;
@@ -98,13 +98,14 @@ img{
 	text-align: center;
 	text-decoration: none;
 	line-height: 60px;
+	font-size: 16px;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
 	transition: transform 0.5s;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
 	position: absolute;
-	width: 172px;
+	width: 178px;
 	overflow: visible;
 	clear: left;
 	margin-top: 60px;
@@ -150,7 +151,6 @@ img{
 	color: #002ea3;
 	font-size: 24px;
 	line-height: 60px;
-	border-bottom: solid 1px #cfcfcf;	
 }
 #app > article > #content-bottom{
 	width: 80%;
@@ -169,9 +169,6 @@ img{
 	justify-content: space-between;
 	padding: 20px;
 }
-#app > article > #content-bottom > div > .tail{
-	display: block;
-}
 #app > article > #content-bottom > div > ul > li{
 	display: block;
 	width: 30%;
@@ -186,12 +183,6 @@ img{
 }
 #app > article > #content-bottom > div > ul > .last{
 	margin-right: 0;
-}
-#app > article > #content-bottom > div > ul > .single{
-	margin-right: 55px;	
-}
-#app > article > #content-bottom > div > ul > li > a{
-
 }
 #app > article > #content-bottom > div > ul > li > a > .pic-box{
 	width: 100%;

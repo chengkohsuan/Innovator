@@ -51,7 +51,7 @@ img{
 }
 #app > header > .header-top > .main-nav > ul > li > a{
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 15px;
 	color: #404040;
 	padding: 3px 30px;
 	transition: 0.4s;
@@ -73,7 +73,7 @@ img{
 	text-align: center;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1{
-	width: 96%;
+	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -82,7 +82,7 @@ img{
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li{
 	float: left;
-	width: 172px;
+	width: 178px;
 	text-align: center;
 	padding: 0 10px;
 	z-index: 999;
@@ -98,13 +98,14 @@ img{
 	text-align: center;
 	text-decoration: none;
 	line-height: 60px;
+	font-size: 16px;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
 	transition: transform 0.5s;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
 	position: absolute;
-	width: 172px;
+	width: 178px;
 	overflow: visible;
 	clear: left;
 	margin-top: 60px;
@@ -209,10 +210,7 @@ img{
 #app > article > #content-bottom > div > ul > li > a > .pic-box > img{
 	width: 100%;
 	height: auto;
-	transition: 0.4s
-}
-#app > article > #content-bottom > div > ul > li > a > .pic-box > img:hover{
-	transform: scale(1.1);
+	transition: 0.3s
 }
 #app > article > #content-bottom > div > ul > li > a > .text-box{
 	padding: 20px;
@@ -230,16 +228,21 @@ img{
 	line-height: 28px;
 }
 #app > article > #content-bottom > div > ul > li > a > .text-box > button{
-	font-size: 14px;
+	font-size: 15px;
 	border: none;
-	font-weight: 600;
+	font-weight: 800;
 	color: #002ea3;
 	background-color: transparent;
 	margin: 10px 0;
-	transition: 0.4s;
+	transition: 0.3s;
 }
-#app > article > #content-bottom > div > ul > li > a > .text-box > button:hover{
-	color: #ff8300;
+/* -------------------------------------------- */
+#app > article > #content-bottom > div > ul > li > a:hover > .pic-box > img{
+	transform: scale(1.1);
+}
+#app > article > #content-bottom > div > ul > li > a:hover > .text-box > button{
+	color: #2c7ced;
+	transform: translateX(15px);
 }
 /* ------------------------------------------------- */
 #app > footer{
