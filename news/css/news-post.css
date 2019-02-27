@@ -140,58 +140,37 @@ img{
 	overflow: hidden;
 	background-color: #fff;
 }
-#app > article > #content{
+#app > article > div{
 	width: 100%;
 	height: auto;
-	overflow: hidden;
-	padding: 40px 80px;
+	padding: 40px 0;
 }
-#app > article > #content > header{
-	width: 75%;
+#app > article > div > section{
+	width: 70%;
 	height: auto;
-	overflow: hidden;
+	padding: 0 80px;
 	margin: 0 auto;
-	padding: 0 30px;
-	border-bottom: solid 1px #cfcfcf;
+	line-height: 2em;
 }
-#app > article > #content > header > h1{
-	color: #004ab1;
-	/* font-size: 20px; */
-	line-height: 40px;
+#app > article > div > #pic > img{
+	width: 100%;
 }
-#app > article > #content > header > p{
+#app > article > div > #content > span{
 	color: #404040;
 	font-size: 15px;
-	text-align: right;
-	line-height: 32px;
 }
-#app > article > #content > header > .banner{
-	width: 100%;
-	height: auto;
-	overflow: hidden;
+#app > article > div > #content > h2{
+	font-size: 28px;
+	color: #002ea3;
 }
-#app > article > #content > header > .banner > img{
-
-}
-#app > article > #content > div{
-	width: 75%;
-	height: auto;
-	overflow: hidden;
-	margin: 0 auto;
-	padding: 0 30px;
-}
-#app > article > #content > div > p{
+#app > article > div > #content > p{
 	color: #404040;
 	font-size: 16px;
-	line-height: 32px;
+	margin-top: 50px;
 }
-#app > article > #content > div > a{
-	text-decoration: none;
-	color: #2c7ced;
-	transition: 0.3s;
-}
-#app > article > #content > div > a:hover{
-	color: #cfcfcf;
+#app > article > div > #content > #infos{
+	color: #404040;
+	margin-top: 50px;
 }
 /* ------------------------------------------------- */
 #app > footer{
@@ -213,7 +192,6 @@ img{
 #app > footer > #footer-logo > a{
 	width: 20%;
 	height: 50%;
-	
 }
 #app > footer > #footer-info{
 	height: 50%;
@@ -226,3 +204,4 @@ img{
 	margin: 0 auto;
 	line-height: 75px;
 }
+
