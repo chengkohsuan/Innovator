@@ -18,8 +18,7 @@
 	<title>Thermion AVD450｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
 	<link rel="stylesheet" type="text/css" href="css/arc-450.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/arc-450.js"></script>
+	
 	
 	<!--[if lt IE 9]>
 	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -130,49 +129,28 @@
 				</div>
 			</aside>
 			<div>
-				<section id="word">
-					<h2>Thermion AVD 450 電弧噴塗系統</h2>
-					<h3></h3>
-					<p>Thermion AVD 450 電弧噴塗系統普遍應用於噴塗工程用塗層或機械元件，也能應用在防蝕製程的塗層，工業上，直徑1/16”至1/8”所有的鋁線、鋅線及鋅鋁合金線線材規格，都能適用這套噴塗系統。一般而言提高線材尺寸噴塗效率也越高，該系統不需使用直徑3/16”或更高尺寸規格的線材，就能達成與鍍鋅保護塗層（galvanic protection coating）同樣優秀的防蝕效果。</p>	
-				</section>
-				<!-- <section id="photo">
-					<img src="image/450.png">
-					<img src="image/450.png">
-					<img src="image/450.png">
-					<img src="image/450.png">
-				</section> -->
-				<section id="list">
-					<h3>產品特色</h3>
-					<ul>
-						<li>使用電弧電壓驅動技術（Arc Voltage Drive, AVD）</li>
-						<li>噴塗作業車專為極端工作環境設計</li>
-						<li>扇形噴嘴噴塗距離為13’英尺（約4公尺）能製備高品質工業及塗層</li>
-					</ul>
-					<h3>規格</h3>
-					<ul>
-						<li>氣體：80-100 psi @ 65 cfm，進氣口勿小於直徑1/2”</li>
-						<li>電源：三項交流電 50/60 Hz，230/460/575 V</li>
-					</ul>
-				</section>
-				<!-- <section id="form">
-					<h3></h3>
-					<table>
-						<thead>
-							<th></th>
-							<th></th>
-						</thead>
-						<tbody>
-							<tr>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-							</tr>
-						</tbody>
-					</table>
-				</section> -->
+			  	<section id="infos">
+				    <ul>
+				    	<li class="block" v-for="item in pd_infos"> 
+					        <div class="title">{{item.name}}</div>
+					        <br>
+					        <div>{{item.text}}</div>
+					        <br>
+					        <div class="sub_title">產品特色：
+								<ul>
+									<li class="text" v-for="feature in item.features">{{feature}}</li>
+								</ul>
+					        </div>
+					        <br>
+					        <div class="sub_title">{{item.name}}規格：
+					        	<ul>
+						            <li class="text" v-for="spec in item.specs">{{spec}}</li>
+						         </ul>
+					        </div>
+				        	<br>
+				      	</li>
+				    </ul>
+			  	</section>
 			</div>
 		</article>
 <!------------------------------------------------------->
@@ -187,5 +165,10 @@
 			</div>
 		</footer>
 	</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.js'></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/arc-450.js"></script>
+
 </body>
 </html>	
