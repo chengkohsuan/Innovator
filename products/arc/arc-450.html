@@ -131,21 +131,23 @@
 			<div>
 			  	<section id="infos">
 				    <ul>
-				    	<li class="block" v-for="item in pd_infos"> 
-					        <div class="title">{{item.name}}</div>
+				    	<li class="block" v-for="item in products"> 
+					        <div class="title" v-if="item.show_title">{{item.title}}<br></div>
+				
+					        <div class="sub_title" v-if="item.show_sub">{{item.sub}}</div>
 					        <br>
-					        <div>{{item.text}}</div>
+					        <div class="text" v-if="item.show_text">{{item.text}}</div>
 					        <br>
-					        <div class="sub_title">產品特色：
+					        <div class="sub_title" v-if="item.show_features">產品特色：
 								<ul>
 									<li class="text" v-for="feature in item.features">{{feature}}</li>
 								</ul>
-					        </div>
-					        <br>
-					        <div class="sub_title">{{item.name}}規格：
+							</div>
+							<br>
+					        <div class="sub_title" v-if="item.show_specs">{{item.title}}規格：
 					        	<ul>
 						            <li class="text" v-for="spec in item.specs">{{spec}}</li>
-						         </ul>
+						         </ul>   
 					        </div>
 				        	<br>
 				      	</li>
