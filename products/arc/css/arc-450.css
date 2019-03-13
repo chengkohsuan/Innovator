@@ -202,7 +202,7 @@ img{
 	float: right;
 	margin: 40px 0;
 }
-#app > article > div > #infos{
+#app > article > div > section{
 	width: 100%;
 	height: auto;
 	padding: 0 80px;
@@ -210,32 +210,32 @@ img{
     color: #404040;	
     font-weight: 400;
 }
-#app > article > div > #infos > ul > li{
+#app > article > div > section > ul > li{
 }
-#app > article > div > #infos > ul > .block{
+#app > article > div > section > ul > .block{
 	list-style: none;
 }
-#app > article > div > #infos > ul > .block > div{
+#app > article > div > section > ul > .block > div{
 	font-size: 16px;
 	line-height: 2em;
     color: #404040;	
     font-weight: 400;
 }
-#app > article > div > #infos > ul > .block > .title{
+#app > article > div > section > ul > .block > .title{
 	font-size: 28px;
 	color: #002ea3;
   	font-weight: 600;
 }
-#app > article > div > #infos > ul > .block > .sub_title{
+#app > article > div > section > ul > .block > .sub_title{
 	font-size: 22px;
 	color: #004ab1;
 	font-weight: 600;	
 }
-#app > article > div > #infos > ul > .block > div > ul{
+#app > article > div > section > ul > .block > div > ul{
 	list-style: circle;
 	margin-left: 20px;
 }
-#app > article > div > #infos > ul > .block > div > ul > .text{
+#app > article > div > section > ul > .block > div > ul > .text{
 	font-size: 16px;
     color: #404040;	
     font-weight: 400;
