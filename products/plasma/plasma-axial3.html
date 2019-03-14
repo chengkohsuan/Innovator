@@ -18,12 +18,7 @@
 	<title>Mettech Axial 3｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
 	<link rel="stylesheet" type="text/css" href="css/plasma-axial3.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/plasma-axial3.js"></script>
 	
-	<!--[if lt IE 9]>
-	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 </head>
 <body>
 	<div id="app">
@@ -131,49 +126,30 @@
 				</div>
 			</aside>
 			<div>
-				<section id="word">
-					<h2></h2>
-					<h3></h3>
-					<p></p>	
+				<section>
+					<ul id="infos">
+				    	<li class="block" v-for="item in products"> 
+					        <div class="title" v-if="item.show_title">{{item.title}}<br></div>
+				
+					        <div class="sub_title" v-if="item.show_sub">{{item.sub}}</div>
+					        <br>
+					        <div class="text" v-if="item.show_text">{{item.text}}</div>
+					        <br>
+					        <div class="sub_title" v-if="item.show_features">產品特色：
+								<ul>
+									<li class="text" v-for="feature in item.features">{{feature}}</li>
+								</ul>
+							</div>
+							<br>
+					        <div class="sub_title" v-if="item.show_specs">規格：
+					        	<ul>
+						            <li class="text" v-for="spec in item.specs">{{spec}}</li>
+						         </ul>   
+					        </div>
+				        	<br>
+				      	</li>
+				    </ul>
 				</section>
-				<!-- <section id="photo">
-					<img src="image/">
-					<img src="image/">
-					<img src="image/">
-					<img src="image/">
-				</section> -->
-				<section id="list">
-					<h3>產品特色</h3>
-					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-					<h3>規格</h3>
-					<ul>
-						<li></li>
-						<li></li>
-					</ul>
-				</section>
-				<!-- <section id="form">
-					<h3></h3>
-					<table>
-						<thead>
-							<th></th>
-							<th></th>
-						</thead>
-						<tbody>
-							<tr>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-							</tr>
-						</tbody>
-					</table>
-				</section> -->
 			</div>
 		</article>
 <!------------------------------------------------------->
@@ -188,5 +164,13 @@
 			</div>
 		</footer>
 	</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.js'></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/plasma-axial3.js"></script>
+
+<!--[if lt IE 9]>
+<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </body>
 </html>	

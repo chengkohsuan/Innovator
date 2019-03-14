@@ -200,63 +200,49 @@ img{
 	width: 75%;
 	height: auto;
 	float: right;
-	margin-top: 30px;
+	margin: 40px 0;
 }
 #app > article > div > section{
 	width: 100%;
 	height: auto;
-	margin-bottom: 40px;
 	padding: 0 80px;
-	line-height: 2em;
+	font-size: 16px;
+    color: #404040;	
+    font-weight: 400;
 }
-#app > article > div > section > h2{
+#app > article > div > section > ul > li{
+}
+#app > article > div > section > ul > .block{
+	list-style: none;
+}
+#app > article > div > section > ul > .block > div{
+	font-size: 16px;
+	line-height: 2em;
+    color: #404040;	
+    font-weight: 400;
+}
+#app > article > div > section > ul > .block > .title{
 	font-size: 28px;
 	color: #002ea3;
+  	font-weight: 600;
 }
-#app > article > div > section > h3{
+#app > article > div > section > ul > .block > .sub_title{
 	font-size: 22px;
-	color: #004ab1;	
+	color: #004ab1;
+	font-weight: 600;	
 }
-#app > article > div > section > p{
-	font-size: 16px;
-	color: #404040;	
-}
-#app > article > div > #photo{
-	height: 600px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-wrap: wrap;
-	align-content: space-around;
-}
-#app > article > div > #photo > img{
-	width: 45%;
-}
-#app > article > div > section > ul{
+#app > article > div > section > ul > .block > div > ul{
 	list-style: circle;
-	padding-left: 20px;
+	margin-left: 20px;
 }
-#app > article > div > #form > table{
-	width: 60%;
-	border: solid 1px #ccc;
+#app > article > div > section > ul > .block > div > ul > .text{
 	font-size: 16px;
-	line-height: 2em;
-	color: #404040;
-	text-align: center;
+    color: #404040;	
+    font-weight: 400;
 }
-#app > article > div > #form > table > thead{
-	width: 100%;
-	background-color: #eee;
-	font-size: 18px;
-}
-#app > article > div > #form > table > thead > tr > th{
-	width: 50%;
-	padding: 10px 20px;
-	border: solid 1px #ccc;
-}
-#app > article > div > #form > table > tbody > tr > td{
-	padding: 10px 20px;
-	border: solid 1px #ccc;
+#app > article > div > section > ul > .block > .text > .word{
+	list-style: none;
+	margin-left: 0px;
 }
 /* ---------------------------------------------- */
 #app > footer{
