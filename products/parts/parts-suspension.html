@@ -138,20 +138,30 @@
 					        <br>
 					        <div class="text" v-if="item.show_text">{{item.text}}</div>
 					        <br>
-					        <div class="sub_title" v-if="item.show_features">產品特色：
+					        <div class="sub_title" v-if="item.show_susp">漿料資料：
 								<ul>
-									<li class="text" v-for="feature in item.features">{{feature}}</li>
+									<li class="text" v-for="susp in item.susps">{{susp}}</li>
 								</ul>
 							</div>
 							<br>
-					        <div class="sub_title" v-if="item.show_specs">規格：
+					        <div class="sub_title" v-if="item.show_comps">粉末成分：
 					        	<ul>
-						            <li class="text" v-for="spec in item.specs">{{spec}}</li>
+						            <li class="text" v-for="comp in item.comps">{{spec}}</li>
 						         </ul>   
 					        </div>
 				        	<br>
+				        	<div class="sub_title" v-if="item.show_powd">粉末資料：
+								<ul>
+									<li class="text" v-for="powd in item.powds">{{powd}}</li>
+								</ul>
+							</div>
 				      	</li>
 				    </ul>
+				</section>
+				<section>
+					<ul id="">
+						
+					</ul>
 				</section>
 			</div>
 		</article>
