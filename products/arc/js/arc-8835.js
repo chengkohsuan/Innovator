@@ -57,3 +57,28 @@ var vm_2=new Vue({
 	contents: specdata,
 	}
 });
+
+Vue.component('table_template', {
+  template: '#table-template',
+  props: {
+    data: {},
+    columns: [],
+  }
+});
+
+var vm_3= new Vue({
+  el: '#table',
+  data: {
+    tableTitle: "線材噴塗速率／安培數對照：",
+    tableHead: ["線材材料", "Lbs/hr ／100 Amp",],
+    tableData: [
+      { 線材材料: '鋼', "Lbs/hr ／100 Amp": "10", },
+      { 線材材料: '鋁青銅', "Lbs/hr ／100 Amp": "9", },
+      { 線材材料: '青銅', "Lbs/hr ／100 Amp": "11", },
+      { 線材材料: '銅', "Lbs/hr ／100 Amp": "11", },
+      { 線材材料: '鎳合金包芯線', "Lbs/hr ／100 Amp": "8.5", },
+      { 線材材料: '鋁', "Lbs/hr ／100 Amp": "6", },
+      { 線材材料: '鋅', "Lbs/hr ／100 Amp": "24", }
+    ]
+  }
+});

@@ -25,3 +25,27 @@ var vm_1=new Vue({
   products: pd_infos,
   }
 });
+
+Vue.component('table_template', {
+  template: '#table-template',
+  props: {
+    data: {},
+    columns: [],
+  }
+});
+
+var vm= new Vue({
+  el: '#table',
+  data: {
+    tableTitle: "JP-8000塗層與其他塗層比較：",
+    tableHead: ['項目', 'JP8000','其他'],
+    tableData: [
+      { 項目: '塗層密度', JP8000: '99% 以上', 其他: '接近 99%'},
+      { 項目: '塗層鍵結強度', JP8000: '10,000 psi 以上', 其他: '10,000 psi 以上'},
+      { 項目: '塗層硬度（DPH300）', JP8000: '1350', 其他: '1200'},
+      { 項目: '塗層厚度', JP8000: '0.250”以上', 其他: '0.020－0.040”'},
+      { 項目: '顆粒最快飛行速度', JP8000: '接近800 m/s', 其他: '600 m/s'},
+      { 項目: '顆粒最高火焰溫度', JP8000: '接近2200°C', 其他: '接近2000°C'},
+    ]
+  }
+});

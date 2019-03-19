@@ -45,3 +45,42 @@ var vm_2=new Vue({
 	contents: specdata,
 	}
 });
+
+Vue.component('table_template', {
+  template: '#table-template',
+  props: {
+    data: {},
+    columns: [],
+  }
+});
+
+var vm_3= new Vue({
+  el: '#table',
+  data: {
+    tableTitle: "適用材料比較：",
+    tableHead: ['材料', "Impact 5/8", "Impact 5/11", '水冷需求'],
+    tableData: [
+      { 材料: 'Ag, Ag alloys', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'X',},
+      { 材料: 'Al, Al alloys', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'V',},
+      { 材料: 'Au, Au alloys', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'X',},
+      { 材料: 'Cu, Cu alloys', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'X',},
+      { 材料: 'High carbon steel', "Impact 5/8": 'Not possible', "Impact 5/11": 'OK', 水冷需求: 'V',},
+      { 材料: 'IN625', "Impact 5/8": 'Lower quality', "Impact 5/11": 'OK', 水冷需求: 'V',},
+      { 材料: 'IN718', "Impact 5/8": 'Lower quality', "Impact 5/11": 'OK', 水冷需求: 'V',},
+      { 材料: 'Mg', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'V',},
+      { 材料: 'Nb', "Impact 5/8": 'Lower quality', "Impact 5/11": 'OK', 水冷需求: 'X',},
+      { 材料: 'Ni', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'X',},
+      { 材料: 'Ni80Cr20', "Impact 5/8": 'Lower quality', "Impact 5/11": 'OK', 水冷需求: 'V',},
+      { 材料: 'Sn', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'X',},
+      { 材料: 'Stainless steel 316L', "Impact 5/8": 'Lower quality', "Impact 5/11": 'OK', 水冷需求: 'V',},
+      { 材料: 'Stainless steel 430', "Impact 5/8": 'Lower quality', "Impact 5/11": 'OK', 水冷需求: 'V',},
+      { 材料: 'Ta', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'X',},
+      { 材料: 'Ti', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'X',},
+      { 材料: 'Ti-WC', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'X',},
+      { 材料: 'Ti-6-4', "Impact 5/8": 'Lower quality', "Impact 5/11": 'OK', 水冷需求: 'V',},
+      { 材料: 'Ti-TiC', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'X',},
+      { 材料: 'Ti-SiC', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'X',},
+      { 材料: 'Zn', "Impact 5/8": 'OK', "Impact 5/11": 'OK', 水冷需求: 'V',},
+    ]
+  }
+});

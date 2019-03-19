@@ -240,6 +240,28 @@ img{
     color: #404040;	
     font-weight: 400;
 }
+table > thead,tbody > tr{
+	border-bottom: solid 1px #ccc;
+}
+table > thead{
+	text-align: left;
+	font-size: 18px;
+}
+table > thead > tr > th{
+	min-width: 160px;
+	max-width: 300px;
+  	padding: 10px 20px;
+}
+table > tbody > tr > td{
+	min-width: 160px;
+	max-width: 300px;
+  	padding: 10px 20px;
+}
+#table > h3{
+	font-size: 22px;
+	color: #004ab1;
+	font-weight: 600;	
+}
 /* ---------------------------------------------- */
 #app > footer{
 	width: 100%;

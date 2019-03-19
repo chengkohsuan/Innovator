@@ -210,8 +210,6 @@ img{
     color: #404040;	
     font-weight: 400;
 }
-#app > article > div > section > ul > li{
-}
 #app > article > div > section > ul > .block{
 	list-style: none;
 }
@@ -225,6 +223,7 @@ img{
 	font-size: 28px;
 	color: #002ea3;
   	font-weight: 600;
+  	margin-top: 30px;
 }
 #app > article > div > section > ul > .block > .sub_title{
 	font-size: 22px;
@@ -239,6 +238,18 @@ img{
 	font-size: 16px;
     color: #404040;	
     font-weight: 400;
+}
+#app > article > div > section > ul > li > div > .table{
+	list-style: none;
+	margin-left: 0;
+	width: 50%;
+}
+#app > article > div > section > ul > li > div > .table > li{
+	border-bottom: solid 1px #ccc;
+}
+#app > article > div > section > ul > li > div > .table > li > .item{
+	display: inline-block;
+  	min-width: 200px;
 }
 /* ---------------------------------------------- */
 #app > footer{
