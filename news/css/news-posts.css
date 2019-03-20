@@ -11,7 +11,7 @@ html,body{
 img{
 	display: block;
 }
-/* ---------------------------------------------- */
+/* ------------------------------------ */
 #app{
 	width: 100%;
 	height: auto;
@@ -30,6 +30,7 @@ img{
 #app > header > .header-top > a{
 	float:  right;
 	width: 30%;
+
 }
 #app > header > .header-top > a > img{
 	height: auto;
@@ -50,7 +51,7 @@ img{
 }
 #app > header > .header-top > .main-nav > ul > li > a{
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 15px;
 	color: #404040;
 	padding: 3px 30px;
 	transition: 0.4s;
@@ -72,7 +73,7 @@ img{
 	text-align: center;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1{
-	width: 96%;
+	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -81,7 +82,7 @@ img{
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li{
 	float: left;
-	width: 172px;
+	width: 178px;
 	text-align: center;
 	padding: 0 10px;
 	z-index: 999;
@@ -97,13 +98,14 @@ img{
 	text-align: center;
 	text-decoration: none;
 	line-height: 60px;
+	font-size: 16px;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
 	transition: transform 0.5s;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
 	position: absolute;
-	width: 172px;
+	width: 178px;
 	overflow: visible;
 	clear: left;
 	margin-top: 60px;
@@ -131,7 +133,58 @@ img{
 #pd-nav > .layer-1 > li:hover > a > i{
 	transform: rotate(180deg);
 }
-/* ------------------------------------------------- */
+/* ---------------------------------------------- */
+#app > article{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: #fff;
+}
+#app > article > div{
+	width: 75%;
+	height: auto;
+	float: right;
+	margin: 40px 0;
+}
+#app > article > div > section{
+	width: 100%;
+	height: auto;
+	padding: 0 80px;
+	font-size: 16px;
+    color: #404040;	
+    font-weight: 400;
+}
+#app > article > div > section > ul > li{
+}
+#app > article > div > section > ul > .block{
+	list-style: none;
+}
+#app > article > div > section > ul > .block > div{
+	font-size: 16px;
+	line-height: 2em;
+    color: #404040;	
+    font-weight: 400;
+}
+#app > article > div > section > ul > .block > .title{
+	font-size: 28px;
+	color: #002ea3;
+  	font-weight: 600;
+}
+#app > article > div > section > ul > .block > .sub_title{
+	font-size: 22px;
+	color: #004ab1;
+	font-weight: 600;	
+}
+#app > article > div > section > ul > .block > div > ul{
+	list-style: circle;
+	margin-left: 20px;
+}
+#app > article > div > section > ul > .block > div > ul > .text{
+	font-size: 16px;
+    color: #404040;	
+    font-weight: 400;
+}
+/* ---------------------------------------------- */
 #app > footer{
 	width: 100%;
 	height: 150px;
@@ -164,5 +217,3 @@ img{
 	margin: 0 auto;
 	line-height: 75px;
 }
-
-
