@@ -227,12 +227,6 @@ img{
 	font-weight: 800;
 	margin: 15px 0;
 }
-#app > article > #content-bottom > div > ul > li > a > .text-box > p{
-	font-size: 16px;
-	color: #404040;
-	font-weight: 400;
-	line-height: 28px;
-}
 #app > article > #content-bottom > div > ul > li > a > .text-box > button{
 	font-size: 15px;
 	border: none;

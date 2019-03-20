@@ -10,8 +10,6 @@ var pd_infos=[
   {
     show_title: true,
     title: "Praxair BP-400推線式電弧噴塗系統",
-    show_sub: false,
-    sub:"",
     show_text: true,
     text: "Praxair BP-400推線式電弧噴塗系統輕量化的設計可手持且操作靈活，適用於各式場所，也可安裝於機械手臂上進行操做。槍身設計堅固耐用，減少保養維修的時間。",
     show_features: true,
