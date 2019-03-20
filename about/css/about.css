@@ -135,24 +135,34 @@ img{
 }
 /* ------------------------------------------------- */
 #app > article{
-	padding: 40px 80px;
-	margin: 0 auto;
+	padding-bottom: 40px;
+	width: 100%;
 	background-color: #fff;
+	line-height: 2em;
 }
-#app > article > h2{
+#app > article > section{
+	width: 80%;
+	margin: 0 auto;
+}
+#app > article > section > img{
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+}
+#app > article > section > div{
+	width: 100%;
+	margin: 0 auto;
+	padding: 2%;
+}
+#app > article > section > div > h2{
 	color: #002ea3;
 	font-size: 24px;
 }
-#app > article > img{
-	border-radius: 4px;
-	float: right;
-	width: 40%;
-	height: auto;
-}
-#app > article > p{
+#app > article > section > div > p{
+	display: block;
+	width: 100%;
 	color: #404040;
 	font-size: 16px;
-	line-height: 32px;
 }
 /* ------------------------------------------------- */
 #app > footer{
