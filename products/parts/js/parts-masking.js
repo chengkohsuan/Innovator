@@ -9,7 +9,7 @@ $(function(){
 var pd_infos=[
   {
     show_title: true,
-    title: "DW410",
+    title: "DW410隔熱遮覆膠帶",
     show_text: true,
     text: "藍色矽橡膠披覆的玻璃纖維可耐高溫，矽橡膠強韌且耐磨，可抵抗高溫和噴砂衝擊，矽膠在高溫下提供優異的黏著性，可同時用於噴砂和電漿噴塗，不留殘膠。",
     show_features: false,
@@ -19,7 +19,7 @@ var pd_infos=[
   },
   {
     show_title: true,
-    title: "DW500RD",
+    title: "DW500RD隔熱遮覆膠帶",
     show_text: true,
     text: "紅色矽橡膠／玻璃布背層構成的電漿噴塗遮蔽膠帶，塗有高溫活性矽膠粘合劑，在噴砂和電漿噴塗製程的高溫環境下提供良好的保護性，比大多數其他等電漿噴塗遮蔽膠帶粘性更佳而不留殘膠，適合應用於航太產業中形狀複雜的工件。",
     show_features: false,

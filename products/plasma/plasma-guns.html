@@ -130,9 +130,6 @@
 					<ul id="infos">
 				    	<li class="block" v-for="item in products"> 
 					        <div class="title" v-if="item.show_title">{{item.title}}<br></div>
-				
-					        <div class="sub_title" v-if="item.show_sub">{{item.sub}}</div>
-					        <br>
 					        <div class="text" v-if="item.show_text">
 					        	<ul class="word">
 					        		<li class="text" v-for="text in item.texts">{{text}}</li>
@@ -169,9 +166,7 @@
 		</article>
 <!------------------------------------------------------->
 		<footer>
-			<div id="footer-logo">
-				<a href="index.html"></a>
-			</div>
+			<div id="footer-logo"></div>
 			<div id="footer-info">
 				<p>
 					<b>Phone　</b>02-86626788　｜　<b>Fax　</b>02-86626766　｜　<b>Email　</b>otto_cheng@innovator.com.tw　｜　<b>Address　</b>新北市深坑區北深路三段270巷16號4樓之1

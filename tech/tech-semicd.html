@@ -18,12 +18,7 @@
 	<title>光電半導體｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
 	<link rel="stylesheet" type="text/css" href="css/tech-semicd.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/tech-semicd.js"></script>
 	
-	<!--[if lt IE 9]>
-	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 </head>
 <body>
 	<div id="app">
@@ -132,18 +127,29 @@
 				</div>
 			</aside>
 			<div>
-				<section id="content-top">
-					<h2>光電半導體領域應用</h2>
-					<p>光電半導體的應用主要為設備清洗，而熱噴塗在該領域有兩種工藝制程，分別為電漿噴塗與電弧噴塗其應用也不太相同，以電漿噴塗而言，所噴塗的材料為氧化鋁和氧化釔塗層，主要用來抵抗等離子的轟擊造成腔體的損壞。另外一種電弧式噴塗的工藝則是噴塗純鋁線，使腔體內部表面具有高粗糙度，經過尖端放電的效果來捕捉腔體內部的帶電粒子，防止這些粒子影響良率。</p>
-					<!-- <img src="">	 -->
+				<section>
+					<ul id="content">
+						<li class="block" v-for="item in contents">
+							<div class="title" v-if="item.show_title">{{item.title}}<br></div>
+					        <div class="text" v-if="item.show_text">
+					        	<ul class="word">
+					        		<li class="text" v-for="text in item.texts">{{text}}</li>
+					        	</ul>
+					        </div>
+					        <br>
+					        <div class="sub_title" v-if="item.show_lists">
+								<ul>
+									<li class="text" v-for="list in item.lists">{{list}}</li>
+								</ul>
+							</div>
+						</li>
+					</ul>	
 				</section>
 			</div>
 		</article>
 <!------------------------------------------------------->
 		<footer>
-			<div id="footer-logo">
-				<a href="index.html"></a>
-			</div>
+			<div id="footer-logo"></div>
 			<div id="footer-info">
 				<p>
 					<b>Phone　</b>02-86626788　｜　<b>Fax　</b>02-86626766　｜　<b>Email　</b>otto_cheng@innovator.com.tw　｜　<b>Address　</b>新北市深坑區北深路三段270巷16號4樓之1
@@ -151,5 +157,14 @@
 			</div>
 		</footer>
 	</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.js'></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tech-semicd.js"></script>
+	
+	<!--[if lt IE 9]>
+	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
 </body>
 </html>	

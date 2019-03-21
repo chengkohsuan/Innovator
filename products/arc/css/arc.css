@@ -73,7 +73,7 @@ img{
 	text-align: center;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1{
-	width: 100%;
+	width: 95%;
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -82,7 +82,7 @@ img{
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li{
 	float: left;
-	width: 178px;
+	width: 175px;
 	text-align: center;
 	padding: 0 10px;
 	z-index: 999;
@@ -98,14 +98,14 @@ img{
 	text-align: center;
 	text-decoration: none;
 	line-height: 60px;
-	font-size: 16px;
+	font-size: 15px;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
 	transition: transform 0.5s;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
 	position: absolute;
-	width: 178px;
+	width: 175px;
 	overflow: visible;
 	clear: left;
 	margin-top: 60px;
@@ -154,8 +154,9 @@ img{
 
 }
 #app > article > #content-top > .text > h2{
+	font-size: 28px;
 	color: #002ea3;
-	font-size: 24px;
+  	font-weight: 600;
 	line-height: 60px;	
 }
 #app > article > #content-top > .text >p{

@@ -18,12 +18,7 @@
 	<title>大氣防蝕｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
 	<link rel="stylesheet" type="text/css" href="css/tech-corrosion.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/tech-corrosion.js"></script>
 	
-	<!--[if lt IE 9]>
-	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 </head>
 <body>
 	<div id="app">
@@ -132,12 +127,23 @@
 				</div>
 			</aside>
 			<div>
-				<section id="content-top">
-					<h2>大氣防蝕領域應用</h2>
-					<p>
-						在業界，防蝕主要有幾種製程可以使用，分別為熱噴塗鋅鋁塗層、熱浸鍍鋅以及油漆，以上三種制程各有其優缺點。熱噴塗鋅鋁塗層其優勢在於，可進行大面積噴塗、工件沒有大小的限制，也可以進行現場施工，塗層防護時間為三者中最久的。常見防蝕技術應用如橋樑防蝕工程、離岸風力發電機防蝕工程等。
-					</p>
-					<!-- <img src=""> -->
+				<section>
+					<ul id="content">
+						<li class="block" v-for="item in contents">
+							<div class="title" v-if="item.show_title">{{item.title}}<br></div>
+					        <div class="text" v-if="item.show_text">
+					        	<ul class="word">
+					        		<li class="text" v-for="text in item.texts">{{text}}</li>
+					        	</ul>
+					        </div>
+					        <br>
+					        <div class="sub_title" v-if="item.show_lists">
+								<ul>
+									<li class="text" v-for="list in item.lists">{{list}}</li>
+								</ul>
+							</div>
+						</li>
+					</ul>	
 				</section>
 			</div>
 		</article>
@@ -151,5 +157,13 @@
 			</div>
 		</footer>
 	</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.js'></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tech-corrosion.js"></script>
+	
+	<!--[if lt IE 9]>
+	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </body>
 </html>	

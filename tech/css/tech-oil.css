@@ -73,7 +73,7 @@ img{
 	text-align: center;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1{
-	width: 100%;
+	width: 95%;
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -82,7 +82,7 @@ img{
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li{
 	float: left;
-	width: 178px;
+	width: 175px;
 	text-align: center;
 	padding: 0 10px;
 	z-index: 999;
@@ -98,14 +98,14 @@ img{
 	text-align: center;
 	text-decoration: none;
 	line-height: 60px;
-	font-size: 16px;
+	font-size: 15px;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
 	transition: transform 0.5s;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
 	position: absolute;
-	width: 178px;
+	width: 175px;
 	overflow: visible;
 	clear: left;
 	margin-top: 60px;
@@ -199,30 +199,53 @@ img{
 #app > article > div{
 	width: 75%;
 	height: auto;
-	overflow: hidden;
+	float: right;
+	margin: 40px 0;
 }
-#app > article > div > #content-top{
+#app > article > div > section{
 	width: 100%;
 	height: auto;
-	overflow: hidden;
-	padding: 30px 60px;
-	margin: 0 auto;
-}
-#app > article > div > #content-top > h2{
-	font-size: 28px;
-	color: #004eb1;
-}
-#app > article > div > #content-top > p{
+	padding: 0 80px;
 	font-size: 16px;
-	color: #404040;
-	line-height: 32px;
+    color: #404040;	
+    font-weight: 400;
 }
-#app > article > div > #content-top > img{
-	width: 40%;
-	height: auto;
-	float: left;
-	margin: 20px 0 20px 40px;
-	border-radius: 4px;
+#app > article > div > section > ul > li{
+}
+#app > article > div > section > ul > .block{
+	list-style: none;
+}
+#app > article > div > section > ul > .block > div{
+	font-size: 16px;
+	line-height: 2em;
+    color: #404040;	
+    font-weight: 400;
+}
+#app > article > div > section > ul > .block > .title{
+	font-size: 28px;
+	color: #002ea3;
+  	font-weight: 600;
+}
+#app > article > div > section > ul > .block > .sub_title{
+	font-size: 22px;
+	color: #004ab1;
+	font-weight: 600;	
+}
+#app > article > div > section > ul > .block > div > ul{
+	list-style: circle;
+	margin-left: 20px;
+}
+#app > article > div > section > ul > .block > div > ul > .text{
+	font-size: 16px;
+    color: #404040;	
+    font-weight: 400;
+}
+#app > article > div > section > ul > .block > .text > .word{
+	list-style: none;
+	margin-left: 0px;
+}
+#app > article > div > section > ul > .block > .text > .word > li{
+	margin-bottom: 20px;
 }
 /* ---------------------------------------------- */
 #app > footer{

@@ -158,13 +158,15 @@ img{
 	padding: 40px 120px;
 }
 #app > article > #content-middle > h2{
+	font-size: 28px;
 	color: #002ea3;
-	font-size: 24px;
+  	font-weight: 600;
 	
 }
 #app > article > #content-middle > h3{
+	font-size: 22px;
 	color: #004ab1;
-	font-size: 20px;	
+	font-weight: 600;	
 }
 #app > article > #content-middle > p{
 	color: #404040;
@@ -238,10 +240,6 @@ img{
 	display: block;
 	height: 81px;
 	overflow: hidden;
-	text-overflow: ellipsis;
-	display: -webkit-box;
-	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;
 }
 #app > article > #content-bottom > div > ul > li > a > .text-box > button{
 	font-size: 15px;

@@ -18,12 +18,7 @@
 	<title>石化油氣｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
 	<link rel="stylesheet" type="text/css" href="css/tech-oil.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/tech-oil.js"></script>
 	
-	<!--[if lt IE 9]>
-	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 </head>
 <body>
 	<div id="app">
@@ -132,12 +127,23 @@
 				</div>
 			</aside>
 			<div>
-				<section id="content-top">
-					<h2>石化油氣領域應用</h2>
-					<p>
-						石化產業工件幾乎都是在極端壓力下磨損、腐蝕、化學侵蝕和磨損。該領域最常使用的塗層為碳化鎢、鎳基超合金和鈷基超合金塗層，並搭配高壓高速火焰噴塗，可以有效提升工件壽命。最典型的應用為球閥、閥體、閘板、螺桿、深抽油管。
-					</p>
-					<!-- <img src=""> -->
+				<section>
+					<ul id="content">
+						<li class="block" v-for="item in contents">
+							<div class="title" v-if="item.show_title">{{item.title}}<br></div>
+					        <div class="text" v-if="item.show_text">
+					        	<ul class="word">
+					        		<li class="text" v-for="text in item.texts">{{text}}</li>
+					        	</ul>
+					        </div>
+					        <br>
+					        <div class="sub_title" v-if="item.show_lists">
+								<ul>
+									<li class="text" v-for="list in item.lists">{{list}}</li>
+								</ul>
+							</div>
+						</li>
+					</ul>	
 				</section>
 			</div>
 		</article>
@@ -151,5 +157,13 @@
 			</div>
 		</footer>
 	</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.js'></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tech-oil.js"></script>
+	
+	<!--[if lt IE 9]>
+	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </body>
 </html>	

@@ -18,12 +18,7 @@
 	<title>其他應用｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
 	<link rel="stylesheet" type="text/css" href="css/tech-others.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/tech-others.js"></script>
 	
-	<!--[if lt IE 9]>
-	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 </head>
 <body>
 	<div id="app">
@@ -132,10 +127,23 @@
 				</div>
 			</aside>
 			<div>
-				<section id="content-top">
-					<h2>其他領域應用</h2>
-					<p>在生醫領域中，能使用電漿噴塗HA材料在牙根或人造骨骼上，以提供更好的生物相容性；在靶材工業製程中，使用冷氣動力噴塗可進行靶材的再生工作，而熱噴塗（電漿噴塗）可以生產一些陶瓷靶材，例如：矽靶、氧化鈮、氧化鉻等；熱噴塗製程在固態氧化物燃料電池的應用上，目前噴塗連接板相關之技術應用已相當成熟，在高溫環境下可以提高電子傳導能力。</p>
-					<!-- <img src="">	 -->
+				<section>
+					<ul id="content">
+						<li class="block" v-for="item in contents">
+							<div class="title" v-if="item.show_title">{{item.title}}<br></div>
+					        <div class="text" v-if="item.show_text">
+					        	<ul class="word">
+					        		<li class="text" v-for="text in item.texts">{{text}}</li>
+					        	</ul>
+					        </div>
+					        <br>
+					        <div class="sub_title" v-if="item.show_lists">
+								<ul>
+									<li class="text" v-for="list in item.lists">{{list}}</li>
+								</ul>
+							</div>
+						</li>
+					</ul>	
 				</section>
 			</div>
 		</article>
@@ -149,5 +157,13 @@
 			</div>
 		</footer>
 	</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.js'></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tech-others.js"></script>
+	
+	<!--[if lt IE 9]>
+	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </body>
 </html>	
