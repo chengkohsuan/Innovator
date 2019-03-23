@@ -1,6 +1,6 @@
 
 
-var app_infos=[
+var others_data=[
   {
     show_title: true,
     title: "其他領域應用",
@@ -11,9 +11,9 @@ var app_infos=[
   },
   ];
 
-var vm_1=new Vue({
-  el: "#content",
+var vm_4=new Vue({
+  el: "#others_content",
   data: {
-  	contents: app_infos,
+  	contents: others_data,
   }
 });

@@ -1,5 +1,5 @@
 
-var app_infos=[
+var corrosion_data=[
   {
     show_title: true,
     title: "大氣防蝕領域應用",
@@ -10,9 +10,9 @@ var app_infos=[
   },
   ];
 
-var vm_1=new Vue({
-  el: "#content",
+var vm_2=new Vue({
+  el: "#corrosion_content",
   data: {
-  	contents: app_infos,
+  	contents: corrosion_data,
   }
 });

@@ -1,5 +1,5 @@
 
-var app_infos=[
+var paper_data=[
   {
     show_title: true,
     title: "印刷造紙領域應用",
@@ -10,9 +10,9 @@ var app_infos=[
   },
   ];
 
-var vm_1=new Vue({
-  el: "#content",
+var vm_5=new Vue({
+  el: "#paper_content",
   data: {
-  	contents: app_infos,
+  	contents: paper_data,
   }
 });

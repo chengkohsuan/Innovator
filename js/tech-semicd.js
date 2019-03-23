@@ -1,5 +1,5 @@
 
-var app_infos=[
+var semicd_data=[
   {
     show_title: true,
     title: "光電半導體領域應用",
@@ -10,9 +10,9 @@ var app_infos=[
   },
   ];
 
-var vm_1=new Vue({
-  el: "#content",
+var vm_6=new Vue({
+  el: "#semicd_content",
   data: {
-  	contents: app_infos,
+  	contents: semicd_data,
   }
 });

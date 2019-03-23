@@ -1,5 +1,5 @@
 
-var app_infos=[
+var steel_data=[
   {
     show_title: true,
     title: "鋼鐵冶鍊領域應用",
@@ -10,9 +10,9 @@ var app_infos=[
   },
   ];
 
-var vm_1=new Vue({
-  el: "#content",
+var vm_7=new Vue({
+  el: "#steel_content",
   data: {
-  	contents: app_infos,
+  	contents: steel_data,
   }
 });

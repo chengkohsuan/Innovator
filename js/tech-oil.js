@@ -1,5 +1,5 @@
 
-var app_infos=[
+var oil_data=[
   {
     show_title: true,
     title: "石化油氣領域應用",
@@ -10,9 +10,9 @@ var app_infos=[
   },
   ];
 
-var vm_1=new Vue({
-  el: "#content",
+var vm_3=new Vue({
+  el: "#oil_content",
   data: {
-  	contents: app_infos,
+  	contents: oil_data,
   }
 });
