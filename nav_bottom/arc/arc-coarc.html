@@ -16,9 +16,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device‐width, initial‐scale=1">
 	<title>Praxair CoArc｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
-	<link rel="stylesheet" type="text/css" href="css/arc-coarc.css">
-	<link rel="stylesheet" type="text/css" href="../../header+footer.css">
+	<link rel="stylesheet" type="text/css" href="../../css/sub.css">
+	<link rel="stylesheet" type="text/css" href="../../css/header+footer.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	
 	
 </head>
 <body>
@@ -30,10 +31,10 @@
 				</a>
 				<nav class="main-nav">
 					<ul>
-						<li><a href="../../tech/tech.html">技術應用</a></li>
-						<li><a href="../../about/about.html">關於我們</a></li>
+						<li><a href="../../nav_top/tech.html">技術應用</a></li>
+						<li><a href="../../nav_top/about.html">關於我們</a></li>
 						<!-- <li><a href="">動態消息</a></li> -->
-						<li><a href="../../contact/contact.html">聯絡我們</a></li>
+						<li><a href="../../nav_top/contact.html">聯絡我們</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -127,7 +128,7 @@
 			</aside>
 			<div>
 				<section>
-				     <ul id="infos">
+				     <ul id="content_coarc">
 				    	<li class="block" v-for="item in products"> 
 					        <div class="title" v-if="item.show_title">{{item.title}}<br></div>
 					        <div class="text" v-if="item.show_text">{{item.text}}</div>
@@ -146,7 +147,7 @@
 				        	<br>
 				      	</li>
 				    </ul>
-					<ul id="spec_infos">
+					<ul id="spec_infos_coarc">
 						<li class="block" v-for="item in contents">
 							<div class="sub_title">{{item.s_title}}規格：
 								<ul>
@@ -172,8 +173,9 @@
 	</div>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.js'></script>
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/arc-coarc.js"></script>
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/pd_nav.js"></script>
+<script type="text/javascript" src="../../js/arc-sub.js"></script>
 	
 	<!--[if lt IE 9]>
 	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

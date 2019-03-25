@@ -16,8 +16,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device‐width, initial‐scale=1">
 	<title>Saint Gobain 火焰噴槍｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
-	<link rel="stylesheet" type="text/css" href="css/flame-guns.css">
-	<link rel="stylesheet" type="text/css" href="../../header+footer.css">
+	<link rel="stylesheet" type="text/css" href="../../css/sub.css">
+	<link rel="stylesheet" type="text/css" href="../../css/header+footer.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	
 </head>
@@ -30,10 +30,10 @@
 				</a>
 				<nav class="main-nav">
 					<ul>
-						<li><a href="../../tech/tech.html">技術應用</a></li>
-						<li><a href="../../about/about.html">關於我們</a></li>
+						<li><a href="../../nav_top/tech.html">技術應用</a></li>
+						<li><a href="../../nav_top/about.html">關於我們</a></li>
 						<!-- <li><a href="">動態消息</a></li> -->
-						<li><a href="../../contact/contact.html">聯絡我們</a></li>
+						<li><a href="../../nav_top/contact.html">聯絡我們</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -123,7 +123,7 @@
 			</aside>
 			<div>
 				<section>
-					<ul id="infos">
+					<ul id="content_guns">
 				    	<li class="block" v-for="item in products"> 
 					        <div class="title" v-if="item.show_title">{{item.title}}<br></div>
 					        <div class="text" v-if="item.show_text">{{item.text}}</div>
@@ -157,8 +157,9 @@
 	</div>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.js'></script>
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/flame-guns.js"></script>
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/pd_nav.js"></script>
+<script type="text/javascript" src="../../js/flame-sub.js"></script>
 
 <!--[if lt IE 9]>
 <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

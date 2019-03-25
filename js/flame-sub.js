@@ -1,5 +1,5 @@
 
-var pd_infos=[
+var data_guns=[
   {
     show_title: true,
     title: "Saint-Gobain Top Jet ＆ Master Jet火焰噴槍",
@@ -15,8 +15,8 @@ var pd_infos=[
   ];
 
 var vm_1=new Vue({
-  el: "#infos",
+  el: "#content_guns",
   data: {
-  products: pd_infos,
+  products: data_guns,
   }
 });

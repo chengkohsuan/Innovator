@@ -1,5 +1,5 @@
 
-var pd_infos=[
+var data_impact=[
   {
     show_title: true,
     title: "Impact 冷氣動力噴塗系統",
@@ -15,13 +15,13 @@ var pd_infos=[
   ];
 
 var vm_1=new Vue({
-  el: "#infos",
+  el: "#content_impact",
   data: {
-  products: pd_infos,
+  products: data_impact,
   }
 });
 
-var specdata=[
+var specdata_impact=[
   {
 	s_title: "5/8規格",
 	s_items: ["最大操作壓力：50 bar","最高操作溫度：800°C","加熱功率：34 kW"],
@@ -32,23 +32,23 @@ var specdata=[
   },
 ];
 
-var vm_2=new Vue({
-	el: "#spec_infos",
+var vm_1_1=new Vue({
+	el: "#spec_infos_impact",
 	data: {
-	contents: specdata,
+	contents: specdata_impact,
 	}
 });
 
 Vue.component('table_template', {
-  template: '#table-template',
+  template: '#table-template_impact',
   props: {
     data: {},
     columns: [],
   }
 });
 
-var vm_3= new Vue({
-  el: '#table',
+var vm_1_2= new Vue({
+  el: '#table_impact',
   data: {
     tableTitle: "適用材料比較：",
     tableHead: ['材料', "Impact 5/8", "Impact 5/11", '水冷需求'],
