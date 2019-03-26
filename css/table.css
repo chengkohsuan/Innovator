@@ -1,5 +1,7 @@
 
-
+table{
+	width: 90%;
+}
 table > thead,tbody > tr{
 	border-bottom: solid 1px #ccc;
 }
@@ -10,9 +12,12 @@ table > thead{
 table > thead > tr > th{
   	padding: 10px 20px;
 }
+table > tbody > tr{
+	width: 100%;
+}
 table > tbody > tr > td{
-	min-width: 184px;
-	max-width: 200px;
+	min-width: 160px;
+	max-width: 20%;
   	padding: 10px 20px;
 }
 .table > h3{
