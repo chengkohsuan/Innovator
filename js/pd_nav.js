@@ -12,4 +12,13 @@ $(function(){
 	
 });
 
+$(function(){
+	$("#pd-nav > .button").click(function(){
+		$(this).children('.layer-1').css('display','block');
+	},function(){
+		$(this).children('.layer-1').css('display','none');
+	});
+});
+//失敗
+
 
