@@ -1,17 +1,18 @@
-
 #app > article{
-	width: 100%;
+	width: 80%;
 	height: auto;
 	min-height: 840px;
 	overflow: hidden;
+	margin: 0 auto;
+	padding: 40px 0;
 	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
 }
 #app > article > .sidebar{
 	width: 25%;
 	height: auto;
 	overflow: hidden;
-	padding: 40px 0px 40px 80px;
-	float: left;
 }
 #app > article > .sidebar > .menu-title{
 	width: 100%;
@@ -65,13 +66,11 @@
 #app > article > div{
 	width: 75%;
 	height: auto;
-	float: right;
-	margin: 40px 0;
+	margin-left: 80px;
 }
 #app > article > div > section{
 	width: 100%;
 	height: auto;
-	padding: 0 80px;
 	font-size: 16px;
     color: #404040;	
     font-weight: 400;

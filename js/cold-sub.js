@@ -24,10 +24,12 @@ var vm_1=new Vue({
 var specdata_impact=[
   {
 	s_title: "5/8規格",
+  s_pic: "../../image/cold-impact-04.jpg",
 	s_items: ["最大操作壓力：50 bar","最高操作溫度：800°C","加熱功率：34 kW"],
   },
   {
 	s_title: "5/11規格",
+  s_pic: "../../image/cold-impact-05.jpg",
 	s_items: ["最大操作壓力：50 bar","最高操作溫度：1100°C","加熱功率：40 kW"],
   },
 ];

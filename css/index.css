@@ -17,10 +17,11 @@
 	width: 100%;
 }
 #app > article > #content-middle{
-	width: 100%;
+	width: 80%;
 	height: auto;
 	overflow: hidden;
 	padding: 40px 120px;
+	margin: 0 auto;
 }
 #app > article > #content-middle > h2{
 	font-size: 28px;
@@ -40,10 +41,11 @@
 	margin-top: 40px;
 }
 #app > article > #content-bottom{
-	width: 100%;
+	width: 80%;
 	height: auto;
 	overflow: hidden;
 	padding: 40px 80px;
+	margin: 0 auto;
 }
 #app > article > #content-bottom > div{
 	width: 100%;

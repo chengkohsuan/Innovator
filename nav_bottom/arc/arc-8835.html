@@ -19,6 +19,7 @@
 	<link rel="stylesheet" type="text/css" href="../../css/sub.css">
 	<link rel="stylesheet" type="text/css" href="../../css/header+footer.css">
 	<link rel="stylesheet" type="text/css" href="../../css/table.css">
+	<link rel="stylesheet" type="text/css" href="../../css/img.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	
 	
@@ -27,9 +28,6 @@
 	<div id="app">
 		<header>
 			<div class="header-top">
-				<a id="main-logo" href="../../index.html">
-					<img src="../../image/main-logo.png">
-				</a>
 				<nav class="main-nav">
 					<ul>
 						<li><a href="../../nav_top/tech.html">技術應用</a></li>
@@ -38,6 +36,9 @@
 						<li><a href="../../nav_top/contact.html">聯絡我們</a></li>
 					</ul>
 				</nav>
+				<a id="main-logo" href="../../index.html">
+					<img src="../../image/main-logo.png">
+				</a>
 			</div>
 			<div class="header-bottom">
 				<nav id="pd-nav">
@@ -148,13 +149,16 @@
 				        	<br>
 				      	</li>
 				    </ul>
-					<ul id="spec_infos_8835">
+					<ul id="spec_infos_8835" class="spec_img">
 						<li class="block" v-for="item in contents">
+							<div class="img-4">
+								<img src="{{item.s_pic}}">
+							</div>
 							<div class="sub_title">{{item.s_title}}規格：
 								<ul>
 									<li class="text" v-for="s_item in item.s_items">{{s_item}}</li>
 								</ul>
-								<br>
+								
 							</div>
 
 						</li>

@@ -5,10 +5,11 @@
 	background-color: #fff;
 }
 #app > article > section{
-	width: 100%;
+	width: 80%;
 	height: auto;
 	overflow: hidden;
-	padding: 40px 80px;
+	padding: 40px 0;
+	margin: 0 auto;
 }
 #app > article > section > .map{
 	display: inline-block;

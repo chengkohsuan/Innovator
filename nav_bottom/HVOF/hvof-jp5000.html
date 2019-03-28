@@ -6,6 +6,7 @@
 	<title>Praxair JP-5000｜INNOVATOR SURFACE TECHNOLOGIES</title>
 	<link rel="stylesheet" type="text/css" href="../../css/sub.css">
 	<link rel="stylesheet" type="text/css" href="../../css/header+footer.css">
+	<link rel="stylesheet" type="text/css" href="../../css/img.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	
 </head>
@@ -13,9 +14,6 @@
 	<div id="app">
 		<header>
 			<div class="header-top">
-				<a id="main-logo" href="../../index.html">
-					<img src="../../image/main-logo.png">
-				</a>
 				<nav class="main-nav">
 					<ul>
 						<li><a href="../../nav_top/tech.html">技術應用</a></li>
@@ -24,6 +22,9 @@
 						<li><a href="../../nav_top/contact.html">聯絡我們</a></li>
 					</ul>
 				</nav>
+				<a id="main-logo" href="../../index.html">
+					<img src="../../image/main-logo.png">
+				</a>
 			</div>
 			<div class="header-bottom">
 				<nav id="pd-nav">
@@ -121,7 +122,11 @@
 					        		<li class="text" v-for="text in item.texts">{{text}}</li>
 					        	</ul>
 					        </div>
-					        <br>
+					        <div class="img-1">
+					        	<img src="../../image/hvof-jp5000-01.jpg">
+					        	<img src="../../image/hvof-jp5000-02.jpg">
+					        	<img src="../../image/blank.jpg">
+					        </div>
 					        <div class="sub_title" v-if="item.show_features">產品特色：
 								<ul>
 									<li class="text" v-for="feature in item.features">{{feature}}</li>
