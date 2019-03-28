@@ -127,25 +127,25 @@
 					<ul id="content_guns">
 				    	<li class="block" v-for="item in products"> 
 					        <div class="title" v-if="item.show_title">{{item.title}}<br></div>
-					        <div class="text" v-if="item.show_text">{{item.text}}</div>
-					        <br>
-					        <div class="img-2">
+					        <div class="text" v-if="item.show_text">{{item.text}}<br></div>
+					        
+					        <div class="img-1">
 					        	<img src="../../image/flame-guns-01.jpg">
 					        	<img src="../../image/flame-guns-02.jpg">
-					        	<!-- <img src="../../image/blank.jpg"> -->
+					        	<img src="../../image/blank.jpg">
 					        </div>
 					        <div class="sub_title" v-if="item.show_features">產品特色：
 								<ul>
 									<li class="text" v-for="feature in item.features">{{feature}}</li>
-								</ul>
+								</ul><br>
 							</div>
-							<br>
+							
 					        <div class="sub_title" v-if="item.show_specs">規格：
 					        	<ul>
 						            <li class="text" v-for="spec in item.specs">{{spec}}</li>
-						         </ul>   
+						         </ul><br>   
 					        </div>
-				        	<br>
+				        	
 				      	</li>
 				    </ul>
 				</section>
