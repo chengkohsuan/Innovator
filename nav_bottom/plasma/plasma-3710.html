@@ -132,15 +132,16 @@
 					<ul id="content_3710">
 				    	<li class="block" v-for="item in products"> 
 					        <div class="title" v-if="item.show_title">{{item.title}}<br></div>
+					        <div class="img-0">
+				        		<img src="{{item.pic}}">
+				        	</div>
 					        <div class="text" v-if="item.show_text">
 					        	<ul class="word">
 					        		<li class="text" v-for="text in item.texts">{{text}}</li>
 					        	</ul>
 					        </div>
 					        <br>
-					        <div class="img-2">
-				        		<img src="{{item.pic}}">
-				        	</div>
+					        
 					        <div class="sub_title" v-if="item.show_features">產品特色：
 								<ul>
 									<li class="text" v-for="feature in item.features">{{feature}}</li>
