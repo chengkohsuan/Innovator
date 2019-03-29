@@ -18,6 +18,7 @@
 	<title>自動化設備｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
 	<link rel="stylesheet" type="text/css" href="../../css/sub.css">
 	<link rel="stylesheet" type="text/css" href="../../css/header+footer.css">
+	<link rel="stylesheet" type="text/css" href="../../css/img.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	
 </head>
@@ -130,7 +131,11 @@
 				    	<li class="block" v-for="item in products"> 
 					        <div class="title" v-if="item.show_title">{{item.title}}<br></div>
 					        <div class="text" v-if="item.show_text">{{item.text}}</div>
-					        <br>
+					        <div class="img-1">
+					        	<ul class="img-list">
+					        		<li v-for="pic in item.pics"><img src="{{pic}}"></li>
+					        	</ul>
+					        </div>
 					        <div class="sub_title" v-if="item.show_features">產品特色：
 								<ul>
 									<li class="text" v-for="feature in item.features">{{feature}}</li>

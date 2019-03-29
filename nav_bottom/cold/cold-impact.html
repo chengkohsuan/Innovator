@@ -130,9 +130,9 @@
 					        <div class="title" v-if="item.show_title">{{item.title}}<br></div>
 					        <div class="text" v-if="item.show_text">{{item.text}}</div>
 					        <div class="img-1">
-					        	<img src="../../image/cold-impact-01.jpg">
-					        	<img src="../../image/cold-impact-02.jpg">
-					        	<img src="../../image/cold-impact-03.jpg">
+					        	<ul class="img-list">
+					        		<li v-for="pic in item.pics"><img src="{{pic}}"></li>
+					        	</ul>
 					        </div>
 					        <div class="sub_title" v-if="item.show_features">產品特色：
 								<ul>

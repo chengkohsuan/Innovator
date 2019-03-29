@@ -128,11 +128,10 @@
 				    	<li class="block" v-for="item in products"> 
 					        <div class="title" v-if="item.show_title">{{item.title}}<br></div>
 					        <div class="text" v-if="item.show_text">{{item.text}}<br></div>
-					        
 					        <div class="img-1">
-					        	<img src="../../image/flame-guns-01.jpg">
-					        	<img src="../../image/flame-guns-02.jpg">
-					        	<img src="../../image/blank.jpg">
+					        	<ul class="img-list">
+					        		<li v-for="pic in item.pics"><img src="{{pic}}"></li>
+					        	</ul>
 					        </div>
 					        <div class="sub_title" v-if="item.show_features">產品特色：
 								<ul>
