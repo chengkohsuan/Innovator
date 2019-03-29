@@ -151,13 +151,13 @@
 				    </ul>
 					<ul id="spec_infos_8835" class="spec_img">
 						<li class="block" v-for="item in contents">
+							<div class="img-4">
+								<img src="{{item.s_pic}}">
+							</div>
 							<div class="sub_title">{{item.s_title}}規格：
 								<ul>
 									<li class="text" v-for="s_item in item.s_items">{{s_item}}</li>
 								</ul>
-							</div>
-							<div class="img-4">
-								<img src="{{item.s_pic}}">
 							</div>
 						</li>
 					</ul>
