@@ -1,57 +1,58 @@
-/* img-0 text上方大圖*/
-.img-0{
+/* img-1 text上方大圖*/
+.img-1{
 	width: 80%;
 	margin: 10px auto;
 }
-.img-0 > img{
+.img-1 > img{
 	width: 100%;
 }
 
-/* img-1 text下方小圖*/
-.img-1{
+/* img-2 text下方小圖*/
+.img-2{
 	height: auto;
 	width: 100%;
 	margin: 30px 0;
 }
-.img-1 > .img-list{
+.img-2 > .img-list{
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
 	
 }
-.img-1 > .img-list > li{
+.img-2 > .img-list > li{
 	list-style: none;
 	display: block;
 	width: 30%;
 } 
-.img-1 > .img-list > li > img{
+.img-2 > .img-list > li > img{
 	width: 100%;
 }
 
 
-/* img-2 feature右飄*/
-.img-2{
+/* img-3 feature右飄*/
+.img-3{
 	width: 45%;
 	padding: 40px;
+	padding-right: 0;
 	float: right;
 }
-.img-2 > img{
+.img-3 > img{
 	width: 100%;
 	height: auto;
 }
 
 
-/* img-3 分項spec左側*/
+/* img-4 分項spec左側*/
 .spec_img > li{
 	display: flex;
 	align-items: center;
 	margin-bottom: 30px;
 }
-.img-3{
+.img-4{
 	height: 200px;
 	padding-right: 30px;
 }
-.img-3 > img{
+.img-4 > img{
 	height: 100%;
 	width: auto;
 }

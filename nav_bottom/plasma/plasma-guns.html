@@ -137,9 +137,10 @@
 					        		<li class="text" v-for="text in item.texts">{{text}}</li>
 					        	</ul>
 					        </div>
-					        <div class="img-2">
-								<img src="{{item.pic}}">
-							</div>
+					        <br>
+							<div class="img-3">
+				        		<img src="{{item.pic}}">
+				        	</div>
 					        <div class="sub_title" v-if="item.show_features">產品特色：
 								<ul>
 									<li class="text" v-for="feature in item.features">{{feature}}</li>
@@ -156,14 +157,14 @@
 				    </ul>
 				    <ul id="spec_infos_guns" class="spec_img">
 						<li class="block" v-for="item in contents">
+							<div class="img-4">
+								<img src="{{item.s_pic}}">
+							</div>
 							<div class="title">{{item.s_title}}規格：
 								<ul>
 									<li class="text" v-for="s_item in item.s_items">{{s_item}}</li>
 								</ul>
 								<br>
-							</div>
-							<div class="img-4">
-								<img src="{{item.s_pic}}">
 							</div>
 						</li>
 					</ul>	
