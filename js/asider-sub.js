@@ -95,6 +95,7 @@ var vm_3=new Vue({
 
 var data_spraywatch=[
   {
+    pics: ["../../image/img-2-spraywatch-1.jpg","../../image/img-2-spraywatch-2.jpg","../../image/img-2-spraywatch-3.jpg"],
     show_title: true,
     title: "Spray Watch 噴塗監控系統",
     show_text: true,
