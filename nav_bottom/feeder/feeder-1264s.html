@@ -18,6 +18,8 @@
 	<title>Praxair 1264系列｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
 	<link rel="stylesheet" type="text/css" href="../../css/sub.css">
 	<link rel="stylesheet" type="text/css" href="../../css/header+footer.css">
+	<link rel="stylesheet" type="text/css" href="../../css/table.css">
+	<link rel="stylesheet" type="text/css" href="../../css/img.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	
 </head>
@@ -137,28 +139,37 @@
 					        <div class="sub_title" v-if="item.show_features">產品特色：
 								<ul>
 									<li class="text" v-for="feature in item.features">{{feature}}</li>
-								</ul>
+								</ul><br>
 							</div>
-							<br>
 					        <div class="sub_title" v-if="item.show_specs">規格：
 					        	<ul>
 						            <li class="text" v-for="spec in item.specs">{{spec}}</li>
-						         </ul>   
+						         </ul><br>
 					        </div>
-				        	<br>
 				      	</li>
 				    </ul>
-				    <ul id="spec_infos_1264">
-						<li class="block" v-for="item in contents">
-							<div class="sub_title">{{item.s_title}}規格：
-								<ul>
-									<li class="text" v-for="s_item in item.s_items">{{s_item}}</li>
-								</ul>
-								<br>
-							</div>
-
-						</li>
-					</ul>
+					<script type="text/x-template" id="table-template_1264">
+					  <table>
+					    <thead>
+					      <tr>
+					        <th v-for="item in columns"> {{item}}</th>
+					      </tr>
+					    </thead>
+					    <tbody>
+					      <tr v-for="entry in data">
+					        <td v-for="item in columns"> {{entry[item]}}</td>
+					      </tr>
+					    </tbody>
+					  </table>
+					</script>
+		        	<!-- demo root element -->
+					<div id="table_1264" class="table">
+					  <h3>{{tableTitle}}</h3>
+					  <table_template
+					    :columns="tableHead"
+					    :data="tableData">
+					  </table_template>
+					</div>
 				</section>
 			</div>
 		</article>

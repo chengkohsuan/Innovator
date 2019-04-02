@@ -18,6 +18,7 @@
 	<title>鋼鐵冶煉｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
 	<link rel="stylesheet" type="text/css" href="../css/sub.css">
 	<link rel="stylesheet" type="text/css" href="../css/header+footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/img.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	
 </head>
@@ -137,7 +138,11 @@
 					        		<li class="text" v-for="text in item.texts">{{text}}</li>
 					        	</ul>
 					        </div>
-					        <br>
+					         <div class="img-2">
+					        	<ul class="img-list">
+					        		<li v-for="pic in item.pics"><img src="{{pic}}"></li>
+					        	</ul>
+					        </div>
 					        <div class="sub_title" v-if="item.show_lists">
 								<ul>
 									<li class="text" v-for="list in item.lists">{{list}}</li>
@@ -161,6 +166,7 @@
 
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.js'></script>
 	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/pd_nav.js"></script>
 	<script type="text/javascript" src="../js/tech-sub.js"></script>
 	
 	<!--[if lt IE 9]>

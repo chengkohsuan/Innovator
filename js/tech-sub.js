@@ -5,6 +5,7 @@ var aerospace_data=[
     title: "航太能源領域應用",
     show_text: true,
     texts: ["航太產業中常見的塗層有抗高溫的熱障塗層、可磨耗塗層、耐高溫金屬塗層（T400、T800）、耐磨耗塗層等。其中熱障塗層主要由兩個塗層組合而成，分別為鍵結層（Bond Coating）和頂層（Top Coating），而這兩種塗層所使用的熱噴塗工藝也不相同。以鍵結層而言，目前常見的工藝有低壓電漿噴塗（LPPS）、高壓高速火焰（HVOF、HVAF）。在鍵結層中所使用的材料為MCrAlY（M= Ni, Co, NiCo, CoNi），與頂層材料有良好的親和性。在頂層的工藝中目前主流為使用大氣電漿噴塗（APS），近幾年有相當多的國內外科研單位與製造商使用大氣漿料電漿噴塗（ASPS）來進行頂層的製作。頂層所使用的材料為氧化釔安定氧化鋯（8YSZ），該材料的特色為低熱傳導係數且相較於其他的絕熱材料價格相對便宜。這些塗層應用在各級的動葉、靜葉、動葉環、燃燒桶、密封環、飛機起落架等各式應用。",],
+    pics: ["../image/t-img-aerospace-1.jpg","../image/t-img-aerospace-2.jpg","../image/blank.jpg"],
     show_lists: false,
     lists: ["",],
   },
@@ -23,6 +24,7 @@ var corrosion_data=[
     title: "大氣防蝕領域應用",
     show_text: true,
     texts: ["在業界，防蝕主要有幾種製程可以使用，分別為熱噴塗鋅鋁塗層、熱浸鍍鋅以及油漆，以上三種制程各有其優缺點。熱噴塗鋅鋁塗層其優勢在於，可進行大面積噴塗、工件沒有大小的限制，也可以進行現場施工，塗層防護時間為三者中最久的。常見防蝕技術應用如橋樑防蝕工程、離岸風力發電機防蝕工程等。",],
+    pics: ["../image/t-img-corrosion-1.jpg","../image/t-img-corrosion-2.jpg","../image/t-img-corrosion-3.jpg"],
     show_lists: false,
     lists: ["",],
   },
@@ -38,6 +40,7 @@ var vm_2=new Vue({
 
 var oil_data=[
   {
+    pics: ["../image/t-img-oil-1.jpg","../image/t-img-oil-2.jpg","../image/t-img-oil-3.jpg"],
     show_title: true,
     title: "石化油氣領域應用",
     show_text: true,
@@ -74,6 +77,7 @@ var vm_4=new Vue({
 
 var paper_data=[
   {
+    pics: ["../image/t-img-paper-1.jpg","../image/t-img-paper-2.jpg","../image/t-img-paper-3.jpg"],
     show_title: true,
     title: "印刷造紙領域應用",
     show_text: true,
@@ -93,6 +97,7 @@ var vm_5=new Vue({
 
 var semicd_data=[
   {
+    pics: ["../image/t-img-semicd-1.jpg","../image/t-img-semicd-2.jpg","../image/t-img-semicd-3.jpg"],
     show_title: true,
     title: "光電半導體領域應用",
     show_text: true,
@@ -111,6 +116,7 @@ var vm_6=new Vue({
 
 var steel_data=[
   {
+    pics: ["../image/t-img-steel-1.jpg","../image/t-img-steel-2.jpg","../image/t-img-steel-3.jpg"],
     show_title: true,
     title: "鋼鐵冶鍊領域應用",
     show_text: true,
