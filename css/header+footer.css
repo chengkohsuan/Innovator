@@ -173,105 +173,26 @@ img{
 	line-height: 40px;
 }
 /* ------------------------------------- */
-/* @media screen and (max-width: 960px){
-   
-  #app > header > .header-top > .main-nav{
-    display: none;
-  }
-  #app > header > .header-top > a{
-    margin: 0 auto;
-  }
-  #app > header > .header-bottom > #pd-nav{
-  	width: 100%;
-  	display: flex;
-  	align-items: flex-start;
-  	height: auto;
-  	text-align: left;
-  }
-  #app > header > .header-bottom > #pd-nav > .button{
-  	display: block;
-  	width: 60px;
-  	height: 60px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	z-index: 11;
-  }
-  #app > header > .header-bottom > #pd-nav > .button > a{
-  	font-size: 4.2vw;
-  	color: #fff;
-  	font-weight: 600;
-  }
-  #app > header > .header-bottom > #pd-nav > .layer-1{
-	display: block;
-	width: 30%;
-	height: 100%;
-	margin: 0;
-  	z-index: 10;
-	background: linear-gradient(#002ea3,#0b1d75);
-	transform: translate(-60px,60px);
-	display: none;
-}
-#app > header > .header-bottom > #pd-nav > .layer-1 > li{
-	width: 100%;
-	text-align: left;
-	padding: 0 10px;
-}
-#app > header > .header-bottom > #pd-nav > .layer-1 > li > a{
-	text-align: left;
-	line-height: 6vw;
-	font-size: 1.6vw;
-	padding-left: 20px;
-}
-#app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
-	display: none;
-}
-#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
-	width: 100%;
-	background-color: #09175b;
-	opacity: 1;
-	display: none;
-}
-#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li{
-	padding: 0 10px;
-}
-#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li:hover{
-	background-color: #002ea3;
-}
-#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li > a{
-	display: block;
-	line-height: 6vw;
-	font-size: 1.6vw;
-	padding-left: 40px;
-}
-  #app > footer > #footer-logo{
-		width: 40%;
-		height: 60%;
-  }
 
-@media screen and (max-width: 413px){
-	#app > header > .header-top{
-	padding: 10px;
-	}
-	#app > header > .header-top > a {
-		width: 100%;
-		height: auto;
-	}
-	#app > header > .header-top > a > img{
-		width: 100%;
-		height: auto;
-	}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
 
-	#app > footer{
-		height: 70px;
-	}
-	#app > footer > #footer-logo{
-		width: 70%;
-		height: 90%;
-	}
-	#app > footer > #footer-info{
-		display: none;
-	}
-} */
+#app > header > .header-top > .main-nav{
+	display: none;
+}
+#app > header > .header-top > a{
+	margin: 0 auto;
+}
+#app > header > .header-top > a > img{
+	width: 95%;
+	height: auto;
+}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 320px){
+
+
+}
+
 
 
