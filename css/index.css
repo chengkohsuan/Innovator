@@ -20,23 +20,22 @@
 	width: 80%;
 	height: auto;
 	overflow: hidden;
-	padding: 40px 120px;
+	padding: 40px 0;
 	margin: 0 auto;
 }
 #app > article > #content-middle > h2{
-	font-size: 28px;
+	font-size: 1.75rem;font-size: 28px;
 	color: #002ea3;
   	font-weight: 600;
 	
 }
 #app > article > #content-middle > h3{
-	font-size: 22px;
+	font-size: 1.375rem;font-size: 22px;
 	color: #004ab1;
 	font-weight: 600;	
 }
 #app > article > #content-middle > p{
 	color: #404040;
-	font-size: 16px;
 	line-height: 32px;
 	margin-top: 40px;
 }
@@ -44,7 +43,7 @@
 	width: 80%;
 	height: auto;
 	overflow: hidden;
-	padding: 40px 80px;
+	padding: 40px 0;
 	margin: 0 auto;
 }
 #app > article > #content-bottom > div{
@@ -124,6 +123,27 @@
 #app > article > #content-bottom > div > ul > li > a:hover > .text-box > button{
 	color: #2c7ced;
 	transform: translateX(15px);
+}
+
+/* -------------------------------------------- */
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+	#app > article > #content-middle{
+		width: 90%;
+		padding: 2rem 0;
+	}
+	#app > article > #content-bottom{
+		width: 90%;
+		padding: 0;
+		margin-bottom: 2rem;
+	}
+	#app > article > #content-bottom > div > ul{
+		display: block;
+	}
+	#app > article > #content-bottom > div > ul > li{
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
 }
 
 
