@@ -7,3 +7,9 @@ $(function(){
 		$(this).children('.layer-2').css('display','none');
 	});
 });
+
+$(function(){
+    $("#nav-toggle").on("click",function(){
+        $("#pd-nav").css('height','auto');
+    })
+});

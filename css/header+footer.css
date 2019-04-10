@@ -194,7 +194,8 @@ img{
 	z-index: 50;
 }
 #app > header > .header-bottom > #pd-nav{
-	display: none;
+	height: 0;
+	overflow: hidden;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1{
 	display: block;
