@@ -28,7 +28,7 @@ img{
 	height: auto;
 }
 #app > header > .header-top{
-	padding: 20px 10px;
+	padding: 20px 0;
 	width: 80%;
   	margin: 0 auto;
 	background-color: #fff;
@@ -41,7 +41,6 @@ img{
 }
 #app > header > .header-top > .main-nav > ul{
     display: flex;
-  
 }
 #app > header > .header-top > .main-nav > ul > li{
 	list-style: none;
@@ -73,18 +72,15 @@ img{
 	height: 60px;
 	width: 100%;
 	background: linear-gradient(#002ea3,#0b1d75);
+	z-index: 10;
 }
-#app > header > .header-bottom > button{
-	display:  none;
+#app > header > .header-bottom > .button{
+	display: none;
 }
 #app > header > .header-bottom > #pd-nav{
 	width: 100%;
 	height: 100%;
 	color: #fff;
-	text-align: center;
-}
-#app > header > .header-bottom > #pd-nav > .button{
-	display: none;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1{
 	width: 80%;
@@ -96,7 +92,6 @@ img{
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li{
 	width: auto;
-	text-align: center;
 	padding: 0 10px;
 	z-index: 999;
 }
@@ -179,13 +174,54 @@ img{
 #app > header > .header-top > .main-nav{
 	display: none;
 }
+/* 複合導覽咧按鈕 */
+#app > header > .header-bottom > .button{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	padding: 0 2rem;
+}
+#app > header > .header-bottom > .button > a{
+	display: inline-block;
+	font-size: 1.5rem;
+	color: #fff;
+	line-height: 3.75rem;
+}
+/* 次導覽列 */
+#app > header > .header-bottom{
+	height: auto;
+	z-index: 50;
+}
+#app > header > .header-bottom > #pd-nav{
+	display: none;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1{
+	display: block;
+	margin: 0;
+	width: 100%;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > a{
+	text-align: left;
+	padding: 0 2rem;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
+	width: 100%;
+	opacity: 1;
+}
+#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li{
+	padding: 0 4rem;
+}
+/* 最上方logo */
 #app > header > .header-top > a{
+	width: 100%;
+	height: auto;
 	margin: 0 auto;
 }
 #app > header > .header-top > a > img{
-	width: 95%;
-	height: auto;
+	width: 100%;
 }
+/* footer */
 #app > footer > div{
 	width: 80%;
 	display: block;
