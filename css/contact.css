@@ -10,26 +10,21 @@
 	overflow: hidden;
 	padding: 40px 0;
 	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+#app > article > section > div{
+	padding: 10px;
+	padding: 0.625rem;
 }
 #app > article > section > .map{
-	display: inline-block;
-	width: 50%;
-	height: 450px;
-	overflow: hidden;
-	float: left;
-	margin-right: 30px;
-	border-radius: 4px;	
+	width: 65%;
 }
 #app > article > section > .map > iframe{
 	width: 100%;
-	overflow: hidden;
 }
 #app > article > section > .info{
-	display: inline-block;
-	width: 46%;
-	height: 450px;
-	overflow: hidden;
-	float: right;
+	width: 35%;
 }
 #app > article > section > .info > h3{
 	color: #002ea3;
@@ -47,7 +42,6 @@
 
 }
 #app > article > section > .info > ul > li{
-	font-size: 16px;
 	display: inline-block;
 	width: 100%;
 	margin: 20px 0;
@@ -59,11 +53,26 @@
 #app > article > section > .info > ul > li > h4{
 	color: #ff8300;
 	display: inline-block;
-	font-size: 16px;
 	margin: 0;
 }
 #app > article > section > .info > ul > li > p{
 	color: #404040;
 	margin: 0;
-	
+}
+
+/* -------------------------------------------- */
+@media only screen and (min-width: 321px) and (max-width: 768px){
+	#app > article > section{
+		display: block;
+	}
+	#app > article > section > div{
+		padding: 0;
+	}
+	#app > article > section > .map{
+		width: 100%;
+	}
+	#app > article > section > .info{
+		width: 100%;
+		margin-top: 1.25rem;
+	}
 }

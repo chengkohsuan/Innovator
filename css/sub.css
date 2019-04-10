@@ -2,7 +2,6 @@
 	width: 80%;
 	height: auto;
 	min-height: 840px;
-	overflow: hidden;
 	margin: 0 auto;
 	padding: 40px 0;
 	background-color: #fff;
@@ -71,7 +70,6 @@
 #app > article > div > section{
 	width: 100%;
 	height: auto;
-	font-size: 16px;
     color: #404040;	
     font-weight: 400;
 }
@@ -79,7 +77,6 @@
 	list-style: none;
 }
 #app > article > div > section > ul > .block > div{
-	font-size: 16px;
 	line-height: 2em;
     color: #404040;	
     font-weight: 400;
@@ -99,7 +96,7 @@
 	margin-left: 20px;
 }
 #app > article > div > section > ul > .block > div > ul > .text{
-	font-size: 16px;
+    font-size: 16px;font-size: 1rem;
     color: #404040;	
     font-weight: 400;
 }
@@ -122,4 +119,18 @@
 #app > article > div > section > ul > li > div > .table > li > .item{
 	display: inline-block;
   	min-width: 160px;
+}
+
+/* -------------------------------------------- */
+@media only screen and (min-width: 321px) and (max-width: 768px){
+	#app > article > .sidebar{
+		display: none;
+	}
+	#app > article > div{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#app > article > div > section > ul > .block > div > .img-list{
+		margin: 0 auto;
+	}
 }
