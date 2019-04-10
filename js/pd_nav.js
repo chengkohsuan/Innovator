@@ -6,7 +6,7 @@ $(function(){
 		$(this).children('.layer-2').css('display','none');
 	});
 });
-// // 選單收合
+ // 選單收合
 $(function(){
     $("#pd-nav").hide();
     $("#nav-toggle").click(function(){
