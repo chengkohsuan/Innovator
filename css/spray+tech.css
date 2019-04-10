@@ -17,14 +17,13 @@
 }
 
 #app > article > #content-top > .text > h2{
-	font-size: 28px;
+	font-size: 28px;font-size: 1.75rem;
 	color: #002ea3;
   	font-weight: 600;
 	line-height: 60px;	
 }
 #app > article > #content-top > .text >p{
 	color: #404040;
-	font-size: 16px;
 	line-height: 32px;
 }
 #app > article > #content-top > img{
@@ -67,7 +66,7 @@
 #app > article > #content-bottom > div > ul > li > a > .pic-box > img{
 	width: 100%;
 	height: auto;
-	transition: 0.3s
+	transition: 0.3s;
 }
 #app > article > #content-bottom > div > ul > li > a > .text-box{
 	padding: 20px;
@@ -94,4 +93,24 @@
 #app > article > #content-bottom > div > ul > li > a:hover > .text-box > button{
 	color: #2c7ced;
 	transform: translateX(15px);
+}
+
+
+/* -------------------------------------------- */
+@media only screen and (min-width: 321px) and (max-width: 768px){
+	#app > article > #content-bottom{
+		width: 80%;
+		padding: 0;
+		margin-bottom: 1rem;
+	}
+	#app > article > #content-bottom > div > ul{
+		display: block;
+	}
+	#app > article > #content-bottom > div > ul > li{
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+	#app > article > #content-bottom > div > ul > .last{
+		
+	}
 }
