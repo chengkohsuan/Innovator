@@ -97,7 +97,7 @@
 
 
 /* -------------------------------------------- */
-@media only screen and (min-width: 321px) and (max-width: 768px){
+@media only screen and (max-width: 768px){
 	#app > article > #content-top{
 		display: block;
 	}

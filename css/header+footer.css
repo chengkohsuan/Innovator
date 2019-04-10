@@ -169,7 +169,7 @@ img{
 }
 /* ------------------------------------- */
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
 #app > header > .header-top > .main-nav{
 	display: none;
@@ -192,10 +192,6 @@ img{
 #app > header > .header-bottom{
 	height: auto;
 	z-index: 50;
-}
-#app > header > .header-bottom > #pd-nav{
-	height: 0;
-	overflow: hidden;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1{
 	display: block;
