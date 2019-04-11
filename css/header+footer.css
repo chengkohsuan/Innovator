@@ -69,12 +69,12 @@ img{
 /* --------------------------------- */
 
 #app > header > .header-bottom{
-	height: 60px;
+	height: auto;
 	width: 100%;
 	background: linear-gradient(#002ea3,#0b1d75);
 	z-index: 10;
 }
-#app > header > .header-bottom > .button{
+#app > header > .header-bottom > #pd-nav > .button{
 	display: none;
 }
 #app > header > .header-bottom > #pd-nav{
@@ -105,7 +105,7 @@ img{
 	text-align: center;
 	text-decoration: none;
 	line-height: 60px;
-	font-size: 0.9375rem;font-size: 15px;
+	font-size: 0.9375rem;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
 	transition: transform 0.5s;
@@ -119,6 +119,7 @@ img{
 	transform: translateX(-10px);
 	opacity: 0.9;
 	display: none;
+	text-align: center;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li{
 	padding: 0 8px;
@@ -169,7 +170,7 @@ img{
 }
 /* ------------------------------------- */
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
 #app > header > .header-top > .main-nav{
 	display: none;
@@ -205,6 +206,7 @@ img{
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
 	width: 100%;
 	opacity: 1;
+	text-align: left;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li{
 	padding: 0 4rem;
