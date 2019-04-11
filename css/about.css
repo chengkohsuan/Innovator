@@ -33,8 +33,10 @@
 @media only screen and (min-width: 321px) and (max-width: 768px){
 	#app > article > section{
 		width: 100%;
+		padding-top: 73px;
 	}
 	#app > article > section > div{
 		width: 80%;
+		padding: 0;
 	}
 }

@@ -23,6 +23,10 @@ img{
 	height: 100%;
 	overflow-y: auto;
 }
+.navbar{
+	display: none;
+}
+/* --------------------------------- */
 #app > header{
 	width: 100%;
 	height: auto;
@@ -73,9 +77,6 @@ img{
 	width: 100%;
 	background: linear-gradient(#002ea3,#0b1d75);
 	z-index: 10;
-}
-#app > header > .header-bottom > #pd-nav > .button{
-	display: none;
 }
 #app > header > .header-bottom > #pd-nav{
 	width: 100%;
@@ -160,65 +161,21 @@ img{
 #app > footer > div > #footer-logo > img{
 	width: 100%;
 }
-#app > footer > div > #footer-info{
-	
 
-}
 #app > footer > div > div > p{
 	font-size: 0.875rem;font-size: 14px;
 	color: #fff;
 }
 /* ------------------------------------- */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
-#app > header > .header-top > .main-nav{
-	display: none;
-}
-/* 複合導覽咧按鈕 */
-#app > header > .header-bottom > .button{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 100%;
-	padding: 0 2rem;
-}
-#app > header > .header-bottom > .button > a{
-	display: inline-block;
-	font-size: 1.5rem;
-	color: #fff;
-	line-height: 3.75rem;
-}
-/* 次導覽列 */
-#app > header > .header-bottom{
-	height: auto;
-	z-index: 50;
-}
-#app > header > .header-bottom > #pd-nav > .layer-1{
+.navbar{
 	display: block;
-	margin: 0;
-	width: 100%;
 }
-#app > header > .header-bottom > #pd-nav > .layer-1 > li > a{
-	text-align: left;
-	padding: 0 2rem;
-}
-#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
-	width: 100%;
-	opacity: 1;
-	text-align: left;
-}
-#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li{
-	padding: 0 4rem;
-}
-/* 最上方logo */
-#app > header > .header-top > a{
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
-}
-#app > header > .header-top > a > img{
-	width: 100%;
+
+#app > header{
+	display: none;
 }
 /* footer */
 #app > footer > div{
@@ -230,7 +187,7 @@ img{
 	width: 60%;
 }
 #app > footer > div > div > p{
-	font-size: 0.75rem;
+	font-size: 0.625rem;
 }
 
 }

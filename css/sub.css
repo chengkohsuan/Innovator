@@ -123,6 +123,10 @@
 
 /* -------------------------------------------- */
 @media only screen and (min-width: 321px) and (max-width: 768px){
+	#app > article{
+		padding: 0;
+		padding-top: 73px;
+	}
 	#app > article > .sidebar{
 		display: none;
 	}

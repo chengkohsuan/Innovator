@@ -19,7 +19,7 @@
 #app > article > #content-top > .text > h2{
 	font-size: 28px;font-size: 1.75rem;
 	color: #002ea3;
-  	font-weight: 600;
+  	font-weight: 800;
 	line-height: 60px;	
 }
 #app > article > #content-top > .text >p{
@@ -97,9 +97,13 @@
 
 
 /* -------------------------------------------- */
-@media only screen and (max-width: 768px){
+@media screen and (max-width: 767px){
+	html{
+		background-color: #f24;
+	}
 	#app > article > #content-top{
 		display: block;
+		padding: 73px 0 0;
 	}
 	#app > article > #content-top > img{
 		float: none;
@@ -107,7 +111,7 @@
 		margin: 0 auto;
 	}
 	#app > article > #content-bottom{
-		width: 80%;
+		width: 90%;
 		padding: 0;
 		margin-bottom: 1rem;
 	}
