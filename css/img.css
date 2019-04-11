@@ -59,6 +59,9 @@
 
 /* ----------------------------- */
 @media only screen and (min-width: 321px) and (max-width: 768px){
+	.img-1{
+		width: 100%;
+	}
 	.img-2 > .img-list{
 		display: block;
 		margin-left: -1.25rem;
@@ -67,6 +70,13 @@
 		width: 100%;
 		padding: 0.625rem;
 	}
+	.img-3{
+		float: none;
+		width: 100%;
+		padding: 0;
+		margin-bottom: 10px; 
+	}
+
 	.spec_img > li{
 		display: block;
 		padding: 0.625rem;
