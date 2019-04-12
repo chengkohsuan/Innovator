@@ -1,4 +1,7 @@
-
+// 全部load完再載入畫面
+$(document).ready(function(){
+	$("body").show();
+});
 // 導覽列
 $(function(){
 	$(".layer-1 > li").hover(function(){

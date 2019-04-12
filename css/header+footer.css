@@ -4,6 +4,9 @@
 	font-family: sans-serif,'PingFang SC','Microsoft JhengHei';
 	letter-spacing: 1px;
 }
+body{
+	display: none;
+}
 html,body{
 	‐webkit‐text‐size‐adjust: none;
 	background-color: #fff;

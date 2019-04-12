@@ -108,6 +108,7 @@
 	}
 	#app > article > #content-top > .text > h2{
 		font-size: 22px;
+		line-height: 1.6em;
 	}
 	#app > article > #content-top > img{
 		float: none;
