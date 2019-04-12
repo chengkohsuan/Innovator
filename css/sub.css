@@ -77,26 +77,27 @@
 	list-style: none;
 }
 #app > article > div > section > ul > .block > div{
-	line-height: 2em;
+	font-size: 16px;
+	line-height: 1.6em;
     color: #404040;	
     font-weight: 400;
 }
 #app > article > div > section > ul > .block > .title{
 	font-size: 28px;
 	color: #002ea3;
-  	font-weight: 600;
+  	font-weight: 800;
 }
 #app > article > div > section > ul > .block > .sub_title{
 	font-size: 22px;
 	color: #004ab1;
-	font-weight: 600;	
+	font-weight: 800;	
 }
 #app > article > div > section > ul > .block > div > ul{
 	list-style: circle;
 	margin-left: 20px;
 }
 #app > article > div > section > ul > .block > div > ul > .text{
-    font-size: 16px;font-size: 1rem;
+    font-size: 16px;
     color: #404040;	
     font-weight: 400;
 }
@@ -106,6 +107,7 @@
 }
 #app > article > div > section > ul > .block > .text > .word > li{
 	margin-bottom: 20px;
+	font-size: 16px;
 }
 #app > article > div > section > ul > li > div > .table{
 	list-style: none;
@@ -122,7 +124,7 @@
 }
 
 /* -------------------------------------------- */
-@media only screen and (min-width: 321px) and (max-width: 768px){
+@media only screen and (max-width: 768px){
 	#app > article{
 		padding: 0;
 		padding-top: 73px;
@@ -133,6 +135,12 @@
 	#app > article > div{
 		width: 100%;
 		margin: 0 auto;
+	}
+	#app > article > div > section > ul > .block > .title{
+		font-size: 22px;
+	}
+	#app > article > div > section > ul > .block > .sub_title{
+		font-size: 18px;
 	}
 	#app > article > div > section > ul > .block > div > .img-list{
 		margin: 0 auto;

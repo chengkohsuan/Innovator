@@ -10,6 +10,7 @@ html,body{
 }
 html{
 	font-size: 16px;
+	line-height: 1.6em;
 }
 img{
 	display: block;
@@ -52,7 +53,7 @@ img{
 }
 #app > header > .header-top > .main-nav > ul > li > a{
 	text-decoration: none;
-	font-size: 0.9375rem;font-size: 15px;
+	font-size: 15px;
 	color: #404040;
 	padding: 0 30px;
 	transition: 0.4s;
@@ -106,7 +107,7 @@ img{
 	text-align: center;
 	text-decoration: none;
 	line-height: 60px;
-	font-size: 0.9375rem;
+	font-size: 15px;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
 	transition: transform 0.5s;
@@ -161,10 +162,10 @@ img{
 #app > footer > div > #footer-logo > img{
 	width: 100%;
 }
-
 #app > footer > div > div > p{
-	font-size: 0.875rem;font-size: 14px;
+	font-size: 14px;
 	color: #fff;
+	line-height: 2em;
 }
 /* ------------------------------------- */
 
@@ -187,7 +188,7 @@ img{
 	width: 60%;
 }
 #app > footer > div > div > p{
-	font-size: 0.625rem;
+	font-size: 13px;
 }
 
 }

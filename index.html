@@ -20,7 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="css/header+footer.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
 </head>
 <body>
@@ -28,15 +28,15 @@
 		<!-- navbar-collapse -->
 		<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #fff">
 		  	<div class="container">
-			    <div class="navbar-header">
-			     	<button class="navbar-toggle collapsed" style="float: left;margin: 1.625rem;" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			    <div class="navbar-header" style="margin: 0 auto;">
+			     	<button class="navbar-toggle collapsed" style="float: left;" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 			      		<span class="sr-only">Toggle navigation</span>
 			      		<span class="icon-bar"></span>
 			      		<span class="icon-bar"></span>
 			      		<span class="icon-bar"></span>
 			      	</button>
-			      	<a class="logo" style="float: right;margin-right: 1.625rem;" href="index.html">
-			      		<img style="height: 70px;padding: 10px;margin: 0 auto;" src="image/main-logo.png">
+			      	<a class="logo" style="float: right;" href="index.html">
+			      		<img style="height: 50px;padding: 0.4em 0;" src="image/main-logo.png">
 					</a>
 			    </div>
 			    <div class="navbar-collapse collapse" id="navbar" style="background-color: #0b1d75">
@@ -71,7 +71,6 @@
 			</div>
 			<div class="header-bottom">
 				<nav id="pd-nav">
-					<div class="button"><a href="javascript:;">≡</a></div>
 					<ul class="layer-1">
 						<li><a href="nav_bottom/plasma/plasma.html">電漿噴塗設備
 							<i class="fas fa-chevron-down"></i></a>
@@ -144,6 +143,7 @@
 		</header>
 <!-- --------------------------------------------- -->
 		<article>
+			<!-- <div class="loader">Loading...</div> -->
 			<section id="content-top">
 				<video class="banner" autoplay loop="loop" muted poster="">
 					<source src="media/banner-v.mp4" type="video/mp4">
@@ -222,6 +222,7 @@
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/pd_nav.js"></script>
+
 	<!--[if lt IE 9]>
 	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
