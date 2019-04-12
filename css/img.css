@@ -45,8 +45,8 @@
 /* img-4 分項spec左側*/
 .spec_img > li{
 	display: flex;
-	align-items: center;
-	margin-bottom: 30px;margin-bottom: 1.875rem;
+	align-items: flex-start;
+	margin-bottom: 30px;
 }
 .img-4{
 	height: 200px;
@@ -58,7 +58,28 @@
 }
 
 /* ----------------------------- */
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 1357px){
+	.img-1{
+		width: 100%;
+	}
+	.img-2 > .img-list{
+		display: block;
+	}
+	.img-2 > .img-list > li{
+		width: 75%;
+		margin: 0 auto;
+		padding: 0.625rem;
+	}
+	.img-3{
+		width: 45%;
+		padding: 10px;
+	}
+	.img-4{
+		padding: 20px;
+		height: 150px;
+	}
+}
+@media only screen and (max-width: 767px){
 	.img-1{
 		width: 100%;
 	}
@@ -67,8 +88,9 @@
 		margin-left: -1.25rem;
 	}
 	.img-2 > .img-list > li{
-		width: 100%;
+		width: 80%;
 		padding: 0.625rem;
+		margin: 0 auto;
 	}
 	.img-3{
 		float: none;

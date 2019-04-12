@@ -1,7 +1,6 @@
 #app > article{
 	width: 100%;
 	height: auto;
-	min-height: 840px;
   	background-color: rgba(255, 255, 255, 0.8) ;
 }
 #app > article > #content-top{
@@ -22,12 +21,12 @@
 	margin: 0 auto;
 }
 #app > article > #content-middle > h2{
-	font-size: 1.75rem;font-size: 28px;
+	font-size: 28px;
 	color: #002ea3;
   	font-weight: 800;
 }
 #app > article > #content-middle > h3{
-	font-size: 1.375rem;font-size: 22px;
+	font-size: 22px;
 	color: #004ab1;
 	font-weight: 800;	
 }
@@ -124,7 +123,32 @@
 }
 
 /* -------------------------------------------- */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1357px){
+	#app > article > #content-middle{
+		padding: 40px 0 0;
+	}
+	#app > article > #content-middle > h2{
+		font-size: 24px;
+	}
+	#app > article > #content-middle > h3{
+		font-size: 20px;
+	}
+	#app > article > #content-bottom{
+		width: 90%;
+	}
+	#app > article > #content-bottom > div > ul > li > a > .text-box{
+		padding: 10px;
+	}
+	#app > article > #content-bottom > div > ul > li > a > .text-box > h3{
+		font-size: 16px;
+		margin: 2px 0;
+	}
+	#app > article > #content-bottom > div > ul > li > a > .text-box > button{
+		font-size: 12px;
+		margin: 6px 0;
+	}
+}
+@media only screen and (max-width: 767px) {
 	#app > article > #content-top{
 		padding-top: 73px; 
 	}
@@ -134,9 +158,11 @@
 	}
 	#app > article > #content-middle > h2{
 		font-size: 22px;
+		line-height: 1.6em;
 	}
 	#app > article > #content-middle > h3{
 		font-size: 18px;
+		line-height: 1.6em;
 	}
 	#app > article > #content-bottom{
 		width: 80%;
@@ -150,11 +176,16 @@
 		width: 100%;
 		margin-bottom: 2rem;
 	}
+	#app > article > #content-bottom > div > ul > li > a > .text-box{
+		padding: 12px;
+	}
 	#app > article > #content-bottom > div > ul > li > a > .text-box > h3{
-		font-size: 18px;
+		font-size: 16px;
+		margin: 2px 0;
 	}
 	#app > article > #content-bottom > div > ul > li > a > .text-box > button{
-		font-size: 14px;
+		font-size: 12px;
+		margin: 6px 0;
 	}
 }
 

@@ -61,7 +61,24 @@
 }
 
 /* -------------------------------------------- */
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 1357px){
+	#app > article > section{
+		display: block;
+		padding: 70px 0 40px;
+	}
+	#app > article > section > div{
+		padding: 0;
+	}
+	#app > article > section > .map{
+		width: 100%;
+	}
+	#app > article > section > .info{
+		width: 100%;
+		margin-top: 30px;
+		padding-left: 16px;
+	}
+}
+@media only screen and (max-width: 767px){
 	#app > article > section{
 		display: block;
 		padding: 0;

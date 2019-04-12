@@ -1,7 +1,8 @@
 #app > article{
 	width: 80%;
 	height: auto;
-	min-height: 840px;
+	min-height: -webkit-fill-available;
+	min-height: 1030px;
 	margin: 0 auto;
 	padding: 40px 0;
 	background-color: #fff;
@@ -29,6 +30,7 @@
 	color: #002ea3;
 	line-height: 60px;
 	transition: 0.3s;
+	padding-left: 20px;
 }
 #app > article > .sidebar > .menu-title > a:hover{
 	color: #2c7ced;
@@ -84,8 +86,10 @@
 }
 #app > article > div > section > ul > .block > .title{
 	font-size: 28px;
+	line-height: 1.6em;
 	color: #002ea3;
   	font-weight: 800;
+  	margin-bottom: 30px;
 }
 #app > article > div > section > ul > .block > .sub_title{
 	font-size: 22px;
@@ -112,7 +116,7 @@
 #app > article > div > section > ul > li > div > .table{
 	list-style: none;
 	margin-left: 0;
-	width: 50%;
+	width: 70%;
 	margin-bottom: 30px
 }
 #app > article > div > section > ul > li > div > .table > li{
@@ -121,10 +125,36 @@
 #app > article > div > section > ul > li > div > .table > li > .item{
 	display: inline-block;
   	min-width: 160px;
+  	width: 49%;
 }
 
 /* -------------------------------------------- */
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 1357px){
+	#app > article{
+		width: 90%;
+	}
+	#app > article > div{
+		margin-left: 30px;
+		width: 70%;
+	}
+	#app > article > .sidebar > .menu-title{
+		margin-bottom: 0;
+	}
+	#app > article > .sidebar > .menu-title > a{
+		font-size: 17px;
+		line-height: 3em;
+	}
+	#app > article > .sidebar > .menu > ul > li{
+		line-height: 4em;
+	}
+	#app > article > div > section > ul > .block > .title{
+		font-size: 24px;
+	}
+	#app > article > div > section > ul > .block > .sub_title{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 767px){
 	#app > article{
 		padding: 0;
 		padding-top: 73px;

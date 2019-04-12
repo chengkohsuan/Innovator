@@ -42,6 +42,7 @@ img{
 	background-color: #fff;
   	display: flex;
   	justify-content: space-between;
+  	align-items: center;
 }
 #app > header > .header-top > .main-nav{
 	width: auto;
@@ -159,11 +160,10 @@ img{
 }
 #app > footer > div > #footer-logo{
 	width: 30%;
-    padding: 10px;
-    padding: 0.625rem;
 }
 #app > footer > div > #footer-logo > img{
 	width: 100%;
+	padding: 30px 0;
 }
 #app > footer > div > div > p{
 	font-size: 14px;
@@ -171,13 +171,59 @@ img{
 	line-height: 2em;
 }
 /* ------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1357px){
+	#app > header > .header-top{
+		width: 90%;
+		height: auto;
+		padding: 12px 0;
+	}
+	#app > header > .header-top > .main-nav{
+		width: 55%;
+		height: auto;
+	}
+	#app > header > .header-top > .main-nav > ul{
+		justify-content: space-between;
+		margin-bottom: 0;
+	}
+	#app > header > .header-top > .main-nav > ul > li > a{
+		padding: 0 16px;
+		font-size: 14px;
+	}
+	#app > header > .header-top > a{
+		width: 45%;
+		height: auto;
+		max-width: 366px;
+	}
+	#app > header > .header-top > a > img{
+		width: 100%;
+		height: auto;
+	}
+	#app > header > .header-bottom > #pd-nav{
+		padding: 0 20px;
+		overflow-x: auto;
+		white-space: nowrap;
+		-webkit-overflow-scrolling: touch;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+	}
+	.scroll::-webkit-scrollbar{
+		display: none;
+	}
+	#app > header > .header-bottom > #pd-nav > .layer-1{
+		width: 100%;
+	}
+	#app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
+		display: none;
+	}
+	#app > footer > div{
+		width: 90%;
+	}
+}
 
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
 .navbar{
 	display: block;
 }
-
 #app > header{
 	display: none;
 }
@@ -190,16 +236,14 @@ img{
 #app > footer > div > #footer-logo{
 	width: 60%;
 }
+#app > footer > div > #footer-logo > img{
+	padding: 16px 0;
+}
 #app > footer > div > div > p{
 	font-size: 13px;
 }
-
 }
 
-@media only screen and (min-width: 0px) and (max-width: 320px){
-
-
-}
 
 
 
