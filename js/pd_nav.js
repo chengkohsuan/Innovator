@@ -1,6 +1,8 @@
 // 全部load完再載入畫面
 $(document).ready(function(){
-	$("body").show();
+	$("body").show(function(){
+		$("#loading").hide();
+	});
 });
 // 導覽列
 $(function(){

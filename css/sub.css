@@ -153,6 +153,9 @@
 	#app > article > div > section > ul > .block > .sub_title{
 		font-size: 20px;
 	}
+	#app > article > div > section > ul > li > div > .table{
+		width: 100%;
+	}
 }
 @media only screen and (max-width: 767px){
 	#app > article{
@@ -174,5 +177,16 @@
 	}
 	#app > article > div > section > ul > .block > div > .img-list{
 		margin: 0 auto;
+	}
+	#app > article > div > section > ul > li > div > .table{
+		width: 100%;
+	}
+	#app > article > div > section > ul > li > div > .table > .text{
+		font-size: 12px;
+	}
+	#app > article > div > section > ul > li > div > .table > li > .item{
+		min-width: 82px;
+		width: auto;
+
 	}
 }

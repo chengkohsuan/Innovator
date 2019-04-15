@@ -19,6 +19,36 @@ img{
 	display: block;
 }
 /* ------------------------------------ */
+#loading{
+	position: fixed;
+	background-color: #fff;
+	color: #1ea8ff;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.loader {
+
+  	height: auto;
+  	margin: 0 auto;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+}
+.loader > div{
+	margin-top: 1em; 
+}
+/*
+  Set the color of the icon
+*/
+svg path,svg rect{
+  fill: #1ea8ff;
+}
+/* ------------------------------------ */
 #app{
 	position: fixed;
 	top: 0;
@@ -87,6 +117,14 @@ img{
 	width: 100%;
 	height: 100%;
 	color: #fff;
+	padding: 0 20px;
+	overflow-x: auto;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.scroll::-webkit-scrollbar{
+	display: none;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1{
 	width: 80%;
@@ -197,16 +235,6 @@ img{
 	#app > header > .header-top > a > img{
 		width: 100%;
 		height: auto;
-	}
-	#app > header > .header-bottom > #pd-nav{
-		padding: 0 20px;
-		overflow-x: auto;
-		white-space: nowrap;
-		-webkit-overflow-scrolling: touch;
-		-ms-overflow-style: -ms-autohiding-scrollbar;
-	}
-	.scroll::-webkit-scrollbar{
-		display: none;
 	}
 	#app > header > .header-bottom > #pd-nav > .layer-1{
 		width: 100%;
