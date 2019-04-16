@@ -25,10 +25,12 @@
 }
 #app > article > section > .info{
 	width: 35%;
+	margin-left: 20px;
 }
 #app > article > section > .info > h3{
 	color: #002ea3;
 	font-size: 40px;
+	line-height: 1.6em;
 	margin: 0;
 }
 #app > article > section > .info > h3 > i{
@@ -44,7 +46,9 @@
 #app > article > section > .info > ul > li{
 	display: inline-block;
 	width: 100%;
-	margin: 20px 0;
+	margin: 14px 0;
+	font-size: 18px;
+	line-height: 2em;
 }
 #app > article > section > .info > ul > li > i{
 	margin-right: 6px;

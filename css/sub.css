@@ -25,7 +25,7 @@
 	display: block;
 	width: 100%;
 	height: 100%;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 600;
 	color: #002ea3;
 	line-height: 60px;
@@ -56,10 +56,10 @@
 	display: block;
 	width: 100%;
 	height: 100%;
-	font-size: 15px;
 	color: #404040;
 	transition: 0.4s;
 	padding-left: 20px;
+	font-size: 18px;
 }
 #app > article > aside.sidebar > .menu > ul > li > a:hover{
 	color: #c4c4c4;
@@ -73,37 +73,36 @@
 	width: 100%;
 	height: auto;
     color: #404040;	
-    font-weight: 400;
 }
 #app > article > div > section > ul > .block{
 	list-style: none;
 }
 #app > article > div > section > ul > .block > div{
-	font-size: 16px;
-	line-height: 1.6em;
     color: #404040;	
-    font-weight: 400;
+    font-size: 18px;
+    line-height: 2em;
 }
 #app > article > div > section > ul > .block > .title{
-	font-size: 28px;
+	font-size: 32px;
 	line-height: 1.6em;
 	color: #002ea3;
   	font-weight: 800;
   	margin-bottom: 30px;
 }
 #app > article > div > section > ul > .block > .sub_title{
-	font-size: 22px;
+	font-size: 24px;
 	color: #004ab1;
 	font-weight: 800;	
 }
 #app > article > div > section > ul > .block > div > ul{
 	list-style: circle;
 	margin-left: 20px;
+	font-weight: 400;
+	line-height: 1.4em;
 }
 #app > article > div > section > ul > .block > div > ul > .text{
-    font-size: 16px;
     color: #404040;	
-    font-weight: 400;
+    font-size: 18px;
 }
 #app > article > div > section > ul > .block > .text > .word{
 	list-style: none;
@@ -111,7 +110,7 @@
 }
 #app > article > div > section > ul > .block > .text > .word > li{
 	margin-bottom: 20px;
-	font-size: 16px;
+	line-height: 1.6em;
 }
 #app > article > div > section > ul > li > div > .table{
 	list-style: none;
@@ -121,11 +120,14 @@
 }
 #app > article > div > section > ul > li > div > .table > li{
 	border-bottom: solid 1px #ccc;
+	line-height: 2em;
 }
 #app > article > div > section > ul > li > div > .table > li > .item{
 	display: inline-block;
   	min-width: 160px;
   	width: 49%;
+  	padding: 10px 20px;
+  	font-size: 16px;
 }
 
 /* -------------------------------------------- */
@@ -141,24 +143,40 @@
 		margin-bottom: 0;
 	}
 	#app > article > .sidebar > .menu-title > a{
-		font-size: 17px;
+		font-size: 22px;
 		line-height: 3em;
 	}
 	#app > article > .sidebar > .menu > ul > li{
 		line-height: 4em;
 	}
+	#app > article > .sidebar > .menu > ul > li > a{
+		font-size: 16px;
+	}
 	#app > article > div > section > ul > .block > .title{
-		font-size: 24px;
+		font-size: 28px;
 	}
 	#app > article > div > section > ul > .block > .sub_title{
-		font-size: 20px;
+		font-size: 22px;
+	}
+	#app > article > div > section > ul > .block > div{
+		font-size: 16px;
+	}
+	#app > article > div > section > ul > .block > div > ul > .text{
+		font-size: 16px;
+	}
+	#app > article > div > section > ul > .block > .text > .word > li{
+		font-size: 16px;
 	}
 	#app > article > div > section > ul > li > div > .table{
 		width: 100%;
 	}
+	#app > article > div > section > ul > li > div > .table > li > .item{
+		padding: 8px 10px;
+	}
 }
 @media only screen and (max-width: 767px){
 	#app > article{
+		width: 85%;
 		padding: 0;
 		padding-top: 73px;
 	}
@@ -169,11 +187,23 @@
 		width: 100%;
 		margin: 0 auto;
 	}
+	#app > article > div > section > ul > .block > div > ul{
+		line-height: 1.6em;
+	}
 	#app > article > div > section > ul > .block > .title{
 		font-size: 22px;
+		margin-bottom: 15px;
 	}
 	#app > article > div > section > ul > .block > .sub_title{
 		font-size: 18px;
+		line-height: 1.6em;
+	}
+	#app > article > div > section > ul > .block > div{
+		font-size: 16px;
+		line-height: 1.6em;
+	}
+	#app > article > div > section > ul > .block > div > ul > .text{
+		font-size: 16px;
 	}
 	#app > article > div > section > ul > .block > div > .img-list{
 		margin: 0 auto;
@@ -182,11 +212,12 @@
 		width: 100%;
 	}
 	#app > article > div > section > ul > li > div > .table > .text{
-		font-size: 12px;
+		line-height: 1.6em;
 	}
 	#app > article > div > section > ul > li > div > .table > li > .item{
-		min-width: 82px;
 		width: auto;
-
+		min-width: 50px;
+		padding: 5px 10px;
+		font-size: 14px;
 	}
 }

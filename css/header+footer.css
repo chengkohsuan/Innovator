@@ -12,7 +12,7 @@ html,body{
 	background-color: #fff;
 }
 html{
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.6em;
 }
 img{
@@ -80,6 +80,7 @@ svg path,svg rect{
 }
 #app > header > .header-top > .main-nav > ul{
     display: flex;
+    margin: 0;
 }
 #app > header > .header-top > .main-nav > ul > li{
 	list-style: none;
@@ -87,7 +88,7 @@ svg path,svg rect{
 }
 #app > header > .header-top > .main-nav > ul > li > a{
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 18px;
 	color: #404040;
 	padding: 0 30px;
 	transition: 0.4s;
@@ -117,7 +118,6 @@ svg path,svg rect{
 	width: 100%;
 	height: 100%;
 	color: #fff;
-	padding: 0 20px;
 	overflow-x: auto;
 	white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
@@ -127,7 +127,7 @@ svg path,svg rect{
 	display: none;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1{
-	width: 80%;
+	width: 90%;
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -148,15 +148,16 @@ svg path,svg rect{
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
-	line-height: 60px;
-	font-size: 15px;
+	line-height: 80px;
+	font-size: 18px;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
 	transition: transform 0.5s;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
 	position: absolute;
-	width: 175px;
+	width: auto;
+	min-width: 120px;
 	overflow: visible;
 	clear: left;
 	background-color: #09175b;
@@ -166,17 +167,17 @@ svg path,svg rect{
 	text-align: center;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li{
-	padding: 0 8px;
+	padding: 0 10px;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li:hover{
 	background-color: #13257c;
 }
 #app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2 > li > a{
 	display: block;
-	line-height: 60px;
+	line-height: 80px;
 	text-decoration: none;
 	color: #fff;
-	font-size: 0.875rem;font-size: 14px;
+	font-size: 18px;
 	font-weight: 400;
 }
 #pd-nav > .layer-1 > li:hover > a > i{
@@ -204,9 +205,9 @@ svg path,svg rect{
 	padding: 30px 0;
 }
 #app > footer > div > div > p{
-	font-size: 14px;
+	font-size: 16px;
 	color: #fff;
-	line-height: 2em;
+	line-height: 1.6em;
 }
 /* ------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 1357px){
@@ -224,8 +225,8 @@ svg path,svg rect{
 		margin-bottom: 0;
 	}
 	#app > header > .header-top > .main-nav > ul > li > a{
-		padding: 0 16px;
-		font-size: 14px;
+		padding: 0 14px;
+		font-size: 16px;
 	}
 	#app > header > .header-top > a{
 		width: 45%;
@@ -239,11 +240,17 @@ svg path,svg rect{
 	#app > header > .header-bottom > #pd-nav > .layer-1{
 		width: 100%;
 	}
+	#app > header > .header-bottom > #pd-nav > .layer-1 > li > a{
+		font-size: 16px;
+	}
 	#app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
 		display: none;
 	}
 	#app > footer > div{
 		width: 90%;
+	}
+	#app > footer > div > div > p{
+	font-size: 15px;
 	}
 }
 

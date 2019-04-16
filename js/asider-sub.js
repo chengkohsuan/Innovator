@@ -97,7 +97,7 @@ var data_spraywatch=[
   {
     pics: ["../../image/img-2-spraywatch-1.jpg","../../image/img-2-spraywatch-2.jpg","../../image/img-2-spraywatch-3.jpg"],
     show_title: true,
-    title: "Spray Watch 噴塗監控系統",
+    title: "噴塗監控系統 Spray Watch",
     show_text: true,
     text: "Spray Watch可將噴塗中的顆粒特性進行量化，包括顆粒的溫度、速度、數量、噴塗角度、火焰寬度與基材溫度。藉由以上的數值，可以協助生產者確認每次噴塗的數值是否正確，確保塗層的一致性。而對於開發者而言，量化的顆粒數值可以有效提升開發效率，大幅降低開發成本。",
     show_features: false,

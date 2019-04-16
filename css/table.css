@@ -12,6 +12,9 @@ table > thead{
 table > thead > tr > th{
   	padding: 10px 20px;
 }
+table > tbody{
+	font-size: 16px;
+}
 table > tbody > tr{
 	width: 100%;
 }
@@ -21,19 +24,19 @@ table > tbody > tr > td{
   	padding: 10px 20px;
 }
 .table > h3{
-	font-size: 22px;
+	font-size: 24px;
 	line-height: 1.6em;
 	color: #004ab1;
-	font-weight: 600;	
+	font-weight: 800;	
 }
 
 /* ----------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 1357px){
 	table > thead{
-		font-size: 16px;
+		font-size: 15px;
 	}
-	table > tbody > tr{
-		font-size: 13px;
+	table > tbody{
+		font-size: 14px;
 	}
 	table > thead > tr > th{
 		padding: 8px 10px;
@@ -52,11 +55,14 @@ table > tbody > tr > td{
 }
 
 @media only screen and (max-width: 767px){
+	table{
+		margin-top: 15px;
+	}
 	table > thead{
 		font-size: 14px;
 	}
-	table > tbody > tr{
-		font-size: 12px;
+	table > tbody{
+		font-size: 14px;
 	}
 	table > thead > tr > th{
 		padding: 6px 8px;
@@ -70,6 +76,7 @@ table > tbody > tr > td{
 		overflow-x: auto;
 	}
 	.table > h3{
-		font-size: 16px;
+		font-size: 18px;
+		margin: 0;
 	}
 }
