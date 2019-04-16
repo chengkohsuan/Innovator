@@ -24,7 +24,7 @@
 #app > article > #content-top > .text > h2{
 	font-size: 32px;
 	color: #002ea3;
-  	font-weight: 800;
+  	font-weight: 600;
 	line-height: 1.6em;	
 }
 #app > article > #content-top > .text >p{
@@ -91,13 +91,13 @@
 	font-size: 24px;
 	line-height: 1.6em;
 	color: #002ea3;
-	font-weight: 800;
+	font-weight: 600;
 	margin: 15px 0;
 }
 #app > article > #content-bottom > div > ul > li > a > .text-box > button{
 	font-size: 18px;
 	border: none;
-	font-weight: 800;
+	font-weight: 600;
 	color: #002ea3;
 	background-color: transparent;
 	margin: 10px 0;

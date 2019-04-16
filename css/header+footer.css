@@ -1,7 +1,8 @@
 @import url("reset.css");
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 *{
 	box-sizing: border-box;
-	font-family: sans-serif,'PingFang SC','Microsoft JhengHei';
+	font-family: 'Noto Sans TC', sans-serif;
 	letter-spacing: 1px;
 }
 body{

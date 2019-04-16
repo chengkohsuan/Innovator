@@ -86,13 +86,13 @@
 	font-size: 32px;
 	line-height: 1.6em;
 	color: #002ea3;
-  	font-weight: 800;
+  	font-weight: 600;
   	margin-bottom: 30px;
 }
 #app > article > div > section > ul > .block > .sub_title{
 	font-size: 24px;
 	color: #004ab1;
-	font-weight: 800;	
+	font-weight: 600;	
 }
 #app > article > div > section > ul > .block > div > ul{
 	list-style: circle;
