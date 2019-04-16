@@ -16,5 +16,8 @@ $(function(){
 $(function(){
 	$(".navbar-toggle").click(function(){
 		$(".navbar-collapse").slideToggle();
+	});
+	$("article").click(function(){
+		$(".navbar-collapse").slideUp();
 	})
 });

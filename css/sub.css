@@ -213,11 +213,12 @@
 	}
 	#app > article > div > section > ul > li > div > .table > .text{
 		line-height: 1.6em;
+		padding: 0 5px;
 	}
 	#app > article > div > section > ul > li > div > .table > li > .item{
 		width: auto;
-		min-width: 50px;
-		padding: 5px 10px;
+		min-width: 90px;
+		padding: 5px 0;
 		font-size: 14px;
 	}
 }
