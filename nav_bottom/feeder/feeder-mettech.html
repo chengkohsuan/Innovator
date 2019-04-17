@@ -163,13 +163,11 @@
 		<article>
 			<aside class="sidebar">
 				<div class="menu-title">
-					<a href="feeder.html">送料設備</a>
+					<a href="{{tag}}">{{tag_name}}</a>
 				</div>
 				<div class="menu">
 					<ul>
-						<li><a href="feeder-1264s.html">Praxair 送粉機</a></li>
-						<li><a href="feeder-thermico.html">Thermico CPF2</a></li>
-						<li><a href="feeder-mettech.html">Mettech 750/350</a></li>
+						<li v-for="item in sidemenu"><a href="{{item.page}}">{{item.name}}</a></li>
 					</ul>
 				</div>
 			</aside>

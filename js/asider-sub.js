@@ -1,3 +1,30 @@
+var data_sidebar=[
+  {
+    page: "asider-robotics.html",
+    name: "自動化設備",
+  },
+  {
+    page: "asider-enclosure.html",
+    name: "隔音間",
+  },
+  {
+    page: "asider-dustcollecter.html",
+    name: "集塵系統設備",
+  },
+  {
+    page: "asider-spraywatch.html",
+    name: "噴塗監控系統",
+  },
+];
+
+var vm_sidebar=new Vue({
+  el: "aside",
+  data: {
+    tag: "asider.html",
+    tag_name: "周邊輔助設備",
+    sidemenu: data_sidebar,
+  }
+});
 
 var data_dust=[
   {

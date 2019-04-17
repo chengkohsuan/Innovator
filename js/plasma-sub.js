@@ -1,3 +1,38 @@
+var data_sidebar=[
+  {
+    page: "plasma-3710.html",
+    name: "Praxair 3710",
+  },
+  {
+    page: "plasma-6600.html",
+    name: "Praxair 6600XL",
+  },
+  {
+    page: "plasma-7700.html",
+    name: "Praxair 7700 UPC",
+  },
+  {
+    page: "plasma-plazjet.html",
+    name: "Praxair PlazJet",
+  },
+  {
+    page: "plasma-guns.html",
+    name: "Praxair 電漿噴槍",
+  },
+  {
+    page: "plasma-axial3.html",
+    name: "Mettech Axial 3",
+  },
+];
+
+var vm_sidebar=new Vue({
+  el: "aside",
+  data: {
+    tag: "plasma.html",
+    tag_name: "電漿噴塗設備",
+    sidemenu: data_sidebar,
+  }
+});
 
 var data_3710=[
   {

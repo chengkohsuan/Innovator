@@ -76,11 +76,7 @@
 			<div class="header-top">
 				<nav class="main-nav">
 					<ul>
-						<li><a href="../index.html">HOME</a></li>
-						<li><a href="tech.html">技術應用</a></li>
-						<li><a href="../nav_top/about.html">關於我們</a></li>
-						<!-- <li><a href="">動態消息</a></li> -->
-						<li><a href="../nav_top/contact.html">聯絡我們</a></li>
+						<li v-for="item in main"><a href="{{item.page_1}}">{{item.name}}</a></li>
 					</ul>
 				</nav>
 				<a id="main-logo" href="../index.html">
@@ -163,17 +159,11 @@
 		<article>
 			<aside class="sidebar">
 				<div class="menu-title">
-					<a href="tech.html">熱噴塗技術應用</a>
+					<a href="{{tag}}">{{tag_name}}</a>
 				</div>
 				<div class="menu">
 					<ul>
-						<li><a href="tech-steel.html">鋼鐵冶鍊</a></li>
-						<li><a href="tech-paper.html">印刷造紙</a></li>
-						<li><a href="tech-aerospace.html">航太能源</a></li>
-						<li><a href="tech-semicd.html">光電半導體</a></li>
-						<li><a href="tech-corrosion.html">大氣防蝕</a></li>
-						<li><a href="tech-oil.html">石化油氣</a></li>
-						<li><a href="tech-others.html">其他應用</a></li>
+						<li v-for="item in sidemenu"><a href="{{item.page}}">{{item.name}}</a></li>
 					</ul>
 				</div>
 			</aside>
@@ -223,6 +213,7 @@
 	<script type="text/javascript" src="../js/jquery.js"></script>
 	<script type="text/javascript" src="../js/pd_nav.js"></script>
 	<script type="text/javascript" src="../js/tech-sub.js"></script>
+	<script type="text/javascript" src="../js/header-top.js"></script>
 	
 	<!--[if lt IE 9]>
 	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

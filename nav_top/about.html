@@ -75,11 +75,7 @@
 			<div class="header-top">
 				<nav class="main-nav">
 					<ul>
-						<li><a href="../index.html">HOME</a></li>
-						<li><a href="../nav_top/tech.html">技術應用</a></li>
-						<li><a href="about.html">關於我們</a></li>
-						<!-- <li><a href="">動態消息</a></li> -->
-						<li><a href="../nav_top/contact.html">聯絡我們</a></li>
+						<li v-for="item in main"><a href="{{item.page_1}}">{{item.name}}</a></li>
 					</ul>
 				</nav>
 				<a id="main-logo" href="../index.html">
@@ -186,9 +182,11 @@
 			</div>
 		</footer>
 	</div>
-
+	
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.js'></script>
 	<script type="text/javascript" src="../js/jquery.js"></script>
 	<script type="text/javascript" src="../js/pd_nav.js"></script>
+	<script type="text/javascript" src="../js/header-top.js"></script>
 	<!--[if lt IE 9]>
 	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->

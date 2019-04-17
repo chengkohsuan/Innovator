@@ -163,16 +163,11 @@
 		<article>
 			<aside class="sidebar">
 				<div class="menu-title">
-					<a href="plasma.html">電漿噴塗設備</a>
+					<a href="{{tag}}">{{tag_name}}</a>
 				</div>
 				<div class="menu">
 					<ul>
-						<li><a href="plasma-3710.html">Praxair 3710</a></li>
-						<li><a href="plasma-6600.html">Praxair 6600XL</a></li>
-						<li><a href="plasma-7700.html">Praxair 7700 UPC</a></li>
-						<li><a href="plasma-plazjet.html">Praxair PlazJet</a></li>
-						<li><a href="plasma-guns.html">Praxair 電漿噴槍</a></li>
-						<li><a href="plasma-axial3.html">Mettech Axial 3</a></li>
+						<li v-for="item in sidemenu"><a href="{{item.page}}">{{item.name}}</a></li>
 					</ul>
 				</div>
 			</aside>

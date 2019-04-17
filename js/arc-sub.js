@@ -1,3 +1,34 @@
+var data_sidebar=[
+  {
+    page: "arc-8835.html",
+    name: "Praxair 8835/8830",
+  },
+  {
+    page: "arc-bp400.html",
+    name: "Praxair BP400",
+  },
+  {
+    page: "arc-coarc.html",
+    name: "Praxair CoArc",
+  },
+  {
+    page: "arc-456.html",
+    name: "Thermion AVD456",
+  },
+  {
+    page: "arc-450.html",
+    name: "Thermion AVD450",
+  },
+];
+
+var vm_sidebar=new Vue({
+  el: "aside",
+  data: {
+    tag: "arc.html",
+    tag_name: "電弧噴塗設備",
+    sidemenu: data_sidebar,
+  }
+});
 
 var data_450=[
   {

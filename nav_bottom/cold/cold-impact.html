@@ -164,11 +164,11 @@
 		<article>
 			<aside class="sidebar">
 				<div class="menu-title">
-					<a href="cold.html">冷氣動力噴塗設備</a>
+					<a href="{{tag}}">{{tag_name}}</a>
 				</div>
 				<div class="menu">
 					<ul>
-						<li><a href="cold-impact.html">Impact 噴塗系統</a></li>
+						<li v-for="item in sidemenu"><a href="{{item.page}}">{{item.name}}</a></li>
 					</ul>
 				</div>
 			</aside>

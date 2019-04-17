@@ -1,3 +1,50 @@
+var data_sidebar=[
+  {
+    page: "parts-powder.html",
+    name: "噴塗粉末",
+  },
+  {
+    page: "parts-wires.html",
+    name: "噴塗線材",
+  },
+  {
+    page: "parts-suspension.html",
+    name: "噴塗漿料",
+  },
+  {
+    page: "parts-flexicord.html",
+    name: "FlexiCord 包藥線",
+  },
+  {
+    page: "parts-3D.html",
+    name: "3D金屬列印粉末",
+  },
+  {
+    page: "parts-masking.html",
+    name: "耐熱遮覆膠帶",
+  },
+  {
+    page: "parts-stellite.html",
+    name: "超合金焊材",
+  },
+  {
+    page: "parts-tufcote.html",
+    name: "TufCote 焊材",
+  },
+  {
+    page: "parts-parts.html",
+    name: "噴塗設備零件",
+  },
+];
+
+var vm_sidebar=new Vue({
+  el: "aside",
+  data: {
+    tag: "parts.html",
+    tag_name: "耗材與零件",
+    sidemenu: data_sidebar,
+  }
+});
 
 var data_3D=[
   {

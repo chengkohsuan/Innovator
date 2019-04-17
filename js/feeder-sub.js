@@ -1,3 +1,26 @@
+var data_sidebar=[
+  {
+    page: "feeder-1264s.html",
+    name: "Praxair 送粉機",
+  },
+  {
+    page: "feeder-thermico.html",
+    name: "Thermico CPF2",
+  },
+  {
+    page: "feeder-mettech.html",
+    name: "Mettech 750/350",
+  },
+];
+
+var vm_sidebar=new Vue({
+  el: "aside",
+  data: {
+    tag: "feeder.html",
+    tag_name: "送料設備",
+    sidemenu: data_sidebar,
+  }
+});
 
 var data_1264=[
   {

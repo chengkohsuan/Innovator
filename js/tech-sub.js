@@ -1,3 +1,42 @@
+var data_sidebar=[
+  {
+    page: "tech-steel.html",
+    name: "鋼鐵冶鍊",
+  },
+  {
+    page: "tech-paper.html",
+    name: "印刷造紙",
+  },
+  {
+    page: "tech-aerospace.html",
+    name: "航太能源",
+  },
+  {
+    page: "tech-semicd.html",
+    name: "光電半導體",
+  },
+  {
+    page: "tech-corrosion.html",
+    name: "大氣防蝕",
+  },
+  {
+    page: "tech-oil.html",
+    name: "石化油氣",
+  },
+  {
+    page: "tech-others.html",
+    name: "其他應用",
+  },
+];
+
+var vm_sidebar=new Vue({
+  el: "aside",
+  data: {
+    tag: "tech.html",
+    tag_name: "熱噴塗技術應用",
+    sidemenu: data_sidebar,
+  }
+});
 
 var aerospace_data=[
   {

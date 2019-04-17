@@ -1,3 +1,18 @@
+var data_sidebar=[
+  {
+    page: "cold-impact.html",
+    name: "Impact 噴塗系統",
+  }
+];
+
+var vm_sidebar=new Vue({
+  el: "aside",
+  data: {
+    tag: "cold.html",
+    tag_name: "冷氣動力噴塗設備",
+    sidemenu: data_sidebar,
+  }
+});
 
 var data_impact=[
   {

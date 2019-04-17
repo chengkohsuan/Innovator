@@ -1,3 +1,18 @@
+var data_sidebar=[
+  {
+    page: "flame-guns.html",
+    name: "Saint Gobain 噴槍",
+  }
+];
+
+var vm_sidebar=new Vue({
+  el: "aside",
+  data: {
+    tag: "flame.html",
+    tag_name: "火焰噴塗設備",
+    sidemenu: data_sidebar,
+  }
+});
 
 var data_guns=[
   {

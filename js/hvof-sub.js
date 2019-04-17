@@ -1,3 +1,26 @@
+var data_sidebar=[
+  {
+    page: "hvof-jp5000.html",
+    name: "Praxair JP-5000",
+  },
+  {
+    page: "hvof-jp8000.html",
+    name: "Praxair JP-8000",
+  },
+  {
+    page: "hvof-guns.html",
+    name: "Praxair HVOF噴槍",
+  },
+];
+
+var vm_sidebar=new Vue({
+  el: "aside",
+  data: {
+    tag: "HVOF.html",
+    tag_name: "HVOF噴塗設備",
+    sidemenu: data_sidebar,
+  }
+});
 
 var data_guns=[
   {

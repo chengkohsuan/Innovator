@@ -77,11 +77,7 @@
 			<div class="header-top">
 				<nav class="main-nav">
 					<ul>
-						<li><a href="../../index.html">HOME</a></li>
-						<li><a href="../../nav_top/tech.html">技術應用</a></li>
-						<li><a href="../../nav_top/about.html">關於我們</a></li>
-						<!-- <li><a href="">動態消息</a></li> -->
-						<li><a href="../../nav_top/contact.html">聯絡我們</a></li>
+						<li v-for="item in main"><a href="{{item.page_2}}">{{item.name}}</a></li>
 					</ul>
 				</nav>
 				<a id="main-logo" href="../../index.html">
@@ -164,15 +160,11 @@
 		<article>
 			<aside class="sidebar">
 				<div class="menu-title">
-					<a href="arc.html">電弧噴塗設備</a>
+					<a href="{{tag}}">{{tag_name}}</a>
 				</div>
 				<div class="menu">
 					<ul>
-						<li><a href="arc-8835.html">Praxair 8835/8830</a></li>
-						<li><a href="arc-bp400.html">Praxair BP400</a></li>
-						<li><a href="arc-coarc.html">Praxair CoArc</a></li>
-						<li><a href="arc-456.html">Thermion AVD456</a></li>
-						<li><a href="arc-450.html">Thermion AVD450</a></li>
+						<li v-for="item in sidemenu"><a href="{{item.page}}">{{item.name}}</a></li>
 					</ul>
 				</div>
 			</aside>
@@ -236,6 +228,7 @@
 <script type="text/javascript" src="../../js/jquery.js"></script>
 <script type="text/javascript" src="../../js/pd_nav.js"></script>
 <script type="text/javascript" src="../../js/arc-sub.js"></script>
+<script type="text/javascript"  src="../../js/header-top.js"></script>
 	
 	<!--[if lt IE 9]>
 	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

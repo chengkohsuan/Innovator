@@ -163,11 +163,11 @@
 		<article>
 			<aside class="sidebar">
 				<div class="menu-title">
-					<a href="flame.html">火焰噴塗設備</a>
+					<a href="{{tag}}">{{tag_name}}</a>
 				</div>
 				<div class="menu">
 					<ul>
-						<li><a href="flame-guns.html">Saint Gobain 噴槍</a></li>
+						<li v-for="item in sidemenu"><a href="{{item.page}}">{{item.name}}</a></li>
 					</ul>
 				</div>
 			</aside>

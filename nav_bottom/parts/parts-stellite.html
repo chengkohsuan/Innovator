@@ -163,19 +163,11 @@
 		<article>
 			<aside class="sidebar">
 				<div class="menu-title">
-					<a href="parts.html">耗材與零件</a>
+					<a href="{{tag}}">{{tag_name}}</a>
 				</div>
 				<div class="menu">
 					<ul>
-						<li><a href="parts-powder.html">噴塗粉末</a></li>
-						<li><a href="parts-wires.html">噴塗線材</a></li>
-						<li><a href="parts-suspension.html">噴塗漿料</a></li>
-						<li><a href="prats-flexicord.html">FlexiCord 包藥線</a></li>
-						<li><a href="parts-3D.html">3D金屬列印粉末</a></li>
-						<li><a href="parts-masking.html">耐熱遮覆膠帶</a></li>
-						<li><a href="parts-stellite.html">超合金焊材</a></li>
-						<li><a href="parts-tufcote.html">TufCote 焊材</a></li>
-						<li><a href="parts-parts.html">噴塗設備零件</a></li>
+						<li v-for="item in sidemenu"><a href="{{item.page}}">{{item.name}}</a></li>
 					</ul>
 				</div>
 			</aside>
