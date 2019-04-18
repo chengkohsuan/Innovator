@@ -200,15 +200,25 @@ svg path,svg rect{
 }
 #app > footer > div > #footer-logo{
 	width: 30%;
+	color: #fff;
+	font-size: 14px;
 }
 #app > footer > div > #footer-logo > img{
 	width: 100%;
-	padding: 30px 0;
 }
-#app > footer > div > div > p{
-	font-size: 16px;
+#app > footer > div > #footer-info > ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#app > footer > div > #footer-info > ul > li{
+	display: flex;
 	color: #fff;
-	line-height: 1.6em;
+	font-size: 16px;
+	line-height: 2em;
+}
+#app > footer > div > #footer-info > ul > li > .info{
+	width: 100px;
 }
 /* ------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 1357px){
