@@ -1,3 +1,13 @@
+var vm_topic=new Vue({
+  el: "#content-top",
+  data: {
+    topic: "Flame Spray 火焰噴塗原理",
+    text: "使用氣體作為燃料產生熱源，將噴塗材料加熱後形成熔融顆粒，再由高壓空氣帶往基材形成塗層，可以使用的材料相當廣泛，包含塑膠、金屬、陶瓷、陶金複合材料皆可使用，操作成本也是所有熱噴塗技術中相對親和的。",
+    pic: "../../image/flame.png",
+  }
+});
+
+// -----------------------------------------------------
 var data_sidebar=[
   {
     page: "flame-guns.html",

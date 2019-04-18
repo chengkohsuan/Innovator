@@ -1,3 +1,13 @@
+var vm_topic=new Vue({
+  el: "#content-top",
+  data: {
+    topic: "耗材與零件",
+    text: "",
+    pic: "",
+  }
+});
+
+// -----------------------------------------------------
 var data_sidebar=[
   {
     page: "parts-powder.html",

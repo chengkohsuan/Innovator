@@ -1,3 +1,13 @@
+var vm_topic=new Vue({
+  el: "#content-top",
+  data: {
+    topic: "Plasma Spray 電漿噴塗原理",
+    text: "利用電漿所產生的熱量，將噴塗材料熔融後，由氣流將融熔顆粒帶往欲堆積之基材上形成所需塗層。所產生的火焰溫度高達10,000℃以上，可使用材料廣，製備的塗層品質高。",
+    pic: "../../image/plasma.png",
+  }
+});
+
+// -----------------------------------------------------
 var data_sidebar=[
   {
     page: "plasma-3710.html",

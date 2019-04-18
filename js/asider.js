@@ -1,3 +1,13 @@
+var vm_topic=new Vue({
+  el: "#content-top",
+  data: {
+    topic: "周邊輔助設備",
+    text: "",
+    pic: "",
+  }
+});
+
+// -----------------------------------------------------
 var data_sidebar=[
   {
     page: "asider-robotics.html",
@@ -8,7 +18,7 @@ var data_sidebar=[
     name: "隔音間",
   },
   {
-    page: "asider-dustcollecter.html",
+    page: "asider-dustcollector.html",
     name: "集塵系統設備",
   },
   {

@@ -1,3 +1,13 @@
+var vm_topic=new Vue({
+  el: "#content-top",
+  data: {
+    topic: "送料設備",
+    text: "",
+    pic: "",
+  }
+});
+
+// -----------------------------------------------------
 var data_sidebar=[
   {
     page: "feeder-1264s.html",
