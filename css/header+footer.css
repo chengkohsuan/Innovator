@@ -256,41 +256,57 @@ svg path,svg rect{
 	}
 	#app > header > .header-bottom > #pd-nav > .layer-1 > li > a{
 		font-size: 16px;
+		line-height: 60px;
 	}
 	#app > header > .header-bottom > #pd-nav > .layer-1 > li > a > i{
 		display: none;
 	}
+	#app > header > .header-bottom > #pd-nav > .layer-1 > li > .layer-2{
+		visibility: hidden;
+	}
 	#app > footer > div{
 		width: 90%;
 	}
-	#app > footer > div > div > p{
-	font-size: 15px;
+	#app > footer > div > #footer-info > ul{
+		margin: 0;
+	}
+	#app > footer > div > #footer-info > ul > li{
+		font-size: 14px;
 	}
 }
 
 @media only screen and (max-width: 767px) {
 
-.navbar{
-	display: block;
-}
-#app > header{
-	display: none;
-}
-/* footer */
-#app > footer > div{
-	width: 80%;
-	display: block;
-	padding: 0.625rem; 
-}
-#app > footer > div > #footer-logo{
-	width: 60%;
-}
-#app > footer > div > #footer-logo > img{
-	padding: 16px 0;
-}
-#app > footer > div > div > p{
-	font-size: 13px;
-}
+	.navbar{
+		display: block;
+	}
+	#app > header{
+		display: none;
+	}
+	/* footer */
+	#app > footer > div{
+		display: block;
+		width: 100%;
+		padding: 1em; 
+	}
+	#app > footer > div > #footer-logo{
+		width: 100%;
+		font-size: 12px;
+	}
+	#app > footer > div > #footer-logo > img{
+		width: 60%;
+	}
+	#app > footer > div > #footer-info > ul{
+		margin: 0;
+		display: block;
+	}
+	#app > footer > div > #footer-info > ul > li{
+		font-size: 10px;
+	}
+	#app > footer > div > #footer-info > ul > li > .info{
+		width: 23%;
+	}
+	
 }
 
 
