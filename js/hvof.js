@@ -1,7 +1,7 @@
 var vm_topic=new Vue({
   el: "#content-top",
   data: {
-    topic: "High Velocity Oxygen Fuel（HVOF）<br>高壓高速火焰噴塗原理",
+    topic: "High Velocity Oxygen Fuel（HVOF）高壓高速火焰噴塗原理",
     text: "使用液體燃料或氣體燃料作為熱源，藉由燃燒艙的縮口設計，使其壓力增加，產生所有熱噴塗技術中最快的顆粒飛行速度，主要使用材料為陶金複合材料和金屬材料，可以得到高緻密性、高鍵結性與高硬度的塗層。",
     pic: "../../image/hvof.png",
   }
