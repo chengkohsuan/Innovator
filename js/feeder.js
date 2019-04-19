@@ -7,6 +7,31 @@ var vm_topic=new Vue({
   }
 });
 
+var data_card=[
+  {
+    href: "feeder-1264s.html",
+    picture: "../../image/feeder-1264.png",
+    h3: "Praxair 1264系列",
+  },
+  {
+    href: "feeder-thermico.html",
+    picture: "../../image/feeder-thermico.png",
+    h3: "Thermico CPF2",
+  },
+  {
+    href: "feeder-mettech.html",
+    picture: "../../image/feeder-mettech.png",
+    h3: "Mettech 750/350",
+  }
+];
+
+var vm_card=new Vue({
+  el: "#content-bottom",
+  data: {
+    cont: data_card,
+  }
+});
+
 // -----------------------------------------------------
 var data_sidebar=[
   {

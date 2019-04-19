@@ -7,6 +7,30 @@ var vm_topic=new Vue({
   }
 });
 
+var data_card=[
+  {
+    href: "hvof-jp5000.html",
+    picture: "../../image/hvof-jp5000.jpg",
+    h3: "Praxair JP-5000",
+  },
+  {
+    href: "hvof-jp8000.html",
+    picture: "../../image/hvof-jp8000.jpg",
+    h3: "Praxair JP-8000",
+  },
+  {
+    href: "hvof-guns.html",
+    picture: "../../image/hvof-guns-5220.jpg",
+    h3: "HVOF噴槍",
+  },
+];
+
+var vm_card=new Vue({
+  el: "#content-bottom",
+  data: {
+    cont: data_card,
+  }
+});
 // -----------------------------------------------------
 var data_sidebar=[
   {

@@ -59,17 +59,18 @@
 	height: auto;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	padding: 20px;
 }
 #app > article > #content-bottom > div > ul > li{
-	display: block;
 	width: 30%;
-	height: auto;
-	float: left;
-	padding: 0;
 	overflow: hidden;
 	box-shadow: 0px 5px 15px #d0d0d0;
 	border-radius: 4px; 
+	margin-bottom: 50px;
+}
+#app > article > #content-bottom > div > ul > .invisible{
+	visibility: hidden;
 }
 #app > article > #content-bottom > div > ul > .single{
 	margin-right: 35%;
@@ -189,8 +190,12 @@
 		display: block;
 	}
 	#app > article > #content-bottom > div > ul > li{
-		width: 100%;
+		width: 75%;
+    	margin: 0 auto;
 		margin-bottom: 2rem;
+	}
+	#app > article > #content-bottom > div > ul > .invisible{
+	display: none;
 	}
 	#app > article > #content-bottom > div > ul > li > a > .text-box{
 		padding: 12px;

@@ -107,39 +107,13 @@
 			<section id="content-bottom">
 				<div>
 					<ul>
-						<li>
-							<a href="nav_bottom/HVOF/HVOF.html">
+						<li v-for="item in cont">
+							<a href="{{item.href}}">
 								<div class="pic-box">
-									<img src="image/home-pic-box-1.jpg" alt="">
+									<img src="{{item.picture}}">
 								</div>
 								<div class="text-box">
-									<h3>熱噴塗設備</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>	
-						</li>
-						<li>
-							<a href="nav_bottom/asider/asider.html">
-								<div class="pic-box">
-									<img src="image/home-pic-box-2.jpg" alt="">
-								</div>
-								<div class="text-box">
-									<h3>周邊輔助設備</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li class="last">
-							<a href="nav_top/tech.html">
-								<div class="pic-box">
-									<img src="image/home-pic-box-3.jpg" alt="">
-								</div>
-								<div class="text-box">
-									<h3>相關技術應用</h3>
+									<h3>{{item.h3}}</h3>
 									<button>Learn More
 										<i class="fas fa-chevron-right"></i>
 									</button>
@@ -173,6 +147,7 @@
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/pd_nav.js"></script>
 	<script type="text/javascript" src="js/header+footer.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 
 	<!--[if lt IE 9]>
 	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

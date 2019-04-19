@@ -99,103 +99,13 @@
 			<section id="content-bottom">
 				<div>
 					<ul>
-						<li>
-							<a href="tech-steel.html">
+						<li v-for="item in cont">
+							<a href="{{item.href}}">
 								<div class="pic-box">
-									<img src="../image/tech-steel.jpg">
+									<img src="{{item.picture}}">
 								</div>
 								<div class="text-box">
-									<h3>鋼鐵冶鍊</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>	
-						</li>
-						<li>
-							<a href="tech-paper.html">
-								<div class="pic-box">
-									<img src="../image/tech-paper.jpg">
-								</div>
-								<div class="text-box">
-									<h3>印刷造紙</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li class="last">
-							<a href="tech-aerospace.html">
-								<div class="pic-box">
-									<img src="../image/tech-aerospace.jpg">
-								</div>
-								<div class="text-box">
-									<h3>航太能源</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section id="content-bottom">
-				<div>
-					<ul>
-						<li>
-							<a href="tech-semicd.html">
-								<div class="pic-box">
-									<img src="../image/tech-semicd.jpg">
-								</div>
-								<div class="text-box">
-									<h3>光電半導體</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>	
-						</li>
-						<li>
-							<a href="tech-corrosion.html">
-								<div class="pic-box">
-									<img src="../image/tech-corrosion.jpg">
-								</div>
-								<div class="text-box">
-									<h3>大氣防蝕</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li class="last">
-							<a href="tech-oil.html">
-								<div class="pic-box">
-									<img src="../image/tech-oil.jpg">
-								</div>
-								<div class="text-box">
-									<h3>石化油氣</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section id="content-bottom">
-				<div>
-					<ul>
-						<li>
-							<a href="tech-others.html">
-								<div class="pic-box">
-									<img src="../image/tech-others.png">
-								</div>
-								<div class="text-box">
-									<h3>其他應用</h3>
+									<h3>{{item.h3}}</h3>
 									<button>Learn More
 										<i class="fas fa-chevron-right"></i>
 									</button>

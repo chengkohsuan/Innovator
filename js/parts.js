@@ -7,6 +7,60 @@ var vm_topic=new Vue({
   }
 });
 
+var data_card=[
+  {
+    href: "parts-powder.html",
+    picture: "../../image/parts-powder.jpg",
+    h3: "噴塗粉末",
+  },
+  {
+    href: "parts-wires.html",
+    picture: "../../image/parts-wire.jpg",
+    h3: "噴塗線材",
+  },
+  {
+    href: "parts-suspension.html",
+    picture: "../../image/parts-suspension.jpg",
+    h3: "噴塗漿料",
+  },
+  {
+    href: "parts-flexicord.html",
+    picture: "../../image/parts-flexicord.jpg",
+    h3: "FlexiCord 包藥線",
+  },
+  {
+    href: "parts-3D.html",
+    picture: "../../image/parts-3d.jpg",
+    h3: "3D金屬列印粉末",
+  },
+  {
+    href: "parts-masking.html",
+    picture: "../../image/parts-masking.jpg",
+    h3: "耐熱遮覆膠帶",
+  },
+  {
+    href: "parts-stellite.html",
+    picture: "../../image/parts-stellite.jpg",
+    h3: "超合金焊材",
+  },
+  {
+    href: "parts-tufcote.html",
+    picture: "../../image/parts-tufcote.jpg",
+    h3: "TufCote 焊材",
+  },
+  {
+    href: "parts-parts.html",
+    picture: "../../image/parts-parts.jpg",
+    h3: "噴塗設備零件",
+  },
+];
+
+var vm_card=new Vue({
+  el: "#content-bottom",
+  data: {
+    cont: data_card,
+  }
+});
 // -----------------------------------------------------
 var data_sidebar=[
   {

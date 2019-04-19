@@ -7,6 +7,45 @@ var vm_topic=new Vue({
   }
 });
 
+var data_card=[
+  {
+    href: "plasma-3710.html",
+    picture: "../../image/plasma-3710.jpg",
+    h3: "Praxair 3710",
+  },
+  {
+    href: "plasma-6600.html",
+    picture: "../../image/plasma-6600.jpg",
+    h3: "Praxair 6600",
+  },
+  {
+    href: "plasma-7700.html",
+    picture: "../../image/plasma-7700.jpg",
+    h3: "Praxair 7700 UPC",
+  },
+  {
+    href: "plasma-plazjet.html",
+    picture: "../../image/plasma-plazjet.jpg",
+    h3: "Praxair PlazJet",
+  },
+  {
+    href: "plasma-guns.html",
+    picture: "../../image/plasma-guns.jpg",
+    h3: "Praxair 電漿噴槍",
+  },
+  {
+    href: "plasma-axial3.html",
+    picture: "../../image/plasma-axial3.jpg",
+    h3: "Mettech Axial 3",
+  },
+];
+
+var vm_card=new Vue({
+  el: "#content-bottom",
+  data: {
+    cont: data_card,
+  }
+});
 // -----------------------------------------------------
 var data_sidebar=[
   {

@@ -6,6 +6,51 @@ var vm_topic=new Vue({
   }
 });
 
+var data_card=[
+  {
+    href: "tech-steel.html",
+    picture: "../image/tech-steel.jpg",
+    h3: "鋼鐵冶鍊",
+  },
+  {
+    href: "tech-paper.html",
+    picture: "../image/tech-paper.jpg",
+    h3: "印刷造紙",
+  },
+  {
+    href: "tech-aerospace.html",
+    picture: "../image/tech-aerospace.jpg",
+    h3: "航太能源",
+  },
+  {
+    href: "tech-semicd.html",
+    picture: "../image/tech-semicd.jpg",
+    h3: "光電半導體",
+  },
+  {
+    href: "tech-corrosion.html",
+    picture: "../image/tech-corrosion.jpg",
+    h3: "大氣防蝕",
+  },
+  {
+    href: "tech-oil.html",
+    picture: "../image/tech-oil.jpg",
+    h3: "石化油氣",
+  },
+  {
+    href: "tech-others.html",
+    picture: "../image/tech-others.png",
+    h3: "其他應用",
+  },
+];
+
+var vm_card=new Vue({
+  el: "#content-bottom",
+  data: {
+    cont: data_card,
+  }
+});
+
 // -----------------------------------------------------
 var data_sidebar=[
   {

@@ -1,10 +1,44 @@
-
 var vm_topic=new Vue({
   el: "#content-top",
   data: {
     topic: "Arc Spray 電弧噴塗原理",
     text: "藉由兩條不同電極金屬接觸的瞬間產生的電弧將金屬熔化後，由高壓空氣進行霧化並帶往基材，形程所需的塗層，優勢在於可進行大面積的噴塗，且堆積速率快，但只能使用可導電的金屬線材。",
     pic: "../../image/arc.png",
+  }
+});
+
+var data_card=[
+  {
+    href: "arc-8835.html",
+    picture: "../../image/arc-8830.jpg",
+    h3: "Praxair 8830/8835",
+  },
+  {
+    href: "arc-bp400.html",
+    picture: "../../image/arc-bp400.jpg",
+    h3: "Praxair BP400",
+  },
+  {
+    href: "arc-coarc.html",
+    picture: "../../image/arc-coarc.jpg",
+    h3: "Praxair CoArc",
+  },
+  {
+    href: "arc-456.html",
+    picture: "../../image/arc-456hd.jpg",
+    h3: "Thermion AVD456",
+  },
+  {
+    href: "arc-450.html",
+    picture: "../../image/arc-450.jpg",
+    h3: "Thermion AVD450",
+  },
+];
+
+var vm_card=new Vue({
+  el: "#content-bottom",
+  data: {
+    cont: data_card,
   }
 });
 

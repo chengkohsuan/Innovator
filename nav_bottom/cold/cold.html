@@ -100,13 +100,13 @@
 			<section id="content-bottom">
 				<div>
 					<ul>
-						<li class="last">
-							<a href="cold-impact.html">
+						<li v-for="item in cont">
+							<a href="{{item.href}}">
 								<div class="pic-box">
-									<img src="../../image/cold-impact.jpg">
+									<img src="{{item.picture}}">
 								</div>
 								<div class="text-box">
-									<h3>Impact 冷氣動力噴塗系統</h3>
+									<h3>{{item.h3}}</h3>
 									<button>Learn More
 										<i class="fas fa-chevron-right"></i>
 									</button>

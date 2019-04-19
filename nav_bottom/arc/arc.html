@@ -100,71 +100,26 @@
 			<section id="content-bottom">
 				<div>
 					<ul>
-						<li>
-							<a href="arc-8835.html">
+						<li v-for="item in cont">
+							<a href="{{item.href}}">
 								<div class="pic-box">
-									<img src="../../image/arc-8830.jpg">
+									<img src="{{item.picture}}">
 								</div>
 								<div class="text-box">
-									<h3>Praxair 8830/8835</h3>
+									<h3>{{item.h3}}</h3>
 									<button>Learn More
 										<i class="fas fa-chevron-right"></i>
 									</button>
 								</div>
 							</a>
 						</li>
-						<li>
-							<a href="arc-bp400.html">
+						<li class="invisible">
+							<a href="">
 								<div class="pic-box">
-									<img src="../../image/arc-bp400.jpg">
+									<img src="">
 								</div>
 								<div class="text-box">
-									<h3>Praxair BP400</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li class="last">
-							<a href="arc-coarc.html">
-								<div class="pic-box">
-									<img src="../../image/arc-coarc.jpg">
-								</div>
-								<div class="text-box">
-									<h3>Praxair CoArc</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section id="content-bottom">
-				<div>
-					<ul>
-						<li>
-							<a href="arc-456.html">
-								<div class="pic-box">
-									<img src="../../image/arc-456hd.jpg">
-								</div>
-								<div class="text-box">
-									<h3>Thermion AVD456</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li class="single">
-							<a href="arc-450.html">
-								<div class="pic-box">
-									<img src="../../image/arc-450.jpg">
-								</div>
-								<div class="text-box">
-									<h3>Thermion AVD450</h3>
+									<h3></h3>
 									<button>Learn More
 										<i class="fas fa-chevron-right"></i>
 									</button>

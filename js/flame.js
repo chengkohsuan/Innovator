@@ -7,6 +7,21 @@ var vm_topic=new Vue({
   }
 });
 
+var data_card=[
+  {
+    href: "flame-guns.html",
+    picture: "../../image/flame-guns.jpg",
+    h3: "Saint Gobain 火焰噴槍",
+  },
+];
+
+var vm_card=new Vue({
+  el: "#content-bottom",
+  data: {
+    cont: data_card,
+  }
+});
+
 // -----------------------------------------------------
 var data_sidebar=[
   {

@@ -99,40 +99,14 @@
 			</section>
 			<section id="content-bottom">
 				<div>
-					<ul class="tail">
-						<li>
-							<a href="feeder-1264s.html">
+					<ul>
+						<li v-for="item in cont">
+							<a href="{{item.href}}">
 								<div class="pic-box">
-									<img src="../../image/feeder-1264.png">
+									<img src="{{item.picture}}">
 								</div>
 								<div class="text-box">
-									<h3>Praxair 1264系列</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="feeder-thermico.html">
-								<div class="pic-box">
-									<img src="../../image/feeder-thermico.png">
-								</div>
-								<div class="text-box">
-									<h3>Thermico CPF2</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li class="last">
-							<a href="feeder-mettech.html">
-								<div class="pic-box">
-									<img src="../../image/feeder-mettech.png">
-								</div>
-								<div class="text-box">
-									<h3>Mettech 750/350</h3>
+									<h3>{{item.h3}}</h3>
 									<button>Learn More
 										<i class="fas fa-chevron-right"></i>
 									</button>

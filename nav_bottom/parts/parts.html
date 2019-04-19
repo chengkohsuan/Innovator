@@ -100,129 +100,13 @@
 			<section id="content-bottom">
 				<div>
 					<ul>
-						<li>
-							<a href="parts-powder.html">
+						<li v-for="item in cont">
+							<a href="{{item.href}}">
 								<div class="pic-box">
-									<img src="../../image/parts-powder.jpg">
+									<img src="{{item.picture}}">
 								</div>
 								<div class="text-box">
-									<h3>噴塗粉末</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="parts-wires.html">
-								<div class="pic-box">
-									<img src="../../image/parts-wire.jpg">
-								</div>
-								<div class="text-box">
-									<h3>噴塗線材</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li class="last">
-							<a href="parts-suspension.html">
-								<div class="pic-box">
-									<img src="../../image/parts-suspension.jpg">
-								</div>
-								<div class="text-box">
-									<h3>噴塗用漿料</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section id="content-bottom">
-				<div>
-					<ul>
-						<li>
-							<a href="prats-flexicord.html">
-								<div class="pic-box">
-									<img src="../../image/parts-flexicord.jpg">
-								</div>
-								<div class="text-box">
-									<h3>FlexiCord 包藥線</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="parts-3D.html">
-								<div class="pic-box">
-									<img src="../../image/parts-3d.jpg">
-								</div>
-								<div class="text-box">
-									<h3>3D金屬列印粉末</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li class="last">
-							<a href="parts-masking.html">
-								<div class="pic-box">
-									<img src="../../image/parts-masking.jpg">
-								</div>
-								<div class="text-box">
-									<h3>耐熱遮覆膠帶</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section id="content-bottom">
-				<div>
-					<ul>
-						<li>
-							<a href="parts-stellite.html">
-								<div class="pic-box">
-									<img src="../../image/parts-stellite.jpg">
-								</div>
-								<div class="text-box">
-									<h3>超合金焊材</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="parts-tufcote.html">
-								<div class="pic-box">
-									<img src="../../image/parts-tufcote.jpg">
-								</div>
-								<div class="text-box">
-									<h3>TufCote 焊材</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li class="last">
-							<a href="parts-parts.html">
-								<div class="pic-box">
-									<img src="../../image/parts-parts.jpg">
-								</div>
-								<div class="text-box">
-									<h3>噴塗設備零件</h3>
+									<h3>{{item.h3}}</h3>
 									<button>Learn More
 										<i class="fas fa-chevron-right"></i>
 									</button>

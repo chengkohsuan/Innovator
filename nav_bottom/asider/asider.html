@@ -105,58 +105,13 @@
 			<section id="content-bottom">
 				<div>
 					<ul>
-						<li>
-							<a href="asider-robotics.html">
+						<li v-for="item in cont">
+							<a href="{{item.href}}">
 								<div class="pic-box">
-									<img src="../../image/asider-robotic.jpg">
+									<img src="{{item.picture}}">
 								</div>
 								<div class="text-box">
-									<h3>自動化設備</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="asider-enclosure.html">
-								<div class="pic-box">
-									<img src="../../image/asider-enclosure.jpg">
-								</div>
-								<div class="text-box">
-									<h3>隔音間</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-						<li class="last">
-							<a href="asider-dustcollector.html">
-								<div class="pic-box">
-									<img src="../../image/asider-dustcolletor.jpg">
-								</div>
-								<div class="text-box">
-									<h3>集塵設備</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section id="content-bottom">
-				<div>
-					<ul>
-						<li>
-							<a href="asider-spraywatch.html">
-								<div class="pic-box">
-									<img src="../../image/asider-spraywatch.jpg">
-								</div>
-								<div class="text-box">
-									<h3>噴塗監控系統</h3>
+									<h3>{{item.h3}}</h3>
 									<button>Learn More
 										<i class="fas fa-chevron-right"></i>
 									</button>

@@ -7,6 +7,21 @@ var vm_topic=new Vue({
   }
 });
 
+var data_card=[
+  {
+    href: "cold-impact.html",
+    picture: "../../image/cold-impact.jpg",
+    h3: "Impact 冷氣動力噴塗系統",
+  },
+];
+
+var vm_card=new Vue({
+  el: "#content-bottom",
+  data: {
+    cont: data_card,
+  }
+});
+
 // -----------------------------------------------------
 var data_sidebar=[
   {

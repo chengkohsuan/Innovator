@@ -7,6 +7,36 @@ var vm_topic=new Vue({
   }
 });
 
+var data_card=[
+  {
+    href: "asider-robotics.html",
+    picture: "../../image/asider-robotic.jpg",
+    h3: "自動化設備",
+  },
+  {
+    href: "asider-enclosure.html",
+    picture: "../../image/asider-enclosure.jpg",
+    h3: "隔音間",
+  },
+  {
+    href: "asider-dustcollector.html",
+    picture: "../../image/asider-dustcolletor.jpg",
+    h3: "集塵設備",
+  },
+  {
+    href: "asider-spraywatch.html",
+    picture: "../../image/asider-spraywatch.jpg",
+    h3: "噴塗監控系統",
+  },
+];
+
+var vm_card=new Vue({
+  el: "#content-bottom",
+  data: {
+    cont: data_card,
+  }
+});
+
 // -----------------------------------------------------
 var data_sidebar=[
   {
