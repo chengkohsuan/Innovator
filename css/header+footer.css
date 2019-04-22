@@ -286,8 +286,9 @@ svg path,svg rect{
 	/* footer */
 	#app > footer > div{
 		display: block;
-		width: 100%;
+		width: 90%;
 		padding: 1em; 
+		margin: 0 auto;
 	}
 	#app > footer > div > #footer-logo{
 		width: 100%;

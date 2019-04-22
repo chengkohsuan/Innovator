@@ -73,6 +73,7 @@ var data_dust=[
     title: "集塵系統",
     show_text: true,
     text: "採用美國Donaldson原廠濾心，可隔絕99.999%的0.5微米以上顆粒，專利文氏管設計，可提高濾材壽命。",
+    pics: ["../../image/img-2-dust-01.jpg","../../image/img-2-dust-02.jpg","../../image/img-2-dust-03.jpg"],
     show_features: false,
     features: ["","",""],
     show_specs: false,
