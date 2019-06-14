@@ -92,6 +92,7 @@ var vm_sidebar=new Vue({
   }
 });
 
+//------------------------------------
 var aerospace_data=[
   {
     show_title: true,
@@ -110,7 +111,7 @@ var vm_1=new Vue({
   	contents: aerospace_data,
   }
 });
-
+//------------------------------------
 var corrosion_data=[
   {
     show_title: true,
@@ -130,7 +131,7 @@ var vm_2=new Vue({
   }
 });
 
-
+//------------------------------------
 var oil_data=[
   {
     pics: ["../image/t-img-oil-1.jpg","../image/t-img-oil-2.jpg","../image/t-img-oil-3.jpg"],
@@ -149,7 +150,7 @@ var vm_3=new Vue({
     contents: oil_data,
   }
 });
-
+//------------------------------------
 var others_data=[
   {
     show_title: true,
@@ -167,7 +168,7 @@ var vm_4=new Vue({
     contents: others_data,
   }
 });
-
+//------------------------------------
 var paper_data=[
   {
     pics: ["../image/t-img-paper-1.jpg","../image/t-img-paper-2.jpg","../image/t-img-paper-3.jpg"],
@@ -187,7 +188,7 @@ var vm_5=new Vue({
   }
 });
 
-
+//------------------------------------
 var semicd_data=[
   {
     pics: ["../image/t-img-semicd-1.jpg","../image/t-img-semicd-2.jpg","../image/t-img-semicd-3.jpg"],
@@ -206,7 +207,7 @@ var vm_6=new Vue({
     contents: semicd_data,
   }
 });
-
+//------------------------------------
 var steel_data=[
   {
     pics: ["../image/t-img-steel-1.jpg","../image/t-img-steel-2.jpg","../image/t-img-steel-3.jpg"],
