@@ -82,7 +82,7 @@ var vm_sidebar=new Vue({
     sidemenu: data_sidebar,
   }
 });
-
+//------------------------------------
 var data_3710=[
   {
     show_title: true,
@@ -103,9 +103,7 @@ var vm_1=new Vue({
   products: data_3710,
   }
 });
-
-
-
+//------------------------------------
 var data_6600=[
   {
     show_title: true,
@@ -148,11 +146,7 @@ var vm_2=new Vue({
   contents: specdata_6600,
   }
 });
-
-
-
-
-
+//------------------------------------
 var data_7700=[
   {
     show_title: true,
@@ -173,10 +167,7 @@ var vm_3=new Vue({
   products: data_7700,
   }
 });
-
-
-
-
+//------------------------------------
 var data_axial3=[
   {
     show_title: true,
@@ -197,10 +188,7 @@ var vm_4=new Vue({
   products: data_axial3,
   }
 });
-
-
-
-
+//------------------------------------
 var data_guns=[
   {
     pic: "../../image/plasma-guns-sg-100.png",
@@ -257,10 +245,7 @@ var vm_5_1=new Vue({
   contents: specdata_guns,
   }
 });
-
-
-
-
+//------------------------------------
 var data_plazjet=[
   {
     pic: "../../image/plasma-plazjet.jpg",
