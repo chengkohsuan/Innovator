@@ -55,7 +55,7 @@ var vm_sidebar=new Vue({
     sidemenu: data_sidebar,
   }
 });
-
+//---------------------------
 var data_guns=[
   {
     show_title: true,
@@ -100,7 +100,7 @@ var vm_1=new Vue({
 });
 
 
-
+//-------------------------
 var data_jp5000=[
   {
     show_title: true,
@@ -124,7 +124,7 @@ var vm_2=new Vue({
 
 
 
-
+//-----------------------
 var data_jp8000=[
   {
     show_title: true,

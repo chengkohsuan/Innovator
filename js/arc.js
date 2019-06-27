@@ -110,7 +110,6 @@ var data_456=[
     show_specs: true,
     specs: ["電源：（N / S）450 Amp，三相交流電電壓60 Hz","六輥動力驅動送料機容量：55磅","12.5’前端引線與噴射頭","氣體需求：70 cfm @ 80-100 psi，進氣口直徑不小於1/2”"],
   },
-  
   ];
 
 var vm_2=new Vue({
@@ -215,7 +214,6 @@ var data_bp400=[
     show_specs: false,
     specs: ["",],
   },
-  
   ];
 
 var vm_4=new Vue({
@@ -261,7 +259,6 @@ var data_coarc=[
     show_specs: false,
     specs: ["",],
   },
-  
   ];
 
 var vm_5=new Vue({
