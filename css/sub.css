@@ -129,7 +129,55 @@
   	padding: 10px 20px;
   	font-size: 16px;
 }
+/* ---超連結圖片區----------------------------- */
+#app > article > div > section > div{
+    width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#app > article > div > section > div > h3{
+	font-size: 24px;
+	color: #004ab1;
+	font-weight: 600;
+}
+#app > article > div > section > div > ul{
+    width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 20px;
+}
 
+#app > article > div > section > div > ul > .invinsible{
+	visibility: hidden;
+}
+#app > article > div > section > div > ul > li{
+	width: 30%;
+	overflow: hidden;
+	margin-bottom: 50px;
+	text-align: center;
+}
+/* ---超連結圖片區----------------------------- */
+#app > article > div > section > ul{
+	list-style: circle;
+	margin-left: 20px;
+	font-weight: 400;
+	
+}
+#app > article > div > section > ul > div{
+	font-size: 24px;
+	color: #004ab1;
+	font-weight: 600;
+	line-height: 2em;
+}
+#app > article > div > section > ul > li{
+	color: #404040;	
+    font-size: 18px;
+    margin-bottom: 20px;
+	line-height: 1.6em;
+}
 /* -------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 1357px){
 	#app > article{
@@ -221,4 +269,26 @@
 		padding: 5px 0;
 		font-size: 14px;
 	}
+
+/* ---超連結圖片區----------------------------- */
+	#app > article > div > section > div > ul{
+		display: block;
+	}
+	#app > article > div > section > div > ul > li{
+		width: 75%;
+    	margin: 0 auto;
+		margin-bottom: 5rem;
+	}
+	.invisible{
+		display: none;
+		margin-bottom: 0;
+	}
+	.type_img > img{
+		margin: 0 auto;
+	}
+
 }
+#spec_infos_impact{
+	display: none;
+}
+

@@ -224,6 +224,24 @@ var data_pnav=[
 			page_b: "../cold/cold-impact.html",
 			name: "Impact 噴塗系統",
 		},
+		{
+			page_i: "nav_bottom/cold/cold-app.html",
+			page_t: "../nav_bottom/cold/cold-app.html",
+			page_b: "../cold/cold-app.html",
+			name: "Cold Spray產品應用",
+		},
+		{
+			page_i: "nav_bottom/cold/cold-evocsii.html",
+			page_t: "../nav_bottom/cold/cold-evocsii.html",
+			page_b: "../cold/cold-evocsii.html",
+			name: "Impact EvoCSII",
+		},
+		{
+			page_i: "nav_bottom/cold/cold-equipments.html",
+			page_t: "../nav_bottom/cold/cold-equipments.html",
+			page_b: "../cold/cold-equipments.html",
+			name: "材料及設備選擇",
+		},
 		],
 	},
 	{

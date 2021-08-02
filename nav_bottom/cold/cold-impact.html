@@ -141,29 +141,6 @@
 
 						</li>
 					</ul>
-					<script type="text/x-template" id="table-template_impact">
-					  <table>
-					    <thead>
-					      <tr>
-					        <th v-for="item in columns"> {{item}}</th>
-					      </tr>
-					    </thead>
-					    <tbody>
-					      <tr v-for="entry in data">
-					        <td v-for="item in columns"> {{entry[item]}}</td>
-					      </tr>
-					    </tbody>
-					  </table>
-					</script>
-
-					<!-- demo root element -->
-					<div id="table_impact" class="table">
-					  <h3>{{tableTitle}}</h3>
-					  <table_template
-					    :columns="tableHead"
-					    :data="tableData">
-					  </table_template>
-					</div>
 				</section>
 			</div>
 		</article>

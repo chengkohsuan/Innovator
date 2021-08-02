@@ -15,9 +15,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>冷氣動力噴塗設備｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
-	<link rel="stylesheet" type="text/css" href="../../css/spray+tech.css">
+	<title>Impact 冷氣動力噴塗系統｜英耐德實業有限公司 INNOVATOR SURFACE TECHNOLOGIES</title>
+	<link rel="stylesheet" type="text/css" href="../../css/sub.css">
 	<link rel="stylesheet" type="text/css" href="../../css/header+footer.css">
+	<link rel="stylesheet" type="text/css" href="../../css/table.css">
+	<link rel="stylesheet" type="text/css" href="../../css/img.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -88,36 +90,142 @@
 				</nav>
 			</div>
 		</header>
-<!-- ----------------------------------------------------->
+<!------------------------------------------------------->
 		<article>
-			<section id="content-top">
-				<div class="text">
-					<h2>{{topic}}</h2>
-					<p>{{text}}</p>
+			<aside class="sidebar">
+				<div class="menu-title">
+					<a href="{{tag}}">{{tag_name}}</a>
 				</div>
-				<iframe id="spray_pic" src="{{vedio}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</section>
-			<section id="content-bottom">
-				<div>
+				<div class="menu">
 					<ul>
-						<li v-for="item in cont">
-							<a href="{{item.href}}">
-								<div class="pic-box">
-									<img src="{{item.picture}}">
-								</div>
-								<div class="text-box">
-									<h3>{{item.h3}}</h3>
-									<button>Learn More
-										<i class="fas fa-chevron-right"></i>
-									</button>
-								</div>
-							</a>
-						</li>
+						<li v-for="item in sidemenu"><a href="{{item.page}}">{{item.name}}</a></li>
 					</ul>
 				</div>
-			</section>
+			</aside>
+			<div>
+				<section>
+					<ul id="content_equipments">
+				    	<li class="block" v-for="item in products"> 
+					        <div class="title" v-if="item.show_title">{{item.title}}<br></div>
+					        <div class="text" v-if="item.show_text">{{item.text}}</div>
+					        <div class="img-2">
+					        	<ul class="img-list">
+					        		<li v-for="pic in item.pics"><img src="{{pic}}"></li>
+					        	</ul>
+					        </div>
+					        <div class="sub_title" v-if="item.show_features">適用材料及設備：
+								<ul>
+									<li class="text" v-for="feature in item.features">{{feature}}</li>
+								</ul>
+							</div>
+							<br>
+					        <div class="sub_title" v-if="item.show_specs">規格：
+					        	<ul>
+						            <li class="text" v-for="spec in item.specs">{{spec}}</li>
+						         </ul>   
+					        </div>
+				        	<br>
+				      	</li>
+				    </ul>
+				    <ul id="spec_infos_impact" class="spec_img">
+						<li class="block" v-for="item in contents">
+							<div class="img-4">
+								<img src="{{item.s_pic}}">
+							</div>
+							<div class="sub_title">{{item.s_title}}規格：
+								<ul>
+									<li class="text" v-for="s_item in item.s_items">{{s_item}}</li>
+								</ul>
+								<br>
+							</div>
+
+						</li>
+					</ul>
+					<div id="coldspray_al">
+						<h3>{{title}}</h3>
+					    <ul>
+					        <li v-for="item in cont">
+					        	<a href="{{item.href}}" target="_blank">
+					        		<div class="type_img">
+					        			<img src="{{item.img}}">
+					        		</div>
+					        		<div class="type_name">
+					        			<h4>{{item.name}}</h4>
+					        		</div>
+					        	</a>
+					        </li>
+					        <li class="invinsible">
+					        	<a href="">
+					        		<div class="type_img">
+					        			<img src="">
+					        		</div>
+					        		<div class="type_name">
+					        			<h4></h4>
+					        		</div>
+					        	</a>
+					        </li>
+					    </ul>
+					</div>
+					<div id="coldspray_ni">
+						<h3>{{title}}</h3>
+					    <ul>
+					        <li v-for="item in cont">
+					        	<a href="{{item.href}}" target="_blank">
+					        		<div class="type_img">
+					        			<img src="{{item.img}}">
+					        		</div>
+					        		<div class="type_name">
+					        			<h4>{{item.name}}</h4>
+					        		</div>
+					        	</a>
+					        </li>
+					        <li class="invinsible">
+					        	<a href="">
+					        		<div class="type_img">
+					        			<img src="">
+					        		</div>
+					        		<div class="type_name">
+					        			<h4></h4>
+					        		</div>
+					        	</a>
+					        </li>
+					    </ul>
+					</div>
+					<ul id="coldspray_metal">
+						<div>{{title}}</div>
+						<li v-for="item in cont">
+							{{item.name}}
+						</li>
+					</ul>
+					<br>
+					<script type="text/x-template" id="table-template_impact">
+					  <table>
+					    <thead>
+					      <tr>
+					        <th v-for="item in columns"> {{item}}</th>
+					      </tr>
+					    </thead>
+					    <tbody>
+					      <tr v-for="entry in data">
+					        <td v-for="item in columns"> {{entry[item]}}</td>
+					      </tr>
+					    </tbody>
+					  </table>
+					</script>
+
+					<!-- demo root element -->
+					<div id="table_impact" class="table">
+					  <h3>{{tableTitle}}</h3>
+					  <table_template
+					    :columns="tableHead"
+					    :data="tableData">
+					  </table_template>
+					</div>
+				</section>
+			</div>
 		</article>
-<!-- --------------------------------------------------- -->
+		<br>
+<!------------------------------------------------------->
 		<footer>
 			<div>
 				<div id="footer-logo">
@@ -146,4 +254,4 @@
 <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 </body>
-</html>
+</html>	

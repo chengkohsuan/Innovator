@@ -7,6 +7,11 @@
 	width: 100%;
 }
 
+/* img-2 cold spray text下方大圖*/
+#single_pic{
+	width: 100%;
+	border-radius: 4px;
+}
 /* img-2 text下方小圖*/
 .img-2{
 	height: auto;
@@ -27,7 +32,6 @@
 .img-2 > .img-list > li > img{
 	width: 100%;
 }
-
 
 /* img-3 feature右飄*/
 .img-3{

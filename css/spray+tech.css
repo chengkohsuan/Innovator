@@ -36,8 +36,10 @@
 #app > article > #content-top > .tech-t{
 	width: 100%;
 }
-#app > article > #content-top > img{
+/* ---cold spray 影片------ */
+#app > article > #content-top > #spray_pic{
 	width: 40%;
+	min-height: 333px;
 	border-radius: 4px;
 	margin: 0;
 }
@@ -134,9 +136,12 @@
 	#app > article > #content-top > .text >p{
 		font-size: 16px;
 	}
-	#app > article > #content-top > img{
-		width: 70%;
-		margin: 0 auto;
+	/* ---cold spray 影片------ */
+	#app > article > #content-top > #spray_pic{
+		width: 100%;
+		min-height: 350px;
+		border-radius: 4px;
+		margin: 0;
 	}
 	#app > article > #content-bottom{
 		width: 100%;
@@ -176,7 +181,8 @@
 		line-height: 1.6em;
 		font-size: 16px;
 	}
-	#app > article > #content-top > img{
+	/* ---cold spray 影片------ */
+	#app > article > #content-top > #spray_pic{
 		float: none;
 		width: 100%;
 		margin: 0 auto;
